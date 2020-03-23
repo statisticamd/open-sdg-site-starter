@@ -1,3 +1,34 @@
+/**
+ * This function returns a javascript object containing autotrack.js properties.
+ *
+ * These properties can be added to an element with jQuery: $(element).attr(props)
+ *
+ * See _includes/autotrack.html for parameter descriptions.
+ */
+opensdg.autotrack = function(preset, category, action, label) {
+  var presets = {};var params = {
+    category: category,
+    action: action,
+    label: label
+  };
+  if (presets[preset]) {
+    params = presets[preset];
+  }
+  var obj = {
+    'data-on': 'click'
+  };
+  if (params.category) {
+    obj['data-event-category'] = params.category;
+  }
+  if (params.action) {
+    obj['data-event-action'] = params.action;
+  }
+  if (params.label) {
+    obj['data-event-label'] = params.label;
+  }
+
+  return obj;
+};
 !function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("d3-array"),require("d3-axis"),require("d3-dispatch"),require("d3-drag"),require("d3-ease"),require("d3-scale"),require("d3-selection")):"function"==typeof define&&define.amd?define(["exports","d3-array","d3-axis","d3-dispatch","d3-drag","d3-ease","d3-scale","d3-selection"],e):e(t.d3=t.d3||{},t.d3,t.d3,t.d3,t.d3,t.d3,t.d3,t.d3)}(this,function(t,e,a,r,n,l,i,s){"use strict";function c(){function t(t){z=t.selection?t.selection():t,M=h[0]instanceof Date?i.scaleTime():i.scaleLinear(),M=M.domain(h).range([0,m]).clamp(!0),D=i.scaleLinear().range(M.range()).domain(M.range()).clamp(!0),q=q||M.tickFormat(),z.selectAll(".axis").data([null]).enter().append("g").attr("transform","translate(0,7)").attr("class","axis");var e=z.selectAll(".slider").data([null]),r=e.enter().append("g").attr("class","slider").attr("cursor","ew-resize").attr("transform","translate(0,0)").call(n.drag().on("start",function(){s.select(this).classed("active",!0);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("start",e,a),d(a)}).on("drag",function(){var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("drag",e,a),d(a)}).on("end",function(){s.select(this).classed("active",!1);var t=D(s.event.x),a=u(M.invert(t));f(a),A.call("end",e,a),d(a)}));r.append("line").attr("class","track").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#bbb").attr("stroke-width",6).attr("stroke-linecap","round"),r.append("line").attr("class","track-inset").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","#eee").attr("stroke-width",4).attr("stroke-linecap","round"),r.append("line").attr("class","track-overlay").attr("x1",0).attr("y1",0).attr("y2",0).attr("stroke","transparent").attr("stroke-width",40).attr("stroke-linecap","round").merge(e.select(".track-overlay"));var l=r.append("g").attr("class","parameter-value").attr("transform","translate("+M(p)+",0)").attr("font-family","sans-serif").attr("text-anchor","middle");l.append("path").attr("d",g).attr("fill","white").attr("stroke","#777"),x&&l.append("text").attr("font-size",10).attr("y",27).attr("dy",".71em").text(q(p)),t.select(".track").attr("x2",M.range()[1]),t.select(".track-inset").attr("x2",M.range()[1]),t.select(".track-overlay").attr("x2",M.range()[1]),t.select(".axis").call(a.axisBottom(M).tickFormat(q).ticks(w).tickValues(y)),z.select(".axis").select(".domain").remove(),t.select(".axis").attr("transform","translate(0,7)"),t.selectAll(".axis text").attr("fill","#aaa").attr("y",20).attr("dy",".71em").attr("text-anchor","middle"),t.selectAll(".axis line").attr("stroke","#aaa"),t.select(".parameter-value").attr("transform","translate("+M(p)+",0)"),c()}function c(){if(x){var t=[];z.selectAll(".axis .tick").each(function(e){t.push(Math.abs(e-p))});var a=e.scan(t);z.selectAll(".axis .tick text").attr("opacity",function(t,e){return e===a?0:1})}}function u(t){if(k){var a=(t-h[0])%k,r=t-a;return 2*a>k&&(r+=k),t instanceof Date?new Date(r):r}if(b){var n=e.scan(b.map(function(e){return Math.abs(t-e)}));return b[n]}return t}function d(e){p!==e&&(p=e,A.call("onchange",t,e),c())}function f(t,e){e=void 0!==e&&e;var a=z.select(".parameter-value");e&&(a=a.transition().ease(l.easeQuadOut).duration(o)),a.attr("transform","translate("+M(t)+",0)"),x&&z.select(".parameter-value text").text(q(t))}var p=0,v=0,h=[0,10],m=100,x=!0,g="M-5.5,-5.5v10l6,5.5l6,-5.5v-10z",k=null,y=null,b=null,q=null,w=null,A=r.dispatch("onchange","start","end","drag"),z=null,M=null,D=null;return t.min=function(e){return arguments.length?(h[0]=e,t):h[0]},t.max=function(e){return arguments.length?(h[1]=e,t):h[1]},t.domain=function(e){return arguments.length?(h=e,t):h},t.width=function(e){return arguments.length?(m=e,t):m},t.tickFormat=function(e){return arguments.length?(q=e,t):q},t.ticks=function(e){return arguments.length?(w=e,t):w},t.value=function(e){if(!arguments.length)return p;var a=D(M(e)),r=u(M.invert(a));return f(r,!0),d(r),t},t.default=function(e){return arguments.length?(v=e,p=e,t):v},t.step=function(e){return arguments.length?(k=e,t):k},t.tickValues=function(e){return arguments.length?(y=e,t):y},t.marks=function(e){return arguments.length?(b=e,t):b},t.handle=function(e){return arguments.length?(g=e,t):g},t.displayValue=function(e){return arguments.length?(x=e,t):x},t.on=function(){var e=A.on.apply(A,arguments);return e===A?t:e},t}var o=200;t.sliderHorizontal=function(){return c()},Object.defineProperty(t,"__esModule",{value:!0})});/**
  * TODO:
  * Integrate with high-contrast switcher.
@@ -99,7 +130,7 @@
           feature.properties[record.Year] = record.Value;
         });
         // Next normalize the geocode and name.
-        feature.properties.name = name;
+        feature.properties.name = translations.t(name);
         feature.properties.geocode = geocode;
         delete feature.properties[idProperty];
         delete feature.properties[nameProperty];
@@ -257,8 +288,20 @@
       });
       $.when.apply($, geoURLs).done(function() {
 
+        // Apparently "arguments" can either be an array of responses, or if
+        // there was only one response, the response itself. This behavior is
+        // odd and should be investigated. In the meantime, a workaround is a
+        // blunt check to see if it is a single response.
         var geoJsons = arguments;
-        for (var i in geoJsons) {
+        // In a response, the second element is a string (like 'success') so
+        // check for that here to identify whether it is a response.
+        if (arguments.length > 1 && typeof arguments[1] === 'string') {
+          // If so, put it into an array, to match the behavior when there are
+          // multiple responses.
+          geoJsons = [geoJsons];
+        }
+
+        for (var i = 0; i < geoJsons.length; i++) {
           // First add the geoJson as static (non-interactive) borders.
           if (plugin.mapLayers[i].staticBorders) {
             var staticLayer = L.geoJson(geoJsons[i][0], {
@@ -431,8 +474,8 @@ Chart.plugins.register({
 
     var ranges = _.chain(datasets).pluck('allData').map(function (data) {
       return {
-        min: _.findIndex(data, _.identity),
-        max: _.findLastIndex(data, _.identity)
+        min: _.findIndex(data, function(val) { return val !== null }),
+        max: _.findLastIndex(data, function(val) { return val !== null })
       };
     }).value();
 
@@ -452,7 +495,8 @@ Chart.plugins.register({
       chart.update();
     }
   }
-});function event(sender) {
+});
+function event(sender) {
   this._sender = sender;
   this._listeners = [];
 }
@@ -530,9 +574,10 @@ var accessibilitySwitcher = function() {
   ////////////////////////////////////////////////////////////////////////////////////
 
   _.each(contrastIdentifiers, function(contrast) {
+    var gaAttributes = opensdg.autotrack('switch_contrast', 'Accessibility', 'Change contrast setting', contrast);
     $('.contrast-switcher').append($('<li />').attr({
       'class': 'nav-link contrast contrast-' + contrast
-    }).html($('<a />').attr({
+    }).html($('<a />').attr(gaAttributes).attr({
       'href': 'javascript:void(0)',
       'title': 'Set to ' + contrast + ' contrast',
       'data-contrast': contrast,
@@ -541,12 +586,14 @@ var accessibilitySwitcher = function() {
       imageFix(contrast);
     })));
   });
-
+  
+  
 function imageFix(contrast) {
-  if (contrast == 'high') {
+  if (contrast == 'high')  {
     _.each($('img:not([src*=high-contrast])'), function(goalImage){
+      if ($(goalImage).attr('src').slice(0, 35) != "https://platform-cdn.sharethis.com/") {
       $(goalImage).attr('src', $(goalImage).attr('src').replace('img/', 'img/high-contrast/'));
-    })
+      }})
   } else {
     // Remove high-contrast
     _.each($('img[src*=high-contrast]'), function(goalImage){
@@ -586,12 +633,6 @@ var indicatorDataStore = function(dataUrl) {
   this.onSelectionUpdate = new event(this);
   this.onNoHeadlineData = new event(this);
 
-  // data rounding:
-  this.roundingFunc = options.roundingFunc || function(value) {
-    var to = 3, mult = Math.pow(10, to - Math.floor(Math.log(Math.abs(value)) / Math.LN10) - 1);
-    return Math.round(value * mult) / mult;
-  };
-
   // json conversion:
   var convertJsonFormat = function(data) {
     var keys = _.keys(data);
@@ -614,9 +655,11 @@ var indicatorDataStore = function(dataUrl) {
   this.chartTitle = options.chartTitle;
   this.graphType = options.graphType;
   this.measurementUnit = options.measurementUnit;
+  this.copyright = options.copyright;
   this.dataSource = options.dataSource;
   this.geographicalArea = options.geographicalArea;
   this.footnote = options.footnote;
+  this.startValues = options.startValues;
   this.showData = options.showData;
   this.selectedFields = [];
   this.allowedFields = [];
@@ -679,7 +722,7 @@ var indicatorDataStore = function(dataUrl) {
     }
 
     that.fieldItemStates = _.map(_.filter(Object.keys(that.data[0]), function (key) {
-        return ['Year', 'Value', 'Units', 'GeoCode', 'Observation status', 'Unit multiplier'].indexOf(key) === -1;
+        return ['Year', 'Value', 'Units', 'GeoCode', 'Observation status', 'Unit multiplier', 'Unit measure'].indexOf(key) === -1;
       }), function(field) {
       return {
         field: field,
@@ -727,7 +770,11 @@ var indicatorDataStore = function(dataUrl) {
 
       // only apply a rounding function for non-zero values:
       if(item.Value != 0) {
-        item.Value = that.roundingFunc(item.Value);
+        // For rounding, use a function that can be set on the global opensdg
+        // object, for easier control: opensdg.dataRounding()
+        if (typeof opensdg.dataRounding === 'function') {
+          item.Value = opensdg.dataRounding(item.Value);
+        }
       }
 
       // remove any undefined/null values:
@@ -749,16 +796,72 @@ var indicatorDataStore = function(dataUrl) {
       spanGaps: false
     };
 
-    that.footerFields = {
-      'Source': that.dataSource,
-      'Geographical Area': that.geographicalArea,
-      'Unit of Measurement': that.measurementUnit,
-      'Footnote': that.footnote,
-    };
+    that.footerFields = {};
+    that.footerFields[translations.indicator.source] = that.dataSource;
+    that.footerFields[translations.indicator.geographical_area] = that.geographicalArea;
+    that.footerFields[translations.indicator.unit_of_measurement] = that.measurementUnit;
+    that.footerFields[translations.indicator.copyright] = that.copyright;
+    that.footerFields[translations.indicator.footnote] = that.footnote;
+    // Filter out the empty values.
+    that.footerFields = _.pick(that.footerFields, _.identity);
   }());
 
   var headlineColor = '777777';
-  var colors = ['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'];
+  if (this.indicatorId.includes('_1-')){
+    var colors = ['e5243b', '891523', 'ef7b89', '2d070b', 'f4a7b0', 'b71c2f', 'ea4f62', '5b0e17', 'fce9eb'];
+  }
+  else if(this.indicatorId.includes('_2-')){
+    var colors = ['e5b735', '896d1f', 'efd385', '2d240a', 'f4e2ae', 'b7922a', 'eac55d', '5b4915', 'f9f0d6'];
+  }
+  else if(this.indicatorId.includes('_3-')){
+    var colors = ['4c9f38', '2d5f21', '93c587', '0f1f0b', 'c9e2c3', '3c7f2c', '6fb25f', '1e3f16', 'a7d899'];
+  }
+  else if(this.indicatorId.includes('_4-')){
+    var colors = ['c5192d', '760f1b', 'dc7581', '270509', 'f3d1d5', '9d1424', 'd04656', '4e0a12', 'e7a3ab'];
+  }
+  else if(this.indicatorId.includes('_5-')){
+    var colors = ['ff3a21', 'b22817', 'ff7563', '330b06', 'ffd7d2', 'cc2e1a', 'ff614d', '7f1d10', 'ff9c90'];
+  }
+  else if(this.indicatorId.includes('_6-')){
+    var colors = ['26bde2', '167187', '7cd7ed', '07252d', 'd3f1f9', '1e97b4', '51cae7', '0f4b5a', 'a8e4f3'];
+  }
+  else if(this.indicatorId.includes('_7-')){
+    var colors = ['fcc30b', '977506', 'fddb6c', '322702', 'fef3ce', 'c99c08', 'fccf3b', '644e04', 'fde79d'];
+  }
+  else if(this.indicatorId.includes('_8-')){
+    var colors = ['a21942', '610f27', 'c7758d', '610F28', 'ecd1d9', '811434', 'b44667', '400a1a', 'd9a3b3'];
+  }
+  else if(this.indicatorId.includes('_9-')){
+    var colors = ['fd6925', '973f16', 'fda57c', '321507', 'fee1d3', 'ca541d', 'fd8750', '652a0e', 'fec3a7'];
+  }
+  else if(this.indicatorId.includes('_10-')){
+    var colors = ['dd1367', '840b3d', 'ea71a3', '2c0314', 'f8cfe0', 'b00f52', 'd5358b', '580729', 'f1a0c2'];
+  }
+  else if(this.indicatorId.includes('_11-')){
+    var colors = ['fd9d24', '653e0e', 'fed7a7', 'b16d19', 'fdba65', 'b14a1e', 'fd976b', '000000', 'fed2bf'];
+  }
+  else if(this.indicatorId.includes('_12-')){
+    var colors = ['c9992d', '785b1b', 'dec181', '281e09', 'f4ead5', 'a07a24', 'd3ad56', '503d12', 'e9d6ab'];
+  }
+  else if(this.indicatorId.includes('_13-')){
+    var colors = ['3f7e44', '254b28', '8bb18e', '0c190d', 'd8e5d9', '326436', '659769', '19321b', 'b2cbb4'];
+  }
+  else if(this.indicatorId.includes('_14-')){
+    var colors = ['0a97d9', '065a82', '6cc0e8', '021e2b', 'ceeaf7', '0878ad', '3aabe0', '043c56', '9dd5ef'];
+  }
+  else if(this.indicatorId.includes('_15-')){
+    var colors = ['56c02b', '337319', '99d97f', '112608', 'ddf2d4', '449922', '77cc55', '224c11', 'bbe5aa'];
+  }
+  else if(this.indicatorId.includes('_16-')){
+    var colors = ['00689d', '00293e', '99c2d7', '00486d', '4c95ba', '126b80', 'cce0eb', '5a9fb0', 'a1c8d2'];
+  }
+  else if(this.indicatorId.includes('_17-')){
+    var colors = ['19486a', '0a1c2a', '8ca3b4', '16377c', 'd1dae1', '11324a', '466c87', '5b73a3', '0f2656'];
+  };
+  //SDG goal colors
+  //['e5243b', 'e5b735', '4c9f38', 'c5192d', 'ff3a21', '26bde2', 'fcc30b', 'a21942', 'fd6925', 'dd1367'];
+  //var headlinePointstyle = 'circle';
+  //var pointStyles = ['circle', 'triangle', 'cross', 'crossRot', 'dash', 'line', 'rect', 'rectRounded', 'rectRot', 'star', 'triangle'];
 
   // allow headline + (2 x others)
   var maxDatasetCount = 2 * colors.length;
@@ -780,7 +883,7 @@ var indicatorDataStore = function(dataUrl) {
         return that.selectedUnit ? i.Units : i.Year;
       })
       .map(function (d) {
-        return _.pick(d, _.identity);
+        return _.pick(d, function(val) { return val !== null });
       })
       .value();
   };
@@ -852,12 +955,12 @@ var indicatorDataStore = function(dataUrl) {
 
   this.updateSelectedUnit = function(selectedUnit) {
     this.selectedUnit = selectedUnit;
-    
+
     // if fields are dependent on the unit, reset:
     this.getData({
       unitsChangeSeries: this.dataHasUnitSpecificFields
     });
-    
+
     this.onUnitsSelectedChanged.notify(selectedUnit);
   };
 
@@ -921,12 +1024,14 @@ var indicatorDataStore = function(dataUrl) {
       seriesData = [],
       headlineTable = undefined,
       datasetIndex = 0,
+
       getCombinationDescription = function(combination) {
         return _.map(Object.keys(combination), function(key) {
-          return combination[key];
+          return translations.t(combination[key]);
           //return key + ' ' + combination[key];
         }).join(', ');
       },
+
       getColor = function(datasetIndex) {
 
         // offset if there is no headline data:
@@ -946,8 +1051,8 @@ var indicatorDataStore = function(dataUrl) {
 
         return datasetIndex === 0 ? headlineColor : colors[datasetIndex];
       },
-      getBorderDash = function(datasetIndex) {
 
+      getBorderDash = function(datasetIndex) {
         // offset if there is no headline data:
         if(!this.hasHeadline) {
           datasetIndex += 1;
@@ -961,8 +1066,10 @@ var indicatorDataStore = function(dataUrl) {
         // var fieldIndex = field ? _.findIndex(that.selectedFields, function (f) {
         //     return f === field;
         //   }) : undefined,
+
         var fieldIndex,
           ds = _.extend({
+
             label: combinationDescription ? combinationDescription : that.country,
             borderColor: '#' + getColor(datasetIndex),
             backgroundColor: '#' + getColor(datasetIndex),
@@ -974,8 +1081,10 @@ var indicatorDataStore = function(dataUrl) {
               });
               return found ? found.Value : null;
             }),
+            //type: getChartStyle(combinationDescription),
             borderWidth: combinationDescription ? 2 : 4
           }, that.datasetObject);
+
         datasetIndex++;
         return ds;
       };
@@ -1013,6 +1122,14 @@ var indicatorDataStore = function(dataUrl) {
 
     // get the headline data:
     var headline = this.getHeadline();
+
+    // Catch the case where this is the initial display, there is a default
+    // selected unit (the first one), there is a headline, and this headline
+    // uses another unit.
+    if (options.initial && headline.length && this.selectedUnit && this.selectedUnit != headline[0]['Units']) {
+      // In this scenario we need to correct the selected unit here.
+      this.selectedUnit = headline[0]['Units'];
+    }
 
     // all units for headline data:
     if(headline.length) {
@@ -1083,7 +1200,7 @@ var indicatorDataStore = function(dataUrl) {
         return ds.data[yearIndex]
       })));
     });
-      
+
     this.onDataComplete.notify({
       datasetCountExceedsMax: datasetCountExceedsMax,
       datasets: datasetCountExceedsMax ? datasets.slice(0, maxDatasetCount) : datasets,
@@ -1116,7 +1233,8 @@ var indicatorDataStore = function(dataUrl) {
         }
 
         this.onUnitsComplete.notify({
-          units: this.units
+          units: this.units,
+          selectedUnit: this.selectedUnit
         });
       }
 
@@ -1130,7 +1248,11 @@ var indicatorDataStore = function(dataUrl) {
         hasGeoData: this.hasGeoData,
         geoData: this.geoData,
         geoCodeRegEx: this.geoCodeRegEx,
-        showMap: this.showMap
+        showMap: this.showMap,
+        //---#1 GoalDependendMapColor---start------------------------------------------
+        indicatorId: this.indicatorId,
+        title: this.chartTitle,
+        //---#1 GoalDependendMapColor---stop-------------------------------------------
       });
 
 
@@ -1143,14 +1265,72 @@ var indicatorDataStore = function(dataUrl) {
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
     if((options.initial || options.unitsChangeSeries) && !this.hasHeadline) {
       // if there is no initial data, select some:
-      this.onNoHeadlineData.notify();
+
+      var minimumFieldSelections = {},
+          forceUnit = false;
+      // First, do we have some already pre-configured from data_start_values?
+      if (this.startValues) {
+        // We need to confirm that these values are valid, and pair them up
+        // with disaggregation categories. The value, at this point, is a string
+        // which we assume to be pipe-delimited.
+        var valuesToLookFor = this.startValues.split('|');
+        // Match up each field value with a field.
+        _.each(this.fieldItemStates, function(fieldItem) {
+          _.each(fieldItem.values, function(fieldValue) {
+            if (_.contains(valuesToLookFor, fieldValue.value)) {
+              minimumFieldSelections[fieldItem.field] = fieldValue.value;
+            }
+          });
+        });
+      }
+      if (_.size(minimumFieldSelections) == 0) {
+        // If we did not have any pre-configured start values, we calculate them.
+        // We have to decide what filters will be selected, and in some cases it
+        // may need to be multiple filters. So we find the smallest row (meaning,
+        // the row with the least number of disaggregations) and then sort it by
+        // it's field values. This should have the affect of selecting the first
+        // value in each drop-down, up until there are enough selected to display
+        // data on the graph. First we get the number of fields:
+        var fieldNames = _.pluck(this.fieldItemStates, 'field');
+        // Manually add "Units" so that we can check for required units.
+        fieldNames.push('Units');
+        // We filter our full dataset to only those fields.
+        var fieldData = _.map(this.data, function(item) { return _.pick(item, fieldNames); });
+        // We then sort the data by each field. We go in reverse order so that the
+        // first field will be highest "priority" in the sort.
+        _.each(fieldNames.reverse(), function(fieldName) {
+          fieldData = _.sortBy(fieldData, fieldName);
+        });
+        // But actually we want the top-priority sort to be the "size" of the
+        // rows. In other words we want the row with the fewest number of fields.
+        fieldData = _.sortBy(fieldData, function(item) { return _.size(item); });
+        minimumFieldSelections = fieldData[0];
+        // If we ended up finding something with "Units", we need to remove it
+        // before continuing and then remember to force it later.
+        if ('Units' in minimumFieldSelections) {
+          forceUnit = minimumFieldSelections['Units'];
+          delete minimumFieldSelections['Units'];
+        }
+      }
+
+      // Ensure that we only force a unit on the initial load.
+      if (!options.initial) {
+        forceUnit = false;
+      }
+
+      // Now that we are all sorted, we notify the view that there is no headline,
+      // and pass along the first row as the minimum field selections.
+      this.onNoHeadlineData.notify({
+        minimumFieldSelections: minimumFieldSelections,
+        forceUnit: forceUnit
+      });
     }
   };
 };
 
 indicatorModel.prototype = {
   initialise: function () {
-    this.getData({ 
+    this.getData({
       initial: true
     });
   },
@@ -1161,14 +1341,20 @@ indicatorModel.prototype = {
 var mapView = function () {
 
   "use strict";
-
-  this.initialise = function(geoData, geoCodeRegEx) {
+  //---#1 GoalDependendMapColor---start--------------------------------------
+  //this.initialise = function(geoData, geoCodeRegEx) {
+  this.initialise = function(geoData, geoCodeRegEx, goal) {
+  //---#1 GoalDependendMapColor---stop---------------------------------------
     $('.map').show();
     $('#map').sdgMap({
       geoData: geoData,
       geoCodeRegEx: geoCodeRegEx,
       mapOptions: null,
       mapLayers: null,
+      //---#1 GoalDependendMapColor---start--------------------------------------
+      goal: goal,
+      //---#1 GoalDependendMapColor---stop---------------------------------------
+      //title: title
     });
   };
 };
@@ -1209,6 +1395,28 @@ var indicatorView = function (model, options) {
       meta.hidden = meta.hidden === null? !ci.data.datasets[index].hidden : null;
       ci.update();
     });
+
+    // Provide the hide/show functionality for the sidebar.
+    $('.data-view .nav-link').on('click', function(e) {
+      var $sidebar = $('#indicator-sidebar'),
+          $main = $('#indicator-main'),
+          hideSidebar = $(this).data('no-disagg'),
+          mobile = window.matchMedia("screen and (max-width: 990px)");
+      if (hideSidebar) {
+        $sidebar.addClass('indicator-sidebar-hidden');
+        $main.addClass('indicator-main-full');
+        // On mobile, this can be confusing, so we need to scroll to the tabs.
+        if (mobile.matches) {
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#indicator-main").offset().top - 40
+          }, 400);
+        }
+      }
+      else {
+        $sidebar.removeClass('indicator-sidebar-hidden');
+        $main.removeClass('indicator-main-full');
+      }
+    });
   });
 
   this._model.onDataComplete.attach(function (sender, args) {
@@ -1227,8 +1435,23 @@ var indicatorView = function (model, options) {
     view_obj.createSelectionsTable(args);
   });
 
-  this._model.onNoHeadlineData.attach(function() {
-    $('#fields .variable-options :checkbox:eq(0)').trigger('click');
+  this._model.onNoHeadlineData.attach(function(sender, args) {
+    if (args && args.minimumFieldSelections && _.size(args.minimumFieldSelections)) {
+      // If we have minimum field selections, impersonate a user and "click" on
+      // each item.
+      for (var fieldToSelect in args.minimumFieldSelections) {
+        var fieldValue = args.minimumFieldSelections[fieldToSelect];
+        $('#fields .variable-options input[type="checkbox"]')
+          .filter('[data-field="' + fieldToSelect + '"]')
+          .filter('[value="' + fieldValue + '"]')
+          .first()
+          .click();
+      }
+    }
+    else {
+      // Fallback behavior - just click on the first one, whatever it is.
+      $('#fields .variable-options :checkbox:eq(0)').trigger('click');
+    }
   });
 
   this._model.onSeriesComplete.attach(function(sender, args) {
@@ -1385,10 +1608,12 @@ var indicatorView = function (model, options) {
   });
 
   $(this._rootElement).on('click', '.variable-selector', function(e) {
+    var currentSelector = e.target;
 
     var options = $(this).find('.variable-options');
-    var optionsVisible = options.is(':visible');
-    $(options)[optionsVisible ? 'hide' : 'show']();
+    var optionsAreVisible = options.is(':visible');
+    $(options)[optionsAreVisible ? 'hide' : 'show']();
+    currentSelector.setAttribute("aria-expanded", optionsAreVisible ? "true" : "false");
 
     e.stopPropagation();
   });
@@ -1416,10 +1641,12 @@ var indicatorView = function (model, options) {
 
   this.initialiseUnits = function(args) {
     var template = _.template($('#units_template').html()),
-        units = args.units || [];
+        units = args.units || [],
+        selectedUnit = args.selectedUnit || null;
 
     $('#units').html(template({
-      units: units
+      units: units,
+      selectedUnit: selectedUnit
     }));
 
     if(!units.length) {
@@ -1431,8 +1658,20 @@ var indicatorView = function (model, options) {
     view_obj._chartInstance.data.datasets = chartInfo.datasets;
 
     if(chartInfo.selectedUnit) {
-      view_obj._chartInstance.options.scales.yAxes[0].scaleLabel.labelString = chartInfo.selectedUnit;
+      view_obj._chartInstance.options.scales.yAxes[0].scaleLabel.labelString = translations.t(chartInfo.selectedUnit);
     }
+
+    // Create a temp object to alter, and then apply. We go to all this trouble
+    // to avoid completely replacing view_obj._chartInstance -- and instead we
+    // just replace it's properties: "type", "data", and "options".
+    var updatedConfig = opensdg.chartConfigAlter({
+      type: view_obj._chartInstance.type,
+      data: view_obj._chartInstance.data,
+      options: view_obj._chartInstance.options
+    });
+    view_obj._chartInstance.type = updatedConfig.type;
+    view_obj._chartInstance.data = updatedConfig.data;
+    view_obj._chartInstance.options = updatedConfig.options;
 
     view_obj._chartInstance.update(1000, true);
 
@@ -1465,8 +1704,8 @@ var indicatorView = function (model, options) {
               suggestedMin: 0
             },
             scaleLabel: {
-              display: this._model.selectedUnit ? this._model.selectedUnit : this._model.measurementUnit,
-              labelString: this._model.selectedUnit ? this._model.selectedUnit : this._model.measurementUnit
+              display: this._model.selectedUnit ? translations.t(this._model.selectedUnit) : this._model.measurementUnit,
+              labelString: this._model.selectedUnit ? translations.t(this._model.selectedUnit) : this._model.measurementUnit
             }
           }]
         },
@@ -1507,9 +1746,7 @@ var indicatorView = function (model, options) {
         }
       }
     };
-    if (typeof chartConfigOverrides !== 'undefined') {
-      $.extend(true, chartConfig, chartConfigOverrides);
-    }
+    chartConfig = opensdg.chartConfigAlter(chartConfig);
 
     this._chartInstance = new Chart($(this._rootElement).find('canvas'), chartConfig);
 
@@ -1563,29 +1800,17 @@ var indicatorView = function (model, options) {
           });
         }
 
-        // TODO Merge this with the that.footerFields object used by table
         var graphFooterItems = [];
-        if (that._model.dataSource) {
-          graphFooterItems.push(translations.indicator.source + ': ' + that._model.dataSource);
-        }
-        if (that._model.geographicalArea) {
-          graphFooterItems.push(translations.indicator.geographical_area + ': ' + that._model.geographicalArea);
-        }
-        if (that._model.measurementUnit) {
-          graphFooterItems.push(translations.indicator.unit_of_measurement + ': ' + that._model.measurementUnit);
-        }
-
-        if(that._model.footnote) {
-          var footnoteRows = getLinesFromText('Footnote: ' + that._model.footnote);
-          graphFooterItems = graphFooterItems.concat(footnoteRows);
-
-          if(footnoteRows.length > 1) {
-            //that._chartInstance.options.layout.padding.bottom += textRowHeight * footnoteRows.length;
-            that._chartInstance.resize(parseInt($canvas.css('width')), parseInt($canvas.css('height')) + textRowHeight * footnoteRows.length);
+        _.each(that._model.footerFields, function(value, key) {
+          // For each footer item, we have to manually do any line
+          // wrapping, because this is canvas, not HTML.
+          var rows = getLinesFromText(key + ': ' + value);
+          graphFooterItems = graphFooterItems.concat(rows);
+          if (rows.length > 1) {
+            that._chartInstance.resize(parseInt($canvas.css('width')), parseInt($canvas.css('height')) + textRowHeight * rows.length);
             that._chartInstance.resize();
           }
-        }
-
+        });
         putTextOutputs(graphFooterItems, 0);
       }
     });
@@ -1687,7 +1912,9 @@ var indicatorView = function (model, options) {
       if (name == 'Table') {
         downloadKey = 'download_table';
       }
+      var gaLabel = 'Download ' + name + ' CSV: ' + indicatorId.replace('indicator_', '');
       $(el).append($('<a />').text(translations.indicator[downloadKey])
+      .attr(opensdg.autotrack('download_data_current', 'Downloads', 'Download CSV', gaLabel))
       .attr({
         'href': URL.createObjectURL(new Blob([this.toCsv(table)], {
           type: 'text/csv'
@@ -1700,10 +1927,12 @@ var indicatorView = function (model, options) {
       .data('csvdata', this.toCsv(table)));
     } else {
       var headlineId = indicatorId.replace('indicator', 'headline');
-      var id = indicatorId.replace('indicator', '');
+      var id = indicatorId.replace('indicator_', '');
+      var gaLabel = 'Download Headline CSV: ' + id;
       $(el).append($('<a />').text(translations.indicator.download_headline)
+      .attr(opensdg.autotrack('download_data_headline', 'Downloads', 'Download CSV', gaLabel))
       .attr({
-        'href': remoteDataBaseUrl + '/headline/' + id + '.csv',
+        'href': opensdg.remoteDataBaseUrl + '/headline/' + id + '.csv',
         'download': headlineId + '.csv',
         'title': translations.indicator.download_headline_title,
         'class': 'btn btn-primary btn-download',
@@ -1713,9 +1942,11 @@ var indicatorView = function (model, options) {
   }
 
   this.createSourceButton = function(indicatorId, el) {
+    var gaLabel = 'Download Source CSV: ' + indicatorId;
     $(el).append($('<a />').text(translations.indicator.download_source)
+    .attr(opensdg.autotrack('download_data_source', 'Downloads', 'Download CSV', gaLabel))
     .attr({
-      'href': remoteDataBaseUrl + '/data/' + indicatorId + '.csv',
+      'href': opensdg.remoteDataBaseUrl + '/data/' + indicatorId + '.csv',
       'download': indicatorId + '.csv',
       'title': translations.indicator.download_source_title,
       'class': 'btn btn-primary btn-download',
@@ -1771,7 +2002,7 @@ var indicatorView = function (model, options) {
           var isUnits = (heading.toLowerCase() == 'units');
           var cell_prefix = (isYear) ? '<th scope="row"' : '<td';
           var cell_suffix = (isYear) ? '</th>' : '</td>';
-          row_html += cell_prefix + (isYear || isUnits ? '' : ' class="table-value"') + '>' + (data[index] ? data[index] : '-') + cell_suffix;
+          row_html += cell_prefix + (isYear || isUnits ? '' : ' class="table-value"') + '>' + (data[index] !== null ? data[index] : '-') + cell_suffix;
         });
         row_html += '</tr>';
         currentTable.find('tbody').append(row_html);
@@ -1794,7 +2025,7 @@ var indicatorView = function (model, options) {
     });
 
     _.each(footerFields, function(val, key) {
-      if(val) footdiv.append($('<p />').text(key + ': ' + val));
+      footdiv.append($('<p />').text(key + ': ' + val));
     });
 
     $(el).append(footdiv);
@@ -1845,6 +2076,13 @@ var indicatorSearch = function(inputElement, indicatorDataStore) {
   this.inputElement.keyup(function(e) {
     var searchValue = that.inputElement.val();
     if(e.keyCode === 13 && searchValue.length) {
+      window.location.replace(that.inputElement.data('pageurl') + searchValue);
+    }
+  });
+  
+  $("#search-btn").click(function() {
+    var searchValue = that.inputElement.val();
+    if(searchValue.length) {
       window.location.replace(that.inputElement.data('pageurl') + searchValue);
     }
   });
@@ -1942,7 +2180,7 @@ $(function() {
 
 $(function() {
 
-  var topLevelSearchLink = $('.top-level span:eq(1)');
+  var topLevelSearchLink = $('.top-level span:eq(1), .top-level button:eq(1)');
 
   var resetForSmallerViewport = function() {
     topLevelSearchLink.text('Search');
@@ -1950,7 +2188,7 @@ $(function() {
     $('.top-level span').removeClass('open');
   };  
 
-  $('.top-level span').click(function() {
+  $('.top-level span, .top-level button').click(function() {
     var target = $(this).data('target');
 
     $('.top-level li').removeClass('active');
@@ -1961,6 +2199,7 @@ $(function() {
 
     // hide everything:
     $('.menu-target').hide();
+    $(".top-level li button[data-target='" + target + "']").attr("aria-expanded", "false");
 
     if(target === 'search') {
       $(this).toggleClass('open');
@@ -1978,6 +2217,7 @@ $(function() {
 
     if(!wasVisible) {
       targetEl.show();
+      $(".top-level li button[data-target='" + target + "']").attr("aria-expanded", "true");
       $(this).parent().addClass('active');
     }
   });
@@ -1999,7 +2239,8 @@ $(function() {
     // update the viewport width:
     $('body').data('vwidth', viewportWidth);
   });
-});/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
+});
+/*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
 "document"in self&&("classList"in document.createElement("_")&&(!document.createElementNS||"classList"in document.createElementNS("http://www.w3.org/2000/svg","g"))||!function(t){"use strict";if("Element"in t){var e="classList",n="prototype",i=t.Element[n],s=Object,r=String[n].trim||function(){return this.replace(/^\s+|\s+$/g,"")},o=Array[n].indexOf||function(t){for(var e=0,n=this.length;n>e;e++)if(e in this&&this[e]===t)return e;return-1},a=function(t,e){this.name=t,this.code=DOMException[t],this.message=e},c=function(t,e){if(""===e)throw new a("SYNTAX_ERR","An invalid or illegal string was specified");if(/\s/.test(e))throw new a("INVALID_CHARACTER_ERR","String contains an invalid character");return o.call(t,e)},l=function(t){for(var e=r.call(t.getAttribute("class")||""),n=e?e.split(/\s+/):[],i=0,s=n.length;s>i;i++)this.push(n[i]);this._updateClassName=function(){t.setAttribute("class",""+this)}},u=l[n]=[],h=function(){return new l(this)};if(a[n]=Error[n],u.item=function(t){return this[t]||null},u.contains=function(t){return t+="",-1!==c(this,t)},u.add=function(){var t,e=arguments,n=0,i=e.length,s=!1;do t=e[n]+"",-1===c(this,t)&&(this.push(t),s=!0);while(++n<i);s&&this._updateClassName()},u.remove=function(){var t,e,n=arguments,i=0,s=n.length,r=!1;do for(t=n[i]+"",e=c(this,t);-1!==e;)this.splice(e,1),r=!0,e=c(this,t);while(++i<s);r&&this._updateClassName()},u.toggle=function(t,e){t+="";var n=this.contains(t),i=n?e!==!0&&"remove":e!==!1&&"add";return i&&this[i](t),e===!0||e===!1?e:!n},u.toString=function(){return this.join(" ")},s.defineProperty){var f={get:h,enumerable:!0,configurable:!0};try{s.defineProperty(i,e,f)}catch(g){(void 0===g.number||-2146823252===g.number)&&(f.enumerable=!1,s.defineProperty(i,e,f))}}else s[n].__defineGetter__&&i.__defineGetter__(e,h)}}(self),function(){"use strict";var t=document.createElement("_");if(t.classList.add("c1","c2"),!t.classList.contains("c2")){var e=function(t){var e=DOMTokenList.prototype[t];DOMTokenList.prototype[t]=function(t){var n,i=arguments.length;for(n=0;i>n;n++)t=arguments[n],e.call(this,t)}};e("add"),e("remove")}if(t.classList.toggle("c3",!1),t.classList.contains("c3")){var n=DOMTokenList.prototype.toggle;DOMTokenList.prototype.toggle=function(t,e){return 1 in arguments&&!this.contains(t)==!e?e:n.call(this,t)}}t=null}());/*! modernizr 3.5.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-blobconstructor-localstorage-setclasses !*/
  !function(e,n,o){function s(e,n){return typeof e===n}function t(){var e,n,o,t,a,l,c;for(var f in i)if(i.hasOwnProperty(f)){if(e=[],n=i[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(o=0;o<n.options.aliases.length;o++)e.push(n.options.aliases[o].toLowerCase());for(t=s(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)l=e[a],c=l.split("."),1===c.length?Modernizr[c[0]]=t:(!Modernizr[c[0]]||Modernizr[c[0]]instanceof Boolean||(Modernizr[c[0]]=new Boolean(Modernizr[c[0]])),Modernizr[c[0]][c[1]]=t),r.push((t?"":"no-")+c.join("-"))}}function a(e){var n=c.className,o=Modernizr._config.classPrefix||"";if(f&&(n=n.baseVal),Modernizr._config.enableJSClass){var s=new RegExp("(^|\\s)"+o+"no-js(\\s|$)");n=n.replace(s,"$1"+o+"js$2")}Modernizr._config.enableClasses&&(n+=" "+o+e.join(" "+o),f?c.className.baseVal=n:c.className=n)}var r=[],i=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var o=this;setTimeout(function(){n(o[e])},0)},addTest:function(e,n,o){i.push({name:e,fn:n,options:o})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr,Modernizr.addTest("blobconstructor",function(){try{return!!new Blob}catch(e){return!1}},{aliases:["blob-constructor"]}),Modernizr.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(n){return!1}});var c=n.documentElement,f="svg"===c.nodeName.toLowerCase();t(),a(r),delete l.addTest,delete l.addAsyncTest;for(var u=0;u<Modernizr._q.length;u++)Modernizr._q[u]();e.Modernizr=Modernizr}(window,document);/*
@@ -2218,12 +2459,15 @@ function initialiseGoogleAnalytics(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        
+
     sendPageviewToGoogleAnalytics();
 }
 
 function sendPageviewToGoogleAnalytics(){
     ga('create', '', 'auto');
+    ga('require', 'eventTracker', {
+        attributePrefix: 'data-'
+    });
     // anonymize user IPs (chops off the last IP triplet)
     ga('set', 'anonymizeIp', true);
     // forces SSL even if the page were somehow loaded over http://

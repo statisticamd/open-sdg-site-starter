@@ -5,9 +5,47 @@
 
 
 
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CString.prototype.includes"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://statisticamd.github.io/open-sdg-data-starter',
+
+  // A hook which can be replaced to modify the configuration for Chart.js.
+  // To see where this is used, see indicatorView.js createPlot() and updatePlot().
+  // To see an example of replacing it, see binary.html.
+  chartConfigAlter: function(config) {
+    // Alterations go here.
+    return config;
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
         <script>
 // JavaScript container for translation data.
 var translations = {
@@ -20,12 +58,12 @@ var translations = {
 
     // The majority of uses of this function are to translate disaggregation
     // data. To spare data providers of needing to enter "data." in front of
-    // their disaggregation data, we do it for them here.
-    var originalKey = key;
-    if (!key.includes('.') && this.data) {
-      key = 'data.' + key.toLowerCase();
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
     }
 
+    var originalKey = key;
     var drilled = this;
     var levelsDrilled = 0;
     var levels = key.split('.');
@@ -53,10 +91,8 @@ var translations = {
 };
 </script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- Basic Page Needs
         ================================================== -->
-        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
         ================================================== -->
         <meta name="HandheldFriendly" content="True">
@@ -64,11 +100,22 @@ var translations = {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Title and meta description
         ================================================== -->
+
+        <!---#15 setCorrectTitle---start-------------------->
+        
+        <!---->
         
         <title>
-        Indicator 8.10.1 - Obiectiv 8 - Decent jobs and economic growth
+          
+            Indicator 8.10.1 - Obiectiv 8
+          
         </title>
-        <meta name="description" content="">
+        <!---#15 setCorrectTitle---stop--------------------->
+
+        
+          <meta name="description" content= " 8.10.1 - (a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults" >
+        
+
         <meta property="og:description" content="">
         
         <meta name="robots" content="noindex, nofollow">
@@ -84,6 +131,7 @@ var translations = {
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
         <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+        <!--<link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/ro/favicon.png">--><!-- 192x192, as recommended for Android-->
         <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
@@ -91,20 +139,26 @@ var translations = {
         
 
         
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200323000247">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200323143854">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
-        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
-        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200323000247"></head>
-<body class="language-ro">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200323143854"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-ro layout-indicator">
 <!-- <div class="container"> -->
+
+
+
+<script>translations['header'] = {"alpha":"Alpha","disclaimer":"Acesta este un site web de dezvoltare. Vă salutăm <a href=\"mailto:%email_address\">feedback</a>.","skip_link":"Salt la conținutul principal","tag_line":"17 Obiective pentru transformarea lumii noastre"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Salt la conținutul principal</a>
 <div id="disclaimer">
@@ -121,6 +175,7 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open-sdg-site-starter/ro/" id="home">
+      <!--<img src="/open-sdg-site-starter/assets/img/ro/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii noastre" />-->
       <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii noastre" />
     </a>
 
@@ -139,7 +194,13 @@ var translations = {
     <nav class="navbar navbar-default" id="main-nav">
 
       <ul class="top-level">
-        <li><span data-target="menu">Menu</span></li>
+        <li id="menuToggle"
+            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-haspopup="true"
+            aria-expanded="false">
+          <span data-target="menu" tabindex="0"
+          role="navigation">Menu</span>
+        </li>
         <li><span data-target="search">Search</span></li>
       </ul>
 
@@ -160,25 +221,32 @@ var translations = {
 </a>
 <ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/8-10-1/">English</a></li></ul>
 
-        </li></ul>
+        </li><!--<li class="nav-link">
+          <a href="https://sustainabledevelopment-deutschland.github.io/en/">
+            <img class="link_btn" src="https://g205sdgs.github.io/sdg-indicators/public/DNS Wheel.png" title="" alt="Link DNS" style="width:24px;height:24px;"/>
+            <span class="hidden-sm hidden-md hidden-lg">DNS-</span>
+          </a>
+        </li>-->
+
+      </ul>
 
       <div id="search" class="menu-target">
-  <label for="indicator_search">
-    <i class="fa fa-search" aria-hidden="true"></i><span>Search:</span>
-  </label>
   <input id="indicator_search" title="Indicator search" placeholder="Indicator search" data-url="/open-sdg-site-starter/ro/indicators.json" data-pageurl="/open-sdg-site-starter/ro/search/?q=" />
+  <label for="indicator_search">
+    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button><span>Search:</span>
+  </label>
 </div>
-
 
     </nav>
   </div>
+
 
 </header>
 
 <script type="text/template" id="item_template">
   <% _.each(series, function(seriesItem) { %>
     <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
-      <button class='accessBtn' tabindex='0'><h5><%=translations.t(seriesItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
+      <button class='accessBtn' tabindex='0' aria-expanded='false'><h5><%=translations.t(seriesItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
       <div class="bar">
         <div class="selected"></div>
       </div>
@@ -193,7 +261,7 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(seriesItem.field) == -1) { %>
-        <div class="variable-hint">Available when '<%= _.findWhere(edges, { To: seriesItem.field }).From %>' is selected
+        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: seriesItem.field }).From) %>' is selected
         </div>
         <div class="no-data-hint">
           No options available because of filters above
@@ -205,10 +273,11 @@ var translations = {
 </script>
 
 <script type="text/template" id="units_template">
-  <% if(units.length) { %>
+  <% if(units.length>1) { %>
     <h5>Units type</h5>
     <% _.each(units, function(unitsItem, index) { %>
-      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <% if(!index) { %>checked="checked"<% } %> /> <%=translations.t(unitsItem)%></label>
+      <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
     <% }); %>
   <% } %>
 </script>
@@ -223,7 +292,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/open-sdg-site-starter/ro/8" title="View this goal's indicator list">
-          <img src="https://statisticamd.github.io/sdg-translations/assets/img/goals/ro/8.png" alt="Decent jobs and economic growth - Obiectiv 8" />
+          <img src="https://statisticamd.github.io/sdg-translations/assets/img/goals/ro/8.png" alt=" - Obiectiv 8" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -246,6 +315,31 @@ var translations = {
       <li class="active">Indicator 8.10.1</li>
   
 </ol>
+  <!---#8 addNavigationButtons---start----------------------------------->
+  <!---#8 addNavigationButtons---start------------------------------------->
+
+<!---Indicator page-->
+
+  <!---3 Btns if there is a corresponding Indicator-->
+  
+    <div class="col-xs-6 col-md-6 col-lg-6">
+      <a href="/open-sdg-site-starter/ro/" class="btn btn-primary btn-block G8-background" role="button">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> <b><span class="hidden-sm hidden-xs">Indicatorul precedent</span></b>
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-md-6 col-lg-6">
+      <a href="/open-sdg-site-starter/ro/" class="btn btn-primary btn-block G8-background" role="button">
+        <b><span class="hidden-sm hidden-xs">Următorul indicator</span></b> <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  
+
+<!---Goal page-->
+
+<!--#8 addNavigationButtons---stop-------------------------------------->
+
+  <!---#8 addNavigationButtons---stop------------------------------------>
 
   <div class="row" id="page-content-row">
     <div class="col-xs-12">
@@ -263,10 +357,17 @@ var translations = {
     </div>
   </div>
 
+  
+  
+
+  
+
   <div class="row" id="indicatorData" data-indicatorid='indicator_8-10-1' data-id="8-10-1" data-country=""
-  data-charttitle="(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults" data-measurementunit="" data-datasource="" data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line" data-geocoderegex="" data-showmap="">
+  data-charttitle="(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults" data-measurementunit="" data-datasource="" data-copyright=""
+  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-geocoderegex="" data-showmap="" data-startvalues="">
     
-    <div class="col-md-12">
+    <div id="indicator-main" class="col-md-12">
     
 
       
@@ -277,14 +378,33 @@ var translations = {
 
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab">National Metadata</a>
+          <!--#22 additionalDataAsEmbedded---start-------------------------->
+          
+            <li role="presentation" class="nav-item active">
+          
+          <!--<li role="presentation" class="nav-item active">-->
+          <!--#22 additionalDataAsEmbedded---stop--------------------------->
+
+
+            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to National Metadata tab"
+>National Metadata</a>
           </li>
           <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab">Metadate Globale</a>
+            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Global Metadata tab"
+>Metadate Globale</a>
           </li>
           <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab">Sources</a>
+            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Sources tab"
+>Sources</a>
           </li>
           
           <li role="presentation" class="nav-item">
@@ -295,7 +415,14 @@ var translations = {
 
         <!-- Tab panes -->
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="metadata">
+
+          <!--#22 additionalDataAsEmbedded---start-------------------------->
+          
+            <div role="tabpanel" class="tab-pane active" id="metadata">
+          
+          <!--<div role="tabpanel" class="tab-pane active" id="metadata">-->
+          <!--#22 additionalDataAsEmbedded---stop--------------------------->
+
             <!-- National Metadata -->
             <div > <!-- formerly class="collapsible expanded" -->
               <!-- <h3 tabindex='0'>National Metadata</h3> -->
@@ -305,7 +432,9 @@ var translations = {
                   
                   This table provides metadata for the actual indicator available from Moldova statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Moldovan statistics, this table should be consulted for information on national methodology and other Moldovan-specific metadata information.
                 </p>
-                <table class="table table-hover">
+                
+		<!--<p>{"name"=>"title", "field"=>{"element"=>"text", "label"=>"Page Title", "scope"=>"page"}}{"name"=>"sdg_goal", "field"=>{"element"=>"hidden", "label"=>"SDG Goal", "scope"=>"page"}}{"name"=>"permalink", "field"=>{"element"=>"hidden", "label"=>"Permalink", "scope"=>"page"}}{"name"=>"layout", "field"=>{"element"=>"hidden", "label"=>"Layout", "scope"=>"page"}}{"name"=>"indicator_name", "field"=>{"element"=>"text", "label"=>"Indicator name", "scope"=>"global"}}{"name"=>"indicator", "field"=>{"element"=>"hidden", "label"=>"Indicator number", "scope"=>"global"}}{"name"=>"target", "field"=>{"element"=>"text", "label"=>"Target name", "scope"=>"global"}}{"name"=>"target_id", "field"=>{"element"=>"text", "label"=>"Target number", "scope"=>"global"}}{"name"=>"indicator_definition", "field"=>{"element"=>"textarea", "label"=>"Global indicator description", "scope"=>"global"}}{"name"=>"un_designated_tier", "field"=>{"element"=>"text", "label"=>"UN designated tier", "scope"=>"global"}}{"name"=>"un_custodian_agency", "field"=>{"element"=>"text", "label"=>"UN custodian agency", "scope"=>"global"}}{"name"=>"goal_meta_link", "field"=>{"element"=>"text", "label"=>"Link to UN metadata", "scope"=>"global"}}{"name"=>"goal_meta_link_text", "field"=>{"element"=>"text", "label"=>"Link to UN metadata text", "value"=>"UN metadata", "scope"=>"global"}}{"name"=>"national_indicator_available", "field"=>{"element"=>"text", "label"=>"Indicator available", "scope"=>"national"}}{"name"=>"national_indicator_description", "field"=>{"element"=>"text", "label"=>"Indicator description", "scope"=>"national"}}{"name"=>"national_geographical_coverage", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"national"}}{"name"=>"computation_units", "field"=>{"element"=>"text", "label"=>"Unit of measurement", "scope"=>"national"}}{"name"=>"computation_definitions", "field"=>{"element"=>"textarea", "label"=>"Definitions", "scope"=>"national"}}{"name"=>"computation_calculations", "field"=>{"element"=>"text", "label"=>"Calculations", "scope"=>"national"}}{"name"=>"comments_limitations", "field"=>{"element"=>"text", "label"=>"Other information", "scope"=>"national"}}{"name"=>"national_data_update_url", "field"=>{"element"=>"hidden", "label"=>"Data last updated", "scope"=>"national"}}{"name"=>"national_data_update_url_text", "field"=>{"element"=>"hidden", "label"=>"Data last updated", "scope"=>"national"}}{"name"=>"national_metadata_update_url", "field"=>{"element"=>"hidden", "label"=>"Metadata last updated", "scope"=>"national"}}{"name"=>"national_metadata_update_url_text", "field"=>{"element"=>"hidden", "label"=>"Metadata last updated", "scope"=>"national"}}{"name"=>"reporting_status", "field"=>{"element"=>"select", "label"=>"Reporting status", "options"=>[{"name"=>"complete", "value"=>"complete", "translation_key"=>"status.reported_online"}, {"name"=>"inprogress", "value"=>"inprogress", "translation_key"=>"status.statistics_in_progress"}, {"name"=>"notstarted", "value"=>"notstarted", "translation_key"=>"status.exploring_data_sources"}], "scope"=>"data"}}{"name"=>"data_non_statistical", "field"=>{"element"=>"checkbox", "label"=>"Non-statistical indicator", "help"=>"Check this box if this indicator does not have numeric data associated with it", "value"=>false, "scope"=>"data"}}{"name"=>"data_footnote", "field"=>{"element"=>"text", "label"=>"Footnote", "help"=>"Footnotes appear under the chart and by data tables", "scope"=>"data"}}{"name"=>"data_geocode_regex", "field"=>{"element"=>"text", "label"=>"GeoCode Regular Expression", "help"=>"A regex on which geocodes to include", "scope"=>"data"}}{"name"=>"data_keywords", "field"=>{"element"=>"text", "label"=>"Search Keywords", "help"=>"Comma separated keywords for search page", "scope"=>"data"}}{"name"=>"data_show_map", "field"=>{"element"=>"checkbox", "label"=>"Show the map when GeoCodes are present?", "help"=>"If this box is checked then the prescence of a GeoCode field will trigger a map", "value"=>false, "scope"=>"data"}}{"name"=>"indicator_sort_order", "field"=>{"element"=>"text", "label"=>"Indicator display order (within Goal page)", "scope"=>"data"}}{"name"=>"graph_type", "field"=>{"element"=>"select", "label"=>"Graph type", "options"=>[{"name"=>"line", "value"=>"line"}, {"name"=>"bar", "value"=>"bar"}], "scope"=>"graph"}}{"name"=>"graph_title", "field"=>{"element"=>"text", "label"=>"Graph Title", "scope"=>"graph"}}{"name"=>"source_active_1", "field"=>{"element"=>"checkbox", "label"=>"Source 1 active", "help"=>"Whether or not to display this source", "value"=>true}}{"name"=>"source_organisation_1", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_1"}}{"name"=>"source_periodicity_1", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_1"}}{"name"=>"source_earliest_available_1", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_1"}}{"name"=>"source_geographical_coverage_1", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_1"}}{"name"=>"source_url_1", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_1"}}{"name"=>"source_url_text_1", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_1"}}{"name"=>"source_release_date_1", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_1"}}{"name"=>"source_next_release_1", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_1"}}{"name"=>"source_statistical_classification_1", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_1"}}{"name"=>"source_contact_1", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_1"}}{"name"=>"source_other_info_1", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_1"}}{"name"=>"source_active_2", "field"=>{"element"=>"checkbox", "label"=>"Source 2 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_2", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_2"}}{"name"=>"source_periodicity_2", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_2"}}{"name"=>"source_earliest_available_2", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_2"}}{"name"=>"source_geographical_coverage_2", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_2"}}{"name"=>"source_url_2", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_2"}}{"name"=>"source_url_text_2", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to Source", "scope"=>"source_2"}}{"name"=>"source_release_date_2", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_2"}}{"name"=>"source_next_release_2", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_2"}}{"name"=>"source_statistical_classification_2", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_2"}}{"name"=>"source_contact_2", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_2"}}{"name"=>"source_other_info_2", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_2"}}{"name"=>"source_active_3", "field"=>{"element"=>"checkbox", "label"=>"Source 3 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_3", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_3"}}{"name"=>"source_periodicity_3", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_3"}}{"name"=>"source_earliest_available_3", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_3"}}{"name"=>"source_geographical_coverage_3", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_3"}}{"name"=>"source_url_3", "field"=>{"element"=>"text", "label"=>"Link to data source", "value"=>"Link to source", "scope"=>"source_3"}}{"name"=>"source_url_text_3", "field"=>{"element"=>"text", "label"=>"Link to data source text", "scope"=>"source_3"}}{"name"=>"source_release_date_3", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_3"}}{"name"=>"source_next_release_3", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_3"}}{"name"=>"source_statistical_classification_3", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_3"}}{"name"=>"source_contact_3", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_3"}}{"name"=>"source_other_info_3", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_3"}}{"name"=>"source_active_4", "field"=>{"element"=>"checkbox", "label"=>"Source 4 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_4", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_4"}}{"name"=>"source_periodicity_4", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_4"}}{"name"=>"source_earliest_available_4", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_4"}}{"name"=>"source_geographical_coverage_4", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_4"}}{"name"=>"source_url_4", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_4"}}{"name"=>"source_url_text_4", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_4"}}{"name"=>"source_release_date_4", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_4"}}{"name"=>"source_next_release_4", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_4"}}{"name"=>"source_statistical_classification_4", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_4"}}{"name"=>"source_contact_4", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_4"}}{"name"=>"source_other_info_4", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_4"}}{"name"=>"source_active_5", "field"=>{"element"=>"checkbox", "label"=>"Source 5 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_5", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_5"}}{"name"=>"source_periodicity_5", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_5"}}{"name"=>"source_earliest_available_5", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_5"}}{"name"=>"source_geographical_coverage_5", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_5"}}{"name"=>"source_url_5", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_5"}}{"name"=>"source_url_text_5", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_5"}}{"name"=>"source_release_date_5", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_5"}}{"name"=>"source_next_release_5", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_5"}}{"name"=>"source_statistical_classification_5", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_5"}}{"name"=>"source_contact_5", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_5"}}{"name"=>"source_other_info_5", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_5"}}{"name"=>"source_active_6", "field"=>{"element"=>"checkbox", "label"=>"Source 6 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_6", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_6"}}{"name"=>"source_periodicity_6", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_6"}}{"name"=>"source_earliest_available_6", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_6"}}{"name"=>"source_geographical_coverage_6", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_6"}}{"name"=>"source_url_6", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_6"}}{"name"=>"source_url_text_6", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_6"}}{"name"=>"source_release_date_6", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_6"}}{"name"=>"source_next_release_6", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_6"}}{"name"=>"source_statistical_classification_6", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_6"}}{"name"=>"source_contact_6", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_6"}}{"name"=>"source_other_info_6", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_6"}}</p>-->
+<table class="table table-hover">
   
   
   
@@ -321,138 +450,184 @@ var translations = {
   
   
       
-      <tr>
-        <th scope="row">Indicator available </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Indicator description </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Unit of measurement </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Definitions </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Calculations </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Data last updated </th>
-        <td>
-          
-            
-            
-            
-            
 
-            
-              <a href="https://github.com/statisticamd/open-sdg-data-starter/commit/c668a137c13a542f480233edcff3476972c2b897" target="_blank">
-                2018-10-20: see changes on GitHub <span class="visuallyhidden">deschide într-o fereastră nouă</span>
-              </a>
-            
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
 
           
-        </td>
-        </tr>
+
+        <!--#22 additionalDataAsEmbedded---start---------->
         
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
       
-  
-      
-      
+
+    
   
       
       <tr>
-        <th scope="row">Metadata last updated </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/statisticamd/open-sdg-data-starter/commit/324e97b64ed9aa4bd1a36d8ec47530a404d87d66" target="_blank">
-                2018-12-05: see changes on GitHub <span class="visuallyhidden">deschide într-o fereastră nouă</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
         
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
       
+
+    
   
       
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
       
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Data last updated</th>
+
+            <td colspan="4">
+              
+                
+                
+                
+                
+
+                
+                  <a href="https://github.com/statisticamd/open-sdg-data-starter/commit/c668a137c13a542f480233edcff3476972c2b897" target="_blank">
+                    2018-10-20: see changes on GitHub <span class="visuallyhidden">deschide într-o fereastră nouă</span>
+                  </a>
+                
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Metadata last updated</th>
+
+            <td colspan="4">
+              
+                
+                
+                
+                
+
+                
+                  <a href="https://github.com/statisticamd/open-sdg-data-starter/commit/324e97b64ed9aa4bd1a36d8ec47530a404d87d66" target="_blank">
+                    2018-12-05: see changes on GitHub <span class="visuallyhidden">deschide într-o fereastră nouă</span>
+                  </a>
+                
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+
+    
   
   
   
@@ -540,13 +715,16 @@ var translations = {
               </article>
             </div>
           </div>
+
           <div role="tabpanel" class="tab-pane" id="globalmetadata">
             <!-- Global Metadata -->
             <div> <!-- formerly <div class="collapsible expanded"> -->
               <!-- <h3 tabindex='0'>Global Metadata</h3> -->
               <article>
                 <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
-                <table class="table table-hover">
+                
+		<!--<p>{"name"=>"title", "field"=>{"element"=>"text", "label"=>"Page Title", "scope"=>"page"}}{"name"=>"sdg_goal", "field"=>{"element"=>"hidden", "label"=>"SDG Goal", "scope"=>"page"}}{"name"=>"permalink", "field"=>{"element"=>"hidden", "label"=>"Permalink", "scope"=>"page"}}{"name"=>"layout", "field"=>{"element"=>"hidden", "label"=>"Layout", "scope"=>"page"}}{"name"=>"indicator_name", "field"=>{"element"=>"text", "label"=>"Indicator name", "scope"=>"global"}}{"name"=>"indicator", "field"=>{"element"=>"hidden", "label"=>"Indicator number", "scope"=>"global"}}{"name"=>"target", "field"=>{"element"=>"text", "label"=>"Target name", "scope"=>"global"}}{"name"=>"target_id", "field"=>{"element"=>"text", "label"=>"Target number", "scope"=>"global"}}{"name"=>"indicator_definition", "field"=>{"element"=>"textarea", "label"=>"Global indicator description", "scope"=>"global"}}{"name"=>"un_designated_tier", "field"=>{"element"=>"text", "label"=>"UN designated tier", "scope"=>"global"}}{"name"=>"un_custodian_agency", "field"=>{"element"=>"text", "label"=>"UN custodian agency", "scope"=>"global"}}{"name"=>"goal_meta_link", "field"=>{"element"=>"text", "label"=>"Link to UN metadata", "scope"=>"global"}}{"name"=>"goal_meta_link_text", "field"=>{"element"=>"text", "label"=>"Link to UN metadata text", "value"=>"UN metadata", "scope"=>"global"}}{"name"=>"national_indicator_available", "field"=>{"element"=>"text", "label"=>"Indicator available", "scope"=>"national"}}{"name"=>"national_indicator_description", "field"=>{"element"=>"text", "label"=>"Indicator description", "scope"=>"national"}}{"name"=>"national_geographical_coverage", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"national"}}{"name"=>"computation_units", "field"=>{"element"=>"text", "label"=>"Unit of measurement", "scope"=>"national"}}{"name"=>"computation_definitions", "field"=>{"element"=>"textarea", "label"=>"Definitions", "scope"=>"national"}}{"name"=>"computation_calculations", "field"=>{"element"=>"text", "label"=>"Calculations", "scope"=>"national"}}{"name"=>"comments_limitations", "field"=>{"element"=>"text", "label"=>"Other information", "scope"=>"national"}}{"name"=>"national_data_update_url", "field"=>{"element"=>"hidden", "label"=>"Data last updated", "scope"=>"national"}}{"name"=>"national_data_update_url_text", "field"=>{"element"=>"hidden", "label"=>"Data last updated", "scope"=>"national"}}{"name"=>"national_metadata_update_url", "field"=>{"element"=>"hidden", "label"=>"Metadata last updated", "scope"=>"national"}}{"name"=>"national_metadata_update_url_text", "field"=>{"element"=>"hidden", "label"=>"Metadata last updated", "scope"=>"national"}}{"name"=>"reporting_status", "field"=>{"element"=>"select", "label"=>"Reporting status", "options"=>[{"name"=>"complete", "value"=>"complete", "translation_key"=>"status.reported_online"}, {"name"=>"inprogress", "value"=>"inprogress", "translation_key"=>"status.statistics_in_progress"}, {"name"=>"notstarted", "value"=>"notstarted", "translation_key"=>"status.exploring_data_sources"}], "scope"=>"data"}}{"name"=>"data_non_statistical", "field"=>{"element"=>"checkbox", "label"=>"Non-statistical indicator", "help"=>"Check this box if this indicator does not have numeric data associated with it", "value"=>false, "scope"=>"data"}}{"name"=>"data_footnote", "field"=>{"element"=>"text", "label"=>"Footnote", "help"=>"Footnotes appear under the chart and by data tables", "scope"=>"data"}}{"name"=>"data_geocode_regex", "field"=>{"element"=>"text", "label"=>"GeoCode Regular Expression", "help"=>"A regex on which geocodes to include", "scope"=>"data"}}{"name"=>"data_keywords", "field"=>{"element"=>"text", "label"=>"Search Keywords", "help"=>"Comma separated keywords for search page", "scope"=>"data"}}{"name"=>"data_show_map", "field"=>{"element"=>"checkbox", "label"=>"Show the map when GeoCodes are present?", "help"=>"If this box is checked then the prescence of a GeoCode field will trigger a map", "value"=>false, "scope"=>"data"}}{"name"=>"indicator_sort_order", "field"=>{"element"=>"text", "label"=>"Indicator display order (within Goal page)", "scope"=>"data"}}{"name"=>"graph_type", "field"=>{"element"=>"select", "label"=>"Graph type", "options"=>[{"name"=>"line", "value"=>"line"}, {"name"=>"bar", "value"=>"bar"}], "scope"=>"graph"}}{"name"=>"graph_title", "field"=>{"element"=>"text", "label"=>"Graph Title", "scope"=>"graph"}}{"name"=>"source_active_1", "field"=>{"element"=>"checkbox", "label"=>"Source 1 active", "help"=>"Whether or not to display this source", "value"=>true}}{"name"=>"source_organisation_1", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_1"}}{"name"=>"source_periodicity_1", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_1"}}{"name"=>"source_earliest_available_1", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_1"}}{"name"=>"source_geographical_coverage_1", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_1"}}{"name"=>"source_url_1", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_1"}}{"name"=>"source_url_text_1", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_1"}}{"name"=>"source_release_date_1", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_1"}}{"name"=>"source_next_release_1", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_1"}}{"name"=>"source_statistical_classification_1", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_1"}}{"name"=>"source_contact_1", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_1"}}{"name"=>"source_other_info_1", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_1"}}{"name"=>"source_active_2", "field"=>{"element"=>"checkbox", "label"=>"Source 2 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_2", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_2"}}{"name"=>"source_periodicity_2", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_2"}}{"name"=>"source_earliest_available_2", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_2"}}{"name"=>"source_geographical_coverage_2", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_2"}}{"name"=>"source_url_2", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_2"}}{"name"=>"source_url_text_2", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to Source", "scope"=>"source_2"}}{"name"=>"source_release_date_2", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_2"}}{"name"=>"source_next_release_2", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_2"}}{"name"=>"source_statistical_classification_2", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_2"}}{"name"=>"source_contact_2", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_2"}}{"name"=>"source_other_info_2", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_2"}}{"name"=>"source_active_3", "field"=>{"element"=>"checkbox", "label"=>"Source 3 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_3", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_3"}}{"name"=>"source_periodicity_3", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_3"}}{"name"=>"source_earliest_available_3", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_3"}}{"name"=>"source_geographical_coverage_3", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_3"}}{"name"=>"source_url_3", "field"=>{"element"=>"text", "label"=>"Link to data source", "value"=>"Link to source", "scope"=>"source_3"}}{"name"=>"source_url_text_3", "field"=>{"element"=>"text", "label"=>"Link to data source text", "scope"=>"source_3"}}{"name"=>"source_release_date_3", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_3"}}{"name"=>"source_next_release_3", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_3"}}{"name"=>"source_statistical_classification_3", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_3"}}{"name"=>"source_contact_3", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_3"}}{"name"=>"source_other_info_3", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_3"}}{"name"=>"source_active_4", "field"=>{"element"=>"checkbox", "label"=>"Source 4 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_4", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_4"}}{"name"=>"source_periodicity_4", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_4"}}{"name"=>"source_earliest_available_4", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_4"}}{"name"=>"source_geographical_coverage_4", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_4"}}{"name"=>"source_url_4", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_4"}}{"name"=>"source_url_text_4", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_4"}}{"name"=>"source_release_date_4", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_4"}}{"name"=>"source_next_release_4", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_4"}}{"name"=>"source_statistical_classification_4", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_4"}}{"name"=>"source_contact_4", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_4"}}{"name"=>"source_other_info_4", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_4"}}{"name"=>"source_active_5", "field"=>{"element"=>"checkbox", "label"=>"Source 5 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_5", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_5"}}{"name"=>"source_periodicity_5", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_5"}}{"name"=>"source_earliest_available_5", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_5"}}{"name"=>"source_geographical_coverage_5", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_5"}}{"name"=>"source_url_5", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_5"}}{"name"=>"source_url_text_5", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_5"}}{"name"=>"source_release_date_5", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_5"}}{"name"=>"source_next_release_5", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_5"}}{"name"=>"source_statistical_classification_5", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_5"}}{"name"=>"source_contact_5", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_5"}}{"name"=>"source_other_info_5", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_5"}}{"name"=>"source_active_6", "field"=>{"element"=>"checkbox", "label"=>"Source 6 active", "help"=>"Whether or not to display this source", "value"=>false}}{"name"=>"source_organisation_6", "field"=>{"element"=>"text", "label"=>"Organisation", "scope"=>"source_6"}}{"name"=>"source_periodicity_6", "field"=>{"element"=>"text", "label"=>"Periodicity", "scope"=>"source_6"}}{"name"=>"source_earliest_available_6", "field"=>{"element"=>"text", "label"=>"Earliest available data", "scope"=>"source_6"}}{"name"=>"source_geographical_coverage_6", "field"=>{"element"=>"text", "label"=>"Geographical coverage", "scope"=>"source_6"}}{"name"=>"source_url_6", "field"=>{"element"=>"text", "label"=>"Link to data source", "scope"=>"source_6"}}{"name"=>"source_url_text_6", "field"=>{"element"=>"text", "label"=>"Link to data source text", "value"=>"Link to source", "scope"=>"source_6"}}{"name"=>"source_release_date_6", "field"=>{"element"=>"text", "label"=>"Release date", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_6"}}{"name"=>"source_next_release_6", "field"=>{"element"=>"text", "label"=>"Next release", "help"=>"A date in YYYY-MM-DD format", "placeholder"=>"YYYY-MM-DD", "scope"=>"source_6"}}{"name"=>"source_statistical_classification_6", "field"=>{"element"=>"text", "label"=>"Statistical classification", "scope"=>"source_6"}}{"name"=>"source_contact_6", "field"=>{"element"=>"text", "label"=>"Contact details", "scope"=>"source_6"}}{"name"=>"source_other_info_6", "field"=>{"element"=>"textarea", "label"=>"Other information", "scope"=>"source_6"}}</p>-->
+<table class="table table-hover">
   
   
   
@@ -554,112 +732,221 @@ var translations = {
   
       
       <tr>
-        <th scope="row">Indicator name </th>
-        <td>
-          
-            (a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults
-          
-        </td>
-        </tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
         
-      
-  
-      
-      <tr>
-        <th scope="row">Indicator number </th>
-        <td>
-          
-            8.10.1
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Target name </th>
-        <td>
-          
-            Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Target number </th>
-        <td>
-          
-            8.10
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Global indicator description </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">UN designated tier </th>
-        <td>
-          
-            1
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">UN custodian agency </th>
-        <td>
-          
-            IMF
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to UN metadata </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 525kB) <span class="visuallyhidden">deschide într-o fereastră nouă</span>
-              </a>
-            
+        <!--#22 additionalDataAsEmbedded---stop----------->
 
           
-        </td>
-        </tr>
+
+            <th scope="row" height="" >Indicator name</th>
+
+            <td colspan="4">
+              
+                <p>(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
         
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
       
+
+    
   
       
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Indicator number</th>
+
+            <td colspan="4">
+              
+                <p>8.10.1</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
       
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Target name</th>
+
+            <td colspan="4">
+              
+                <p>Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Target number</th>
+
+            <td colspan="4">
+              
+                <p>8.10</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >UN designated tier</th>
+
+            <td colspan="4">
+              
+                <p>1</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >UN custodian agency</th>
+
+            <td colspan="4">
+              
+                <p>IMF</p>
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+      <tr>
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+
+          
+
+            <th scope="row" height="" >Link to UN metadata</th>
+
+            <td colspan="4">
+              
+                
+                
+                
+                
+
+                
+                  <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf" target="_blank">
+                    United Nations Sustainable Development Goals Metadata (pdf 525kB) <span class="visuallyhidden">deschide într-o fereastră nouă</span>
+                  </a>
+                
+
+              
+            </td>
+
+          
+
+        <!--#22 additionalDataAsEmbedded---start---------->
+        
+        <!--#22 additionalDataAsEmbedded---stop----------->
+      </tr>
+      
+
+    
+  
+      
+
+    
   
   
   
@@ -758,6 +1045,7 @@ var translations = {
               </article>
             </div>
           </div>
+
           <div role="tabpanel" class="tab-pane" id="sources">
             <!-- Count the non-empty sources (up to 5) -->
 
@@ -784,28 +1072,20 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:test@example.com">Contacte</a>
-        
-          | <a class="twitter-follow-button" href="https://twitter.com/MyTwitterAccount" data-show-count="false">
-              @MyTwitterAccount
-            </a>
-        
+        <a href="https://statistica.gov.md/pageview.php?l=ro&idc=24&id=2552" target="_blank">Contacte</a> 
+		| <a class="twitter-follow-button" href="https://twitter.com/statisticamd?lang=ro" data-show-count="false"><i class="fa fa-twitter" aria-hidden="true"></i>@statisticamd</a>
+		| <a class="facebook-follow-button" href="https://www.facebook.com/statistica.md/" data-show-count="false"><i class="fa fa-facebook" aria-hidden="true"></i>@BNS</a>
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/open-sdg-site-starter/faq/">FAQ</a> | <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+        <a href="/open-sdg-site-starter/ro/faq/">FAQ</a> | <a href="/open-sdg-site-starter/ro/imprint/"></a>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
@@ -820,11 +1100,8 @@ var translations = {
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-<script>
-  var remoteDataBaseUrl = 'https://statisticamd.github.io/open-sdg-data-starter';
-</script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200323000247'></script>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200323143854'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -834,7 +1111,7 @@ $(function() {
       });
 
       $.ajax({
-        url: 'https://statisticamd.github.io/open-sdg-data-starter/comb/' + domData.id + '.json',
+        url: opensdg.remoteDataBaseUrl + '/comb/' + domData.id + '.json',
         success: function(res) {
 
           $('.async-loading').remove();
@@ -854,7 +1131,8 @@ $(function() {
             geographicalArea: domData.geographicalarea,
             showData: domData.showdata,
             footnote: domData.footnote,
-            graphType: domData.graphtype
+            graphType: domData.graphtype,
+            startValues: domData.startvalues
           }),
           view  = new indicatorView(model, {
             rootElement: '#indicatorData',
@@ -883,5 +1161,4 @@ $(function() {
 
 </body>
 </html>
-
 

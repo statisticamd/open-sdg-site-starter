@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CString.prototype.includes"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://statisticamd.github.io/open-sdg-data-starter',
+
+  // A hook which can be replaced to modify the configuration for Chart.js.
+  // To see where this is used, see indicatorView.js createPlot() and updatePlot().
+  // To see an example of replacing it, see binary.html.
+  chartConfigAlter: function(config) {
+    // Alterations go here.
+    return config;
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
         <script>
 // JavaScript container for translation data.
 var translations = {
@@ -13,12 +46,12 @@ var translations = {
 
     // The majority of uses of this function are to translate disaggregation
     // data. To spare data providers of needing to enter "data." in front of
-    // their disaggregation data, we do it for them here.
-    var originalKey = key;
-    if (!key.includes('.') && this.data) {
-      key = 'data.' + key.toLowerCase();
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
     }
 
+    var originalKey = key;
     var drilled = this;
     var levelsDrilled = 0;
     var levels = key.split('.');
@@ -46,10 +79,8 @@ var translations = {
 };
 </script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- Basic Page Needs
         ================================================== -->
-        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
         ================================================== -->
         <meta name="HandheldFriendly" content="True">
@@ -57,9 +88,22 @@ var translations = {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Title and meta description
         ================================================== -->
+
+        <!---#15 setCorrectTitle---start-------------------->
         
-        <title>Indicators For The Sustainable Development Goals</title>
-        <meta name="description" content="">
+        <!---->
+        
+        <title>
+          
+            Goal 16 - Peace and justice - strong institutions
+          
+        </title>
+        <!---#15 setCorrectTitle---stop--------------------->
+
+        
+          <meta name="description" content= "" >
+        
+
         <meta property="og:description" content="">
         
         <meta name="robots" content="noindex, nofollow">
@@ -75,6 +119,7 @@ var translations = {
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
         <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+        <!--<link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/en/favicon.png">--><!-- 192x192, as recommended for Android-->
         <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
@@ -82,20 +127,26 @@ var translations = {
         
 
         
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200323000247">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200323143854">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
-        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
-        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200323000247"></head>
-<body class="language-en">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200323143854"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-en layout-goal-by-target">
 <!-- <div class="container"> -->
+
+
+
+<script>translations['header'] = {"alpha":"Alpha","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
@@ -112,6 +163,7 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
+      <!--<img src="/open-sdg-site-starter/assets/img/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />-->
       <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
     </a>
 
@@ -130,7 +182,13 @@ var translations = {
     <nav class="navbar navbar-default" id="main-nav">
 
       <ul class="top-level">
-        <li><span data-target="menu">Menu</span></li>
+        <li id="menuToggle"
+            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-haspopup="true"
+            aria-expanded="false">
+          <span data-target="menu" tabindex="0"
+          role="navigation">Menu</span>
+        </li>
         <li><span data-target="search">Search</span></li>
       </ul>
 
@@ -151,20 +209,30 @@ var translations = {
 </a>
 <ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/ro/16/">Română</a></li></ul>
 
-        </li></ul>
+        </li><!--<li class="nav-link">
+          <a href="https://sustainabledevelopment-deutschland.github.io/en/">
+            <img class="link_btn" src="https://g205sdgs.github.io/sdg-indicators/public/DNS Wheel.png" title="" alt="Link DNS" style="width:24px;height:24px;"/>
+            <span class="hidden-sm hidden-md hidden-lg">DNS-</span>
+          </a>
+        </li>-->
+
+      </ul>
 
       <div id="search" class="menu-target">
-  <label for="indicator_search">
-    <i class="fa fa-search" aria-hidden="true"></i><span>Search:</span>
-  </label>
   <input id="indicator_search" title="Indicator search" placeholder="Indicator search" data-url="/open-sdg-site-starter/indicators.json" data-pageurl="/open-sdg-site-starter/search/?q=" />
+  <label for="indicator_search">
+    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button><span>Search:</span>
+  </label>
 </div>
-
 
     </nav>
   </div>
 
+
 </header>
+
+
+
 
 
 
@@ -194,6 +262,36 @@ var translations = {
       <li class="active">Goal 16</li>
   
 </ol>
+  <!---#8 addNavigationButtons---start----------------------------------->
+  <!---#8 addNavigationButtons---start------------------------------------->
+
+<!---Indicator page-->
+
+  
+
+  <div class="col-xs-3 col-md-3 col-lg-4">
+    <a href="/open-sdg-site-starter/15" class="btn btn-primary btn-block G16-background" role="button">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i> <b><span class="hidden-sm hidden-xs" style="color:white">Previous Goal</span></b>
+    </a>
+  </div>
+
+  <div class="col-xs-6 col-md-6 col-lg-4">
+  <!--<a href="https://sustainabledevelopment-deutschland.github.io/en/16"-->
+    <a onClick="alert('The platform is not developed')" class="btn btn-primary btn-block G16-background" title="" role="button">
+      <b><span class="hidden-sm hidden-xs" style="color:white">National indicators on Goal 16 </span><span class="visible-sm visible-xs" style="color:white">Goal 16 </span></b>
+    </a>
+  </div>
+
+  <div class="col-xs-3 col-md-3 col-lg-4">
+    <a href="/open-sdg-site-starter/17" class="btn btn-primary btn-block G16-background" role="button">
+      <b><span class="hidden-sm hidden-xs" style="color:white">Next Goal</span></b> <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </a>
+  </div>
+
+
+<!--#8 addNavigationButtons---stop-------------------------------------->
+
+  <!---#8 addNavigationButtons---stop------------------------------------>
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -208,6 +306,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -217,6 +318,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -227,7 +332,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-1-1">
           <span>
             16.1.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -236,6 +341,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -246,7 +355,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-1-2">
           <span>
             16.1.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -255,6 +364,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -265,15 +378,19 @@ var translations = {
         <a href="/open-sdg-site-starter/16-1-3">
           <span>
             16.1.3
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
-          Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months
+          16.1.3 Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months
           
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -284,11 +401,11 @@ var translations = {
         <a href="/open-sdg-site-starter/16-1-4">
           <span>
             16.1.4
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
-          Proportion of population that feel safe walking alone around the area they live
+          16.1.4 Proportion of population that feel safe walking alone around the area they live
           
         </a>
       </div>
@@ -296,6 +413,9 @@ var translations = {
     </div>
   
     
+    
+    <!--
+    -->
     
     <div class="indicator-cards target col-md-6">
       <span>
@@ -306,6 +426,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -316,15 +440,19 @@ var translations = {
         <a href="/open-sdg-site-starter/16-2-1">
           <span>
             16.2.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
-          Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
+          Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
           
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -335,7 +463,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-2-2">
           <span>
             16.2.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -344,6 +472,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -354,11 +486,11 @@ var translations = {
         <a href="/open-sdg-site-starter/16-2-3">
           <span>
             16.2.3
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
-          Proportion of young women and men aged 18–29 years who experienced sexual violence by age 1
+          Proportion of young women and men aged 18-29 years who experienced sexual violence by age 18
           
         </a>
       </div>
@@ -366,6 +498,9 @@ var translations = {
     </div>
   
     
+    
+    <!--
+    -->
     
     <div class="indicator-cards target col-md-6">
       <span>
@@ -376,6 +511,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -386,7 +525,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-3-1">
           <span>
             16.3.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -395,6 +534,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -405,7 +548,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-3-2">
           <span>
             16.3.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -418,6 +561,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -427,6 +573,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -437,7 +587,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-4-1">
           <span>
             16.4.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -446,6 +596,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -456,7 +610,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-4-2">
           <span>
             16.4.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -469,6 +623,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -478,6 +635,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -488,7 +649,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-5-1">
           <span>
             16.5.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -497,6 +658,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -507,7 +672,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-5-2">
           <span>
             16.5.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -520,6 +685,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -529,6 +697,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -539,15 +711,19 @@ var translations = {
         <a href="/open-sdg-site-starter/16-6-1">
           <span>
             16.6.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
-          Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)
+          Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)
           
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -558,7 +734,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-6-2">
           <span>
             16.6.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -571,6 +747,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -580,6 +759,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -590,7 +773,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-7-1">
           <span>
             16.7.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -599,6 +782,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -609,7 +796,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-7-2">
           <span>
             16.7.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -622,6 +809,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -631,6 +821,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -641,7 +835,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-8-1">
           <span>
             16.8.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -654,6 +848,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -663,6 +860,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -673,7 +874,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-9-1">
           <span>
             16.9.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -686,6 +887,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -695,6 +899,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -705,7 +913,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-10-1">
           <span>
             16.10.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -714,6 +922,10 @@ var translations = {
         </a>
       </div>
     
+
+      
+      
+      
       
       
       
@@ -724,7 +936,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-10-2">
           <span>
             16.10.2
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -737,6 +949,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -746,6 +961,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -756,7 +975,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-a-1">
           <span>
             16.a.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -769,6 +988,9 @@ var translations = {
   
     
     
+    <!--
+    -->
+    
     <div class="indicator-cards target col-md-6">
       <span>
         <label class="hidden-md hidden-lg">Target</label>
@@ -778,6 +1000,10 @@ var translations = {
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
+
+      
+      
+      
       
       
       
@@ -788,7 +1014,7 @@ var translations = {
         <a href="/open-sdg-site-starter/16-b-1">
           <span>
             16.b.1
-            <span class="status danger">
+            <span class="status notstarted">
               Exploring data sources
             </span>
           </span>
@@ -805,28 +1031,20 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:test@example.com">Contact us</a>
-        
-          | <a class="twitter-follow-button" href="https://twitter.com/MyTwitterAccount" data-show-count="false">
-              @MyTwitterAccount
-            </a>
-        
+        <a href="https://statistica.gov.md/pageview.php?l=ro&idc=24&id=2552" target="_blank">Contact us</a> 
+		| <a class="twitter-follow-button" href="https://twitter.com/statisticamd?lang=ro" data-show-count="false"><i class="fa fa-twitter" aria-hidden="true"></i>@statisticamd</a>
+		| <a class="facebook-follow-button" href="https://www.facebook.com/statistica.md/" data-show-count="false"><i class="fa fa-facebook" aria-hidden="true"></i>@BNS</a>
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/open-sdg-site-starter/faq/">FAQ</a> | <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+        <a href="/open-sdg-site-starter/faq/">FAQ</a> | <a href="/open-sdg-site-starter/imprint/"></a>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
-<!-- Google Analytics -->
-
-<!-- /.container </div> -->
 <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
@@ -841,11 +1059,8 @@ var translations = {
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-<script>
-  var remoteDataBaseUrl = 'https://statisticamd.github.io/open-sdg-data-starter';
-</script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200323000247'></script>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200323143854'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -855,7 +1070,7 @@ $(function() {
       });
 
       $.ajax({
-        url: 'https://statisticamd.github.io/open-sdg-data-starter/comb/' + domData.id + '.json',
+        url: opensdg.remoteDataBaseUrl + '/comb/' + domData.id + '.json',
         success: function(res) {
 
           $('.async-loading').remove();
@@ -875,7 +1090,8 @@ $(function() {
             geographicalArea: domData.geographicalarea,
             showData: domData.showdata,
             footnote: domData.footnote,
-            graphType: domData.graphtype
+            graphType: domData.graphtype,
+            startValues: domData.startvalues
           }),
           view  = new indicatorView(model, {
             rootElement: '#indicatorData',
