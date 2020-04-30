@@ -1,24 +1,24 @@
 [{
     "goal": {
       "id": "1",
-      "title": "Pune capăt sărăciei în toate formele sale peste tot",
+      "title": "Eradicarea sărăciei în toate formele sale şi în orice context",
       "indicators": [{
           "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "title": "Indicele sărăciei multidimensionale, pe sexe şi copii",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-2-2",
           "status": "complete"
         },{
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "title": "Ponderea populației adulte cu drepturi sigure, legal recunoscute, de proprietate asupra terenurilor, care își percepe drepturile sale asupra pământului ca fiind sigure, pe sexe și tipul drepturilor",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-4-2",
           "status": "notstarted"
         },{
           "id": "1-1-1",
-          "title": "Proporția populației sub pragul sărăciei internaționale, în funcție de sex, vârstă, statut de angajare și locație geografică (urban / rural)",
+          "title": "Ponderea populației aflate sub pragul internațional al sărăciei, pe sexe, grupe de vârstă, statut ocupațional și mediu de reședință (urban/rural)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-1-1",
@@ -39,7 +39,7 @@
           "status": "notstarted"
         },{
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "title": "Valoarea pierderilor economice directe în urma situațiilor excepționale raportate la PIB",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-5-2",
@@ -53,14 +53,14 @@
           "status": "notstarted"
         },{
           "id": "1-3-1",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
+          "title": "Ponderea populației care beneficiază de sistemul de protecție socială, pe sexe,  copii, șomeri, persoane în vârstă, persoane cu dizabilități, femei însărcinate, nou-născuți, victime ale accidentelor de muncă, săracii și persoanele vulnerabile",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-3-1",
           "status": "notstarted"
         },{
           "id": "1-4-1",
-          "title": "Proportion of population living in households with access to basic services",
+          "title": "Ponderea populației care locuiește în gospodării casnice cu acces la servicii de bază",
           "description": "Indicator description",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-4-1",
@@ -74,7 +74,7 @@
           "status": "notstarted"
         },{
           "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "title": "Rata sărăciei absolute, pe sexe și vârste",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-2-1",
@@ -88,7 +88,7 @@
           "status": "complete"
         },{
           "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "Număr de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-5-1",
@@ -112,7 +112,7 @@
   },{
     "goal": {
       "id": "2",
-      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "title": "Eradicarea foametei, asigurarea securităţii alimentare, îmbunătăţirea nutriţiei şi promovarea unei agriculturi durabile",
       "indicators": [{
           "id": "2-3-2",
           "title": "Average income of small-scale food producers, by sex and indigenous status",
@@ -209,7 +209,7 @@
   },{
     "goal": {
       "id": "3",
-      "title": "Ensure healthy lives and promote well-being for all at all ages",
+      "title": "Asigurarea unei vieţi sănătoase şi promovarea bunăstării tuturor la orice vârstă",
       "indicators": [{
           "id": "3-3-5",
           "title": "Number of people requiring interventions against neglected tropical diseases",
@@ -404,7 +404,7 @@
   },{
     "goal": {
       "id": "4",
-      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+      "title": "Garantarea unei educaţii de calitate şi promovarea oportunităţilor de învăţare de-a lungul vieţii pentru toţi",
       "indicators": [{
           "id": "4-1-1",
           "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
@@ -487,7 +487,7 @@
   },{
     "goal": {
       "id": "5",
-      "title": "Achieve gender equality and empower all women and girls",
+      "title": "Realizarea egalităţii de gen şi împuternicirea tuturor femeilor şi a fetelor",
       "indicators": [{
           "id": "5-c-1",
           "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
@@ -591,7 +591,7 @@
   },{
     "goal": {
       "id": "6",
-      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "title": "Asigurarea disponibilităţii şi managementului durabil al apei şi sanitaţie pentru toţi",
       "indicators": [{
           "id": "6-3-2",
           "title": "Proportion of bodies of water with good ambient water quality",
@@ -674,7 +674,7 @@
   },{
     "goal": {
       "id": "7",
-      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "title": "Asigurarea accesului tuturor la energie la preţuri accesibile, într-un mod sigur, durabil şi modern",
       "indicators": [{
           "id": "7-1-1",
           "title": "Proportion of population with access to electricity",
@@ -722,7 +722,7 @@
   },{
     "goal": {
       "id": "8",
-      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "title": "Promovarea unei creşteri economice susţinute, deschise tuturor şi durabile, a ocupării depline şi productive a forţei de muncă şi a unei munci decente pentru toţi",
       "indicators": [{
           "id": "8-8-1",
           "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
@@ -847,7 +847,7 @@
   },{
     "goal": {
       "id": "9",
-      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+      "title": "Construirea unor infrastructuri rezistente, promovarea industrializării durabile şi încurajarea inovaţiei",
       "indicators": [{
           "id": "9-2-2",
           "title": "Manufacturing employment as a proportion of total employment",
@@ -937,7 +937,7 @@
   },{
     "goal": {
       "id": "10",
-      "title": "Reducerea inegalității în interiorul și între țări",
+      "title": "Reducerea inegalităţilor în interiorul ţărilor şi de la o ţară la alta",
       "indicators": [{
           "id": "10-6-1",
           "title": "Proportion of members and voting rights of developing countries in international organizations",
@@ -1020,7 +1020,7 @@
   },{
     "goal": {
       "id": "11",
-      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+      "title": "Dezvoltarea oraşelor şi a aşezărilor umane pentru ca ele să fie deschise tuturor, sigure, reziliențe şi durabile",
       "indicators": [{
           "id": "11-7-1",
           "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
@@ -1131,7 +1131,7 @@
   },{
     "goal": {
       "id": "12",
-      "title": "Ensure sustainable consumption and production patterns",
+      "title": "Asigurarea unor tipare de consum şi producţie durabile",
       "indicators": [{
           "id": "12-4-1",
           "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
@@ -1228,7 +1228,7 @@
   },{
     "goal": {
       "id": "13",
-      "title": "Take urgent action to combat climate change and its impacts",
+      "title": "Luarea unor măsuri urgente de combatere a schimbărilor climatice şi a impactului lor",
       "indicators": [{
           "id": "13-a-1",
           "title": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment",
@@ -1290,7 +1290,7 @@
   },{
     "goal": {
       "id": "14",
-      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+      "title": "Conservarea şi utilizarea durabilă a oceanelor, mărilor şi a resurselor marine pentru o dezvoltare durabilă",
       "indicators": [{
           "id": "14-7-1",
           "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
@@ -1366,7 +1366,7 @@
   },{
     "goal": {
       "id": "15",
-      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "title": "Protejarea, restaurarea şi promovarea utilizării durabile a ecosistemelor terestre, gestionarea durabilă a pădurilor, combaterea deșertificării, stoparea şi repararea degradării solului și stoparea pierderilor de biodiversitate",
       "indicators": [{
           "id": "15-4-1",
           "title": "Coverage by protected areas of important sites for mountain biodiversity",
@@ -1470,7 +1470,7 @@
   },{
     "goal": {
       "id": "16",
-      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "title": "Promovarea unor societăți pașnice și incluzive pentru o dezvoltare durabilă, a accesului la justiție pentru toţi şi crearea unor instituţii eficiente, responsabile şi incluzive la toate nivelurile",
       "indicators": [{
           "id": "16-2-2",
           "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
@@ -1637,7 +1637,7 @@
   },{
     "goal": {
       "id": "17",
-      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "title": "Consolidarea mijloacelor de implementare și revitalizarea parteneriatului global pentru dezvoltare durabilă",
       "indicators": [{
           "id": "17-6-1",
           "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
