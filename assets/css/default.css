@@ -82,7 +82,6 @@ header {
     padding: 4px;
     position: absolute;
     top: -1px;
-    right: 0;
     display: inline; }
 .results .indicator-cards .tags {
   padding: 0;
@@ -929,7 +928,6 @@ h5 + .btn-download {
       padding: 4px;
       position: absolute;
       top: -1px;
-      right: 0;
       display: inline; }
   #main-content.goal-indicators .indicator-cards .tags {
     padding: 0;
