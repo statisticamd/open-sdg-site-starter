@@ -4,21 +4,21 @@
       "title": "Eradicarea sărăciei în toate formele sale şi în orice context",
       "indicators": [{
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
+          "title": "Număr de țări care adoptă și implementează strategii naționale de reducerea a riscurilor de dezastre, aliniat la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015-2030",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-5-3",
           "status": "notstarted"
         },{
           "id": "1-5-1",
-          "title": "Număr de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "title": "Numărul de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-5-1",
           "status": "notstarted"
         },{
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "Ponderea cheltuielilor publice pentru servicii esențiale (educație, sănătate și protecție socială)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-a-2",
@@ -32,21 +32,21 @@
           "status": "complete"
         },{
           "id": "1-2-1",
-          "title": "Rata sărăciei absolute, pe sexe și vârste",
+          "title": "Ponderea populației  aflate sub pragul național al sărăciei, pe sexe și vârste",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-2-1",
           "status": "complete"
         },{
           "id": "1-3-1",
-          "title": "Ponderea populației care beneficiază de sistemul de protecție socială, pe sexe,  copii, șomeri, persoane în vârstă, persoane cu dizabilități, femei însărcinate, nou-născuți, victime ale accidentelor de muncă, săracii și persoanele vulnerabile",
+          "title": "Ponderea populației care beneficiază de sistemul de protecție socială, pe sexe, copii, șomeri, persoane în vârstă, persoane cu dizabilități, femei însărcinate, nou-născuți, victime ale accidentelor de muncă, săracii și persoanele vulnerabile",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-3-1",
           "status": "notstarted"
         },{
           "id": "1-a-1",
-          "title": "Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes",
+          "title": "Ponderea mijoacelor alocate din bugetul public național pentru programele de reducere a sărăciei",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-a-1",
@@ -60,14 +60,14 @@
           "status": "complete"
         },{
           "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
+          "title": "Suma granturilor totale și intrărilor financiare care nu creează datorii, alocate programelor de reducere a sărăciei ca proporție din PIB",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-a-3",
           "status": "notstarted"
         },{
           "id": "1-b-1",
-          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
+          "title": "Ponderea cheltuielilor publice recurente și capitale pentru sectoarele care induc beneficii în mod disproporțional pentru femei, săraci și grupurile vulnerabile",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-b-1",
@@ -88,21 +88,21 @@
           "status": "complete"
         },{
           "id": "1-4-2",
-          "title": "Ponderea populației adulte cu drepturi sigure, legal recunoscute, de proprietate asupra terenurilor, care își percepe drepturile sale asupra pământului ca fiind sigure, pe sexe și tipul drepturilor",
+          "title": "Ponderea populației adulte cu drepturi garantate de proprietate asupra terenurilor, cu documente (a) legal recunoscute și (b) care își percepe drepturile sale asupra pământului ca fiind sigure, pe sexe și tipul de proprietate funciară",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-4-2",
           "status": "notstarted"
         },{
           "id": "1-2-2",
-          "title": "Indicele sărăciei multidimensionale, pe sexe şi copii",
+          "title": "Ponderea bărbaților, femeilor și copiilor de toate vârstele care trăiesc în sărăcie, în toate dimensiunile acesteia, conform definițiilor naționale",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-2-2",
           "status": "complete"
         },{
           "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
+          "title": "Proporția autoritatilor publice locale care adoptă și implementează strategii locale de reducere a riscurilor de dezastre în conformitate cu strategiile naționale de reducere a riscurilor de dezastre",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-5-4",
@@ -940,77 +940,77 @@
       "title": "Reducerea inegalităţilor în interiorul ţărilor şi de la o ţară la alta",
       "indicators": [{
           "id": "10-4-1",
-          "title": "Labour share of GDP, comprising wages and social protection transfers",
+          "title": "Ponderea costului forței de muncă în PIB, cuprinzând salariile și transferurile de protecție socială",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-4-1",
           "status": "notstarted"
         },{
           "id": "10-6-1",
-          "title": "Proportion of members and voting rights of developing countries in international organizations",
+          "title": "Proporția  membrilor și drepturile de vot ale țărilor în curs de dezvoltare în cadrul organizațiilor internaționale",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-6-1",
           "status": "notstarted"
         },{
           "id": "10-c-1",
-          "title": "Remittance costs as a proportion of the amount remitted",
+          "title": "Costurile de remitere ca proporție din suma încasată",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-c-1",
           "status": "notstarted"
         },{
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
+          "title": "Ponderea costurilor de angajare la muncă peste hotare în veniturile lunare în țara de destinație",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-7-1",
           "status": "notstarted"
         },{
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "Ponderea populației care a comunicat că în ultimele 12 luni s-a simțit vreodată discriminată sau hărțuită în baza unui motiv interzis de dreptul internațional al drepturilor omului",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-3-1",
           "status": "notstarted"
         },{
           "id": "10-7-2",
-          "title": "Number of countries that have implemented well-managed migration policies",
+          "title": "Numărul țărilor cu politici naționale eficiente  privind migrația, care facilitează migrația și mobilitatea reglementată, în siguranță, ordonată și responsabilă a populației",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-7-2",
           "status": "notstarted"
         },{
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "Proporția de persoane care trăiesc sub 50% din venitul mediu, pe sexe, vârstă, persoane cu dizabilități",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-2-1",
           "status": "notstarted"
         },{
           "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "title": "Proporția liniilor tarifare aplicate la „cota zero” la importurile de mărfuri din țările subdezvoltate și celor în curs de dezvoltare",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-a-1",
           "status": "notstarted"
         },{
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "Indicatorii de stabilitate financiară",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-5-1",
           "status": "notstarted"
         },{
           "id": "10-b-1",
-          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
+          "title": "Fluxurile totale de resurse pentru dezvoltare, pe țări beneficiare și țări donatoare și tip de fluxuri (de ex. asistența oficială pentru dezvoltare, investiții străine directe și alte fluxuri)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-b-1",
           "status": "notstarted"
         },{
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+          "title": "Ritmul de creștere a cheltuielilor de consum sau veniturilor gospodăriilor pe o persoană ale 40% din populația cel mai puțin asigurată și populației și per total țară",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/10-1-1",
