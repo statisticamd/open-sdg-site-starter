@@ -130,7 +130,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200625161823">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200625165411">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200625161823"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200625165411"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ro layout-goal-by-target">
@@ -146,14 +146,14 @@ var translations = {
 
 
 
-<script>translations['header'] = {"alpha":"Alpha","disclaimer":"Acesta este un site web de dezvoltare. Vă salutăm <a href=\"mailto:%email_address\">feedback</a>.","skip_link":"Salt la conținutul principal","tag_line":"17 Obiective pentru transformarea lumii noastre"};</script>
+<script>translations['header'] = {"alpha":"Alfa","disclaimer":"Acesta este un site web în dezvoltare. Vă salutăm<a href=\"mailto:%email_address\">feedback</a>.","skip_link":"Salt la conținutul principal","tag_line":"17 Obiective pentru transformarea lumii","enable_high_contrast":"Activare contrast înalt","disable_high_contrast":"Dezactivare contrast înalt"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Salt la conținutul principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag">Alpha</strong>
-    Acesta este un site web de dezvoltare. Vă salutăm <a href="mailto:test@example.com">feedback</a>.
+    <strong class="phase-tag">Alfa</strong>
+    Acesta este un site web în dezvoltare. Vă salutăm<a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -163,8 +163,8 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/open-sdg-site-starter/ro/" id="home">
-      <!--<img src="/open-sdg-site-starter/assets/img/ro/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii noastre" />-->
-      <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii noastre" />
+      <!--<img src="/open-sdg-site-starter/assets/img/ro/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii" />-->
+      <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Obiective de Dezvoltare Durabilă - 17 Obiective pentru transformarea lumii" />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -189,15 +189,15 @@ var translations = {
           <span data-target="menu" tabindex="0"
           role="navigation">Menu</span>
         </li>
-        <li><span data-target="search">Cauta</span></li>
+        <li><span data-target="search">Căutare</span></li>
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/open-sdg-site-starter/ro/reporting-status">Reporting Status</a>
+            <a href="/open-sdg-site-starter/ro/reporting-status">Statutul raportării</a>
           </li><li class="nav-link ">
             <a href="/open-sdg-site-starter/ro/about">Despre</a>
           </li><li class="nav-link ">
-            <a href="/open-sdg-site-starter/ro/guidance">Guidance</a>
+            <a href="/open-sdg-site-starter/ro/guidance">Ghiduri</a>
           </li><li class="nav-link ">
             <a href="/open-sdg-site-starter/ro/faq">FAQ</a>
           </li><li>
@@ -219,9 +219,9 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <input id="indicator_search" title="Cauta indicator" placeholder="Cauta indicator" data-url="/open-sdg-site-starter/ro/indicators.json" data-pageurl="/open-sdg-site-starter/ro/search/?q=" />
+  <input id="indicator_search" title="Căutare indicator" placeholder="Căutare indicator" data-url="/open-sdg-site-starter/ro/indicators.json" data-pageurl="/open-sdg-site-starter/ro/search/?q=" />
   <label for="indicator_search">
-    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button><span>Cauta:</span>
+    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button><span>Căutare:</span>
   </label>
 </div>
 
@@ -333,7 +333,7 @@ var translations = {
           <span>
             15.1.1&nbsp;&nbsp;
             <span class="status complete">
-              Reported online
+              Raportat online
             </span>
           </span>
           Forest area as a proportion of total land area
@@ -373,7 +373,7 @@ var translations = {
           <span>
             15.1.2&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
@@ -413,7 +413,7 @@ var translations = {
           <span>
             15.2.1&nbsp;&nbsp;
             <span class="status complete">
-              Reported online
+              Raportat online
             </span>
           </span>
           Progress towards sustainable forest management
@@ -453,7 +453,7 @@ var translations = {
           <span>
             15.3.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Proportion of land that is degraded over total land area
@@ -493,7 +493,7 @@ var translations = {
           <span>
             15.4.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Coverage by protected areas of important sites for mountain biodiversity
@@ -517,7 +517,7 @@ var translations = {
           <span>
             15.4.2&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Mountain Green Cover Index
@@ -557,7 +557,7 @@ var translations = {
           <span>
             15.5.1&nbsp;&nbsp;
             <span class="status complete">
-              Reported online
+              Raportat online
             </span>
           </span>
           Red List Index
@@ -597,7 +597,7 @@ var translations = {
           <span>
             15.6.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits
@@ -637,7 +637,7 @@ var translations = {
           <span>
             15.7.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Proportion of traded wildlife that was poached or illicitly trafficked
@@ -677,7 +677,7 @@ var translations = {
           <span>
             15.8.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species
@@ -717,7 +717,7 @@ var translations = {
           <span>
             15.9.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020
@@ -757,7 +757,7 @@ var translations = {
           <span>
             15.a.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems
@@ -797,7 +797,7 @@ var translations = {
           <span>
             15.b.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems
@@ -837,7 +837,7 @@ var translations = {
           <span>
             15.c.1&nbsp;&nbsp;
             <span class="status notstarted">
-              Exploring data sources
+              Explorarea surselor de date
             </span>
           </span>
           Proportion of traded wildlife that was poached or illicitly trafficked
@@ -883,7 +883,7 @@ var translations = {
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200625161823'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200625165411'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
