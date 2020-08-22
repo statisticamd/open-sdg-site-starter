@@ -130,7 +130,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200822000251">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20200822111417">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200822000251"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200822111417"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ro layout-goal-by-target">
@@ -384,7 +384,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          Passenger and freight volumes, by mode of transport
+          Parcursul mărfurilor transportate, după modul de transport (aerian, rutier, feroviar, fluvial), miltone-km
           
             <ul class="tags">
             
@@ -415,7 +415,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          Passenger and freight volumes, by mode of transport
+          Parcursul pasagerilor transportați, după modul de transport (aerian, rutier, feroviar și fluvial), milpasageri-km
           
             <ul class="tags">
             
@@ -478,15 +478,22 @@ var translations = {
       
       
 
-      <div class="col-md-12 ">
-        <a href="/open-sdg-site-starter/ro/9-2-1">
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/open-sdg-site-starter/ro/9-2-1-1">
           <span>
-            9.2.1&nbsp;&nbsp;
-            <span class="status notstarted">
-              Explorarea surselor de date
+            9.2.1.1&nbsp;&nbsp;
+            <span class="status complete">
+              Raportat online
             </span>
           </span>
-          Valoarea adăugată brută în industria prelucrătoare ca proporție în PIB și pe persoană
+          Valoarea adăugată brută în industria  prelucrătoare ca proporţie în PIB, % (MDL,  prețuri curente)
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">Național</li>
+            
+            </ul>
           
         </a>
 	  <br>&nbsp;
@@ -502,15 +509,22 @@ var translations = {
       
       
 
-      <div class="col-md-12 ">
-        <a href="/open-sdg-site-starter/ro/9-2-1">
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/open-sdg-site-starter/ro/9-2-1-2">
           <span>
-            9.2.1&nbsp;&nbsp;
-            <span class="status notstarted">
-              Explorarea surselor de date
+            9.2.1.2&nbsp;&nbsp;
+            <span class="status complete">
+              Raportat online
             </span>
           </span>
-          Valoarea adăugată brută în industria prelucrătoare ca proporție în PIB și pe persoană
+          Valoarea adăugată brută în industria prelucratoare per populație ocupată în industria prelucrătoare, MDL, prețuri constante
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">Național</li>
+            
+            </ul>
           
         </a>
 	  <br>&nbsp;
@@ -534,7 +548,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          Manufacturing value added as a proportion of GDP and per capita
+          Valoarea adăugată brută  în industria prelucrătoare ca proporție în PIB, prețuri curente
           
             <ul class="tags">
             
@@ -565,7 +579,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          Manufacturing value added as a proportion of GDP and per capita
+          Valoarea adăugată brută în industria prelucrătoare per populație ocupată în industrie, prețuri constante
           
             <ul class="tags">
             
@@ -659,51 +673,20 @@ var translations = {
       
       
 
-      <div class="col-md-12 indicator-global-adjusted">
-        <a href="/open-sdg-site-starter/ro/9-3-1">
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/open-sdg-site-starter/ro/9-3-1-1">
           <span>
-            9.3.1&nbsp;&nbsp;
+            9.3.1.1&nbsp;&nbsp;
             <span class="status complete">
               Raportat online
             </span>
           </span>
-          Proporția industriilor de scară mică în valoarea adăugată totală a industriei
+          Contribuția valorii adăugate brute a ÎMM în total valoarea adăugată brută
           
             <ul class="tags">
             
               
-              <li class="tag-global-adjusted warning">Global adjusted</li>
-            
-            </ul>
-          
-        </a>
-	  <br>&nbsp;
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12 indicator-global-adjusted">
-        <a href="/open-sdg-site-starter/ro/9-3-2">
-          <span>
-            9.3.2&nbsp;&nbsp;
-            <span class="status complete">
-              Raportat online
-            </span>
-          </span>
-          Proporția industriilor de scară mică care au accesat credite sau împrumuturi
-          
-            <ul class="tags">
-            
-              
-              <li class="tag-global-adjusted warning">Global adjusted</li>
+              <li class="tag-custom-national warning">Național</li>
             
             </ul>
           
@@ -735,6 +718,37 @@ var translations = {
             
               
               <li class="tag-custom-adjusted warning">Global ajustat</li>
+            
+            </ul>
+          
+        </a>
+	  <br>&nbsp;
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/open-sdg-site-starter/ro/9-3-2-1">
+          <span>
+            9.3.2.1&nbsp;&nbsp;
+            <span class="status complete">
+              Raportat online
+            </span>
+          </span>
+          Ponderea valorii creditelor și împrumuturilor accesate de întreprinderile mici (până la 49 salariați) pe parcursul anului în total valoarea creditelor si împrumuturilor accesate de către întreprinderi,  inclusiv pe sectorul industrie
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">Național</li>
             
             </ul>
           
@@ -792,15 +806,22 @@ var translations = {
       
       
 
-      <div class="col-md-12 ">
-        <a href="/open-sdg-site-starter/ro/9-4-1">
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/open-sdg-site-starter/ro/9-4-1-1">
           <span>
-            9.4.1&nbsp;&nbsp;
-            <span class="status notstarted">
-              Explorarea surselor de date
+            9.4.1.1&nbsp;&nbsp;
+            <span class="status complete">
+              Raportat online
             </span>
           </span>
-          Emisiile de CO2 per unitate de valoarea adăugată
+          Emisiile totale de CO2, pe sectoare, mii tone CO2 echivalent
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">Național</li>
+            
+            </ul>
           
         </a>
 	  <br>&nbsp;
@@ -824,7 +845,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          CO2 emission per unit of value added
+          Emisiile totale de CO2 provenite de la arderea combustibilului
           
             <ul class="tags">
             
@@ -855,7 +876,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          CO2 emission per unit of value added
+          Emisiile totale de CO2 raportate la o unitate de PIB
           
             <ul class="tags">
             
@@ -886,7 +907,7 @@ var translations = {
               Raportat online
             </span>
           </span>
-          CO2 emission per unit of value added
+          Emisiile de CO2 generate de sectorul industrial raportat la valoarea adăugată brută în industrie
           
             <ul class="tags">
             
@@ -1141,7 +1162,7 @@ var translations = {
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200822000251'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200822111417'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
