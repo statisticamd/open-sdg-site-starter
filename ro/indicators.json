@@ -3,186 +3,11 @@
       "id": "1",
       "title": "Eradicarea sărăciei în toate formele sale şi în orice context",
       "indicators": [{
-          "id": "1-a-2-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-2-a",
-          "status": "complete"
-        },{
-          "id": "1-2-1",
-          "title": "Ponderea populației  aflate sub pragul național al sărăciei, pe sexe și vârste",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-2-1",
-          "status": "notstarted"
-        },{
-          "id": "1-4-1",
-          "title": "Ponderea populației care locuiește în gospodării casnice cu acces la servicii de bază",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-4-1",
-          "status": "complete"
-        },{
-          "id": "1-a-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-2-b",
-          "status": "complete"
-        },{
           "id": "1-3-1-b",
           "title": "",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-3-1-b",
-          "status": "complete"
-        },{
-          "id": "1-3-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-a",
-          "status": "complete"
-        },{
-          "id": "1-3-1-f",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-f",
-          "status": "complete"
-        },{
-          "id": "1-b-1",
-          "title": "Ponderea cheltuielilor publice recurente și capitale pentru sectoarele care induc beneficii în mod disproporțional pentru femei, săraci și grupurile vulnerabile",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-b-1",
-          "status": "notstarted"
-        },{
-          "id": "1-5-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-1-c",
-          "status": "complete"
-        },{
-          "id": "1-5-2",
-          "title": "Valoarea pierderilor economice directe în urma situațiilor excepționale raportate la PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-2",
-          "status": "complete"
-        },{
-          "id": "1-a-2",
-          "title": "Ponderea cheltuielilor publice pentru servicii esențiale (educație, sănătate și protecție socială)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-2",
-          "status": "notstarted"
-        },{
-          "id": "1-4-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-4-2-b",
-          "status": "notstarted"
-        },{
-          "id": "1-3-1-d",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-d",
-          "status": "notstarted"
-        },{
-          "id": "1-3-1-g",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-g",
-          "status": "notstarted"
-        },{
-          "id": "1-1-1",
-          "title": "Ponderea populației aflate sub pragul internațional al sărăciei, pe sexe, grupe de vârstă, statut ocupațional și mediu de reședință (urban/rural)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-1-1",
-          "status": "notstarted"
-        },{
-          "id": "1-a-1",
-          "title": "Ponderea mijoacelor alocate din bugetul public național pentru programele de reducere a sărăciei",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-1",
-          "status": "complete"
-        },{
-          "id": "1-5-3-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-3-2",
-          "status": "notstarted"
-        },{
-          "id": "1-2-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-2-2-1",
-          "status": "notstarted"
-        },{
-          "id": "1-4-2",
-          "title": "Ponderea populației adulte cu drepturi garantate de proprietate asupra terenurilor, cu documente (a) legal recunoscute și (b) care își percepe drepturile sale asupra pământului ca fiind sigure, pe sexe și tipul de proprietate funciară",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-4-2",
-          "status": "notstarted"
-        },{
-          "id": "1-3-1-e",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-e",
-          "status": "complete"
-        },{
-          "id": "1-5-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-1-a",
-          "status": "complete"
-        },{
-          "id": "1-a-3",
-          "title": "Suma granturilor totale și intrărilor financiare care nu creează datorii, alocate programelor de reducere a sărăciei ca proporție din PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-3",
-          "status": "notstarted"
-        },{
-          "id": "1-3-1",
-          "title": "Ponderea populației care beneficiază de sistemul de protecție socială, pe sexe, copii, șomeri, persoane în vârstă, persoane cu dizabilități, femei însărcinate, nou-născuți, victime ale accidentelor de muncă, săracii și persoanele vulnerabile",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1",
-          "status": "notstarted"
-        },{
-          "id": "1-5-3",
-          "title": "Număr de țări care adoptă și implementează strategii naționale de reducerea a riscurilor de dezastre, aliniat la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015-2030",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-3",
-          "status": "notstarted"
-        },{
-          "id": "1-5-3-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-3-1",
-          "status": "notstarted"
-        },{
-          "id": "1-3-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-c",
           "status": "complete"
         },{
           "id": "1-a-3-1",
@@ -199,32 +24,32 @@
           "href": "/open-sdg-site-starter/ro/1-3-1-1",
           "status": "complete"
         },{
-          "id": "1-a-2-c",
+          "id": "1-a-2-b",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-a-2-c",
+          "href": "/open-sdg-site-starter/ro/1-a-2-b",
           "status": "complete"
         },{
-          "id": "1-5-1-b",
+          "id": "1-4-2-b",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-1-b",
+          "href": "/open-sdg-site-starter/ro/1-4-2-b",
           "status": "notstarted"
         },{
-          "id": "1-5-1",
-          "title": "Numărul de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "id": "1-5-3-2",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-5-1",
+          "href": "/open-sdg-site-starter/ro/1-5-3-2",
           "status": "notstarted"
         },{
-          "id": "1-2-2",
-          "title": "Ponderea bărbaților, femeilor și copiilor de toate vârstele care trăiesc în sărăcie, în toate dimensiunile acesteia, conform definițiilor naționale",
+          "id": "1-2-1",
+          "title": "Ponderea populației  aflate sub pragul național al sărăciei, pe sexe și vârste",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-2-2",
+          "href": "/open-sdg-site-starter/ro/1-2-1",
           "status": "notstarted"
         },{
           "id": "1-5-4",
@@ -234,18 +59,18 @@
           "href": "/open-sdg-site-starter/ro/1-5-4",
           "status": "notstarted"
         },{
-          "id": "1-4-2-a",
-          "title": "",
+          "id": "1-a-3",
+          "title": "Suma granturilor totale și intrărilor financiare care nu creează datorii, alocate programelor de reducere a sărăciei ca proporție din PIB",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-4-2-a",
+          "href": "/open-sdg-site-starter/ro/1-a-3",
           "status": "notstarted"
         },{
-          "id": "1-3-1-h",
+          "id": "1-3-1-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/1-3-1-h",
+          "href": "/open-sdg-site-starter/ro/1-3-1-a",
           "status": "complete"
         },{
           "id": "1-1-1-a",
@@ -254,6 +79,181 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/1-1-1-a",
           "status": "notstarted"
+        },{
+          "id": "1-5-1",
+          "title": "Numărul de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-1",
+          "status": "notstarted"
+        },{
+          "id": "1-a-2",
+          "title": "Ponderea cheltuielilor publice pentru servicii esențiale (educație, sănătate și protecție socială)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-a-2",
+          "status": "notstarted"
+        },{
+          "id": "1-3-1",
+          "title": "Ponderea populației care beneficiază de sistemul de protecție socială, pe sexe, copii, șomeri, persoane în vârstă, persoane cu dizabilități, femei însărcinate, nou-născuți, victime ale accidentelor de muncă, săracii și persoanele vulnerabile",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1",
+          "status": "notstarted"
+        },{
+          "id": "1-a-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-a-2-a",
+          "status": "complete"
+        },{
+          "id": "1-5-3",
+          "title": "Număr de țări care adoptă și implementează strategii naționale de reducerea a riscurilor de dezastre, aliniat la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-3",
+          "status": "notstarted"
+        },{
+          "id": "1-4-2",
+          "title": "Ponderea populației adulte cu drepturi garantate de proprietate asupra terenurilor, cu documente (a) legal recunoscute și (b) care își percepe drepturile sale asupra pământului ca fiind sigure, pe sexe și tipul de proprietate funciară",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-4-2",
+          "status": "notstarted"
+        },{
+          "id": "1-a-2-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-a-2-c",
+          "status": "complete"
+        },{
+          "id": "1-3-1-h",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-h",
+          "status": "complete"
+        },{
+          "id": "1-b-1",
+          "title": "Ponderea cheltuielilor publice recurente și capitale pentru sectoarele care induc beneficii în mod disproporțional pentru femei, săraci și grupurile vulnerabile",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-b-1",
+          "status": "notstarted"
+        },{
+          "id": "1-3-1-g",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-g",
+          "status": "notstarted"
+        },{
+          "id": "1-1-1",
+          "title": "Ponderea populației aflate sub pragul internațional al sărăciei, pe sexe, grupe de vârstă, statut ocupațional și mediu de reședință (urban/rural)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-1-1",
+          "status": "notstarted"
+        },{
+          "id": "1-5-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-1-c",
+          "status": "complete"
+        },{
+          "id": "1-5-2",
+          "title": "Valoarea pierderilor economice directe în urma situațiilor excepționale raportate la PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-2",
+          "status": "complete"
+        },{
+          "id": "1-2-2",
+          "title": "Ponderea bărbaților, femeilor și copiilor de toate vârstele care trăiesc în sărăcie, în toate dimensiunile acesteia, conform definițiilor naționale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-2-2",
+          "status": "notstarted"
+        },{
+          "id": "1-4-1",
+          "title": "Ponderea populației care locuiește în gospodării casnice cu acces la servicii de bază",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-4-1",
+          "status": "complete"
+        },{
+          "id": "1-5-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-1-b",
+          "status": "notstarted"
+        },{
+          "id": "1-3-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-c",
+          "status": "complete"
+        },{
+          "id": "1-3-1-f",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-f",
+          "status": "complete"
+        },{
+          "id": "1-4-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-4-2-a",
+          "status": "notstarted"
+        },{
+          "id": "1-5-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-3-1",
+          "status": "notstarted"
+        },{
+          "id": "1-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-5-1-a",
+          "status": "complete"
+        },{
+          "id": "1-3-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-e",
+          "status": "complete"
+        },{
+          "id": "1-3-1-d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-3-1-d",
+          "status": "notstarted"
+        },{
+          "id": "1-2-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-2-2-1",
+          "status": "notstarted"
+        },{
+          "id": "1-a-1",
+          "title": "Ponderea mijoacelor alocate din bugetul public național pentru programele de reducere a sărăciei",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/1-a-1",
+          "status": "complete"
         }]
     }
   },{
@@ -261,25 +261,11 @@
       "id": "2",
       "title": "Eradicarea foametei, asigurarea securităţii alimentare, îmbunătăţirea nutriţiei şi promovarea unei agriculturi durabile",
       "indicators": [{
-          "id": "2-3-1",
-          "title": "Volumul producerii per unitate de muncă pe clase de fermieri/păstori/dimensiunea întreprinderii forestiere",
+          "id": "2-2-2-a",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-3-1",
-          "status": "complete"
-        },{
-          "id": "2-b-1",
-          "title": "Subvenții pentru exportul agricol",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-b-1",
-          "status": "notstarted"
-        },{
-          "id": "2-2-1",
-          "title": "Prevalența retardului statural (înălțimea pentru vârstă cu o deviere standard <-2 de la mediana standardelor Organizației Mondiale a Sănătății (OMS) pentru creșterea copiilor) printre copii în vârstă de până la 5 ani",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-2-1",
+          "href": "/open-sdg-site-starter/ro/2-2-2-a",
           "status": "complete"
         },{
           "id": "2-1-1",
@@ -289,12 +275,33 @@
           "href": "/open-sdg-site-starter/ro/2-1-1",
           "status": "notstarted"
         },{
-          "id": "2-2-2-a",
+          "id": "2-5-1",
+          "title": "Numărul de resurse genetice vegetale și animale pentru alimentație și agricultură asigurate în instalații de conservare pe termen mediu sau lung",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/2-5-1",
+          "status": "complete"
+        },{
+          "id": "2-a-1",
+          "title": "Indicele orientării cheltuielilor publice către agricultură",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/2-a-1",
+          "status": "complete"
+        },{
+          "id": "2-3-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-2-2-a",
+          "href": "/open-sdg-site-starter/ro/2-3-1-1",
           "status": "complete"
+        },{
+          "id": "2-2-2",
+          "title": "Prevalența malnutriției (greutatea pentru vârstă cu o deviere standard >+2 sau <-2 de la mediana standardelor OMS pentru creșterea copiilor)  printre copii în vârstă de până la 5 ani, pe tipuri (supraponderal și retard ponderal)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/2-2-2",
+          "status": "notstarted"
         },{
           "id": "2-3-2",
           "title": "Venitul mediu al micilor producători agricoli, pe sexe și statut indigen",
@@ -310,6 +317,13 @@
           "href": "/open-sdg-site-starter/ro/2-5-2",
           "status": "notstarted"
         },{
+          "id": "2-b-1",
+          "title": "Subvenții pentru exportul agricol",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/2-b-1",
+          "status": "notstarted"
+        },{
           "id": "2-1-2",
           "title": "Prevalența insecurității alimentare moderate sau severe în rândul populației, în baza Scării de Experiență în Insecuritatea Alimentară (FIES)",
           "description": "",
@@ -317,25 +331,25 @@
           "href": "/open-sdg-site-starter/ro/2-1-2",
           "status": "complete"
         },{
-          "id": "2-a-1",
-          "title": "Indicele orientării cheltuielilor publice către agricultură",
+          "id": "2-2-1",
+          "title": "Prevalența retardului statural (înălțimea pentru vârstă cu o deviere standard <-2 de la mediana standardelor Organizației Mondiale a Sănătății (OMS) pentru creșterea copiilor) printre copii în vârstă de până la 5 ani",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-a-1",
+          "href": "/open-sdg-site-starter/ro/2-2-1",
           "status": "complete"
         },{
-          "id": "2-c-1",
-          "title": "Indicele anomaliilor în prețurile prețurilor produselor alimentare",
+          "id": "2-a-2",
+          "title": "Volumul fluxurilor oficiale (asistenței oficiale pentru dezvoltare și alte fluxuri) pentru sectorul agricol",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-c-1",
+          "href": "/open-sdg-site-starter/ro/2-a-2",
           "status": "complete"
         },{
-          "id": "2-3-1-1",
-          "title": "",
+          "id": "2-3-1",
+          "title": "Volumul producerii per unitate de muncă pe clase de fermieri/păstori/dimensiunea întreprinderii forestiere",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-3-1-1",
+          "href": "/open-sdg-site-starter/ro/2-3-1",
           "status": "complete"
         },{
           "id": "2-2-2-b",
@@ -345,27 +359,6 @@
           "href": "/open-sdg-site-starter/ro/2-2-2-b",
           "status": "complete"
         },{
-          "id": "2-4-1",
-          "title": "Procent de suprafețe agricole care utilizează practici de agricultură durabilă și productivă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-4-1",
-          "status": "notstarted"
-        },{
-          "id": "2-a-2",
-          "title": "Volumul fluxurilor oficiale (asistenței oficiale pentru dezvoltare și alte fluxuri) pentru sectorul agricol",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-a-2",
-          "status": "complete"
-        },{
-          "id": "2-5-1",
-          "title": "Numărul de resurse genetice vegetale și animale pentru alimentație și agricultură asigurate în instalații de conservare pe termen mediu sau lung",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-5-1",
-          "status": "complete"
-        },{
           "id": "2-b-1-1",
           "title": "",
           "description": "",
@@ -373,11 +366,18 @@
           "href": "/open-sdg-site-starter/ro/2-b-1-1",
           "status": "complete"
         },{
-          "id": "2-2-2",
-          "title": "Prevalența malnutriției (greutatea pentru vârstă cu o deviere standard >+2 sau <-2 de la mediana standardelor OMS pentru creșterea copiilor)  printre copii în vârstă de până la 5 ani, pe tipuri (supraponderal și retard ponderal)",
+          "id": "2-c-1",
+          "title": "Indicele anomaliilor în prețurile prețurilor produselor alimentare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/2-2-2",
+          "href": "/open-sdg-site-starter/ro/2-c-1",
+          "status": "complete"
+        },{
+          "id": "2-4-1",
+          "title": "Procent de suprafețe agricole care utilizează practici de agricultură durabilă și productivă",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/2-4-1",
           "status": "notstarted"
         }]
     }
@@ -386,18 +386,25 @@
       "id": "3",
       "title": "Asigurarea unei vieţi sănătoase şi promovarea bunăstării tuturor la orice vârstă",
       "indicators": [{
-          "id": "3-9-3",
-          "title": "Rata mortalității determinate de intoxicații neintenționate",
+          "id": "3-2-1",
+          "title": "Rata mortalității copiilor în vârstă de până la 5 ani",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-9-3",
+          "href": "/open-sdg-site-starter/ro/3-2-1",
           "status": "complete"
         },{
-          "id": "3-b-2",
-          "title": "Volumul asistenței externe oficiale pentru cercetare-dezvoltare în domeniul sănătății și dezvoltarea sectoarelor de bază în sănătate",
+          "id": "3-8-2-b",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-b-2",
+          "href": "/open-sdg-site-starter/ro/3-8-2-b",
+          "status": "complete"
+        },{
+          "id": "3-5-2",
+          "title": "Consumul nociv de alcool, definit conform contextului național drept consum de alcool per capita (15+ ani) în decurs de un an calendaristic în litri de alcool pur",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-5-2",
           "status": "complete"
         },{
           "id": "3-5-1",
@@ -407,39 +414,60 @@
           "href": "/open-sdg-site-starter/ro/3-5-1",
           "status": "complete"
         },{
-          "id": "3-3-1",
-          "title": "Numărul de noi infecții HIV la 1.000 persoane neinfectate, pe sexe, vârstă și populații cheie",
+          "id": "3-3-4",
+          "title": "Incidența prin hepatita B, la 100 mii populație",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-1",
+          "href": "/open-sdg-site-starter/ro/3-3-4",
           "status": "complete"
         },{
-          "id": "3-a-1",
-          "title": "Prevalența standardizată pe vârstă a consumului de tutun în rândul populației în vârstă de 15 ani și peste",
+          "id": "3-3-5",
+          "title": "Numărul de persoane care necesită intervenții împotriva bolilor tropicale neglijate",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-a-1",
-          "status": "complete"
-        },{
-          "id": "3-3-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-1-1",
-          "status": "complete"
-        },{
-          "id": "3-9-1",
-          "title": "Rata mortalității determinate de poluarea aerului în încăperi și celui ambiant",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-9-1",
+          "href": "/open-sdg-site-starter/ro/3-3-5",
           "status": "notstarted"
         },{
-          "id": "3-8-2-a",
+          "id": "3-3-2",
+          "title": "Incidența prin tuberculoză, la 100 mii populație",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-3-2",
+          "status": "complete"
+        },{
+          "id": "3-8-1",
+          "title": "Acoperirea cu servicii esențiale  de sănătate (definită ca acoperirea medie cu servicii esențiale în baza intervențiilor de urmărire, care includ sănătatea reproductivă, maternă, a nou-născuților și copiilor, bolile infecțioase, bolile netransmisibile, precum și capacitarea și accesul serviciului, în rândul populației generale și celor mai dezavantajate populații)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-8-1",
+          "status": "notstarted"
+        },{
+          "id": "3-8-2-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-2-a",
+          "href": "/open-sdg-site-starter/ro/3-8-2-1",
+          "status": "complete"
+        },{
+          "id": "3-b-2",
+          "title": "Volumul asistenței externe oficiale pentru cercetare-dezvoltare în domeniul sănătății și dezvoltarea sectoarelor de bază în sănătate",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-b-2",
+          "status": "complete"
+        },{
+          "id": "3-3-3",
+          "title": "Incidența prin malarie, la 1.000 populație",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-3-3",
+          "status": "notstarted"
+        },{
+          "id": "3-8-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-8-1-1",
           "status": "complete"
         },{
           "id": "3-b-1",
@@ -449,11 +477,60 @@
           "href": "/open-sdg-site-starter/ro/3-b-1",
           "status": "complete"
         },{
-          "id": "3-2-1-1",
+          "id": "3-b-3",
+          "title": "Proporția instituțiilor medico-sanitare care dispun de setul de bază al medicamentelor esențiale disponibile și accesibile în mod permanent",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-b-3",
+          "status": "notstarted"
+        },{
+          "id": "3-2-2",
+          "title": "Rata mortalității neonatale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-2-2",
+          "status": "complete"
+        },{
+          "id": "3-8-2-2",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-2-1-1",
+          "href": "/open-sdg-site-starter/ro/3-8-2-2",
+          "status": "complete"
+        },{
+          "id": "3-a-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-a-1-1",
+          "status": "complete"
+        },{
+          "id": "3-d-1",
+          "title": "Capacitatea și pregătirea pentru urgențele de sănătate conform Regulamentului Sanitar Internațional",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-d-1",
+          "status": "complete"
+        },{
+          "id": "3-3-1",
+          "title": "Numărul de noi infecții HIV la 1.000 persoane neinfectate, pe sexe, vârstă și populații cheie",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-3-1",
+          "status": "complete"
+        },{
+          "id": "3-4-1",
+          "title": "Rata mortalităţii prin boli cardiovasculare, cancer, diabet, boli cronice ale aparatului respirator",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-4-1",
+          "status": "complete"
+        },{
+          "id": "3-1-2",
+          "title": "Proporția nașterilor asistate de personal medical calificat",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-1-2",
           "status": "complete"
         },{
           "id": "3-7-2",
@@ -470,48 +547,6 @@
           "href": "/open-sdg-site-starter/ro/3-4-2",
           "status": "complete"
         },{
-          "id": "3-2-2",
-          "title": "Rata mortalității neonatale",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-2-2",
-          "status": "complete"
-        },{
-          "id": "3-5-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-5-2-1",
-          "status": "complete"
-        },{
-          "id": "3-a-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-a-1-1",
-          "status": "complete"
-        },{
-          "id": "3-8-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-2-1",
-          "status": "complete"
-        },{
-          "id": "3-1-2",
-          "title": "Proporția nașterilor asistate de personal medical calificat",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-1-2",
-          "status": "complete"
-        },{
-          "id": "3-2-1",
-          "title": "Rata mortalității copiilor în vârstă de până la 5 ani",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-2-1",
-          "status": "complete"
-        },{
           "id": "3-8-2",
           "title": "Ponderea populației cu cheltuielile gospodăriilor pentru sănătate mari în total cheltuielilor sau venitului gospodăriilor",
           "description": "",
@@ -526,46 +561,46 @@
           "href": "/open-sdg-site-starter/ro/3-6-1",
           "status": "complete"
         },{
-          "id": "3-d-1",
-          "title": "Capacitatea și pregătirea pentru urgențele de sănătate conform Regulamentului Sanitar Internațional",
+          "id": "3-5-2-1",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-d-1",
+          "href": "/open-sdg-site-starter/ro/3-5-2-1",
           "status": "complete"
         },{
-          "id": "3-3-3",
-          "title": "Incidența prin malarie, la 1.000 populație",
+          "id": "3-9-1",
+          "title": "Rata mortalității determinate de poluarea aerului în încăperi și celui ambiant",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-3",
+          "href": "/open-sdg-site-starter/ro/3-9-1",
           "status": "notstarted"
         },{
-          "id": "3-3-5",
-          "title": "Numărul de persoane care necesită intervenții împotriva bolilor tropicale neglijate",
+          "id": "3-2-1-1",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-5",
-          "status": "notstarted"
-        },{
-          "id": "3-5-2",
-          "title": "Consumul nociv de alcool, definit conform contextului național drept consum de alcool per capita (15+ ani) în decurs de un an calendaristic în litri de alcool pur",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-5-2",
+          "href": "/open-sdg-site-starter/ro/3-2-1-1",
           "status": "complete"
         },{
-          "id": "3-7-1",
-          "title": "Ponderea femeilor de vârstă fertilă (15-49 ani) cu necesități de planificare a familiei satisfăcute prin metode moderne de contracepție",
+          "id": "3-1-1",
+          "title": "Rata mortalității materne",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-7-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/3-1-1",
+          "status": "complete"
         },{
-          "id": "3-3-4",
-          "title": "Incidența prin hepatita B, la 100 mii populație",
+          "id": "3-8-2-a",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-4",
+          "href": "/open-sdg-site-starter/ro/3-8-2-a",
+          "status": "complete"
+        },{
+          "id": "3-9-3",
+          "title": "Rata mortalității determinate de intoxicații neintenționate",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-9-3",
           "status": "complete"
         },{
           "id": "3-9-2",
@@ -575,55 +610,6 @@
           "href": "/open-sdg-site-starter/ro/3-9-2",
           "status": "notstarted"
         },{
-          "id": "3-3-2",
-          "title": "Incidența prin tuberculoză, la 100 mii populație",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-3-2",
-          "status": "complete"
-        },{
-          "id": "3-8-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-1-1",
-          "status": "complete"
-        },{
-          "id": "3-8-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-2-b",
-          "status": "complete"
-        },{
-          "id": "3-4-1",
-          "title": "Rata mortalităţii prin boli cardiovasculare, cancer, diabet, boli cronice ale aparatului respirator",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-4-1",
-          "status": "complete"
-        },{
-          "id": "3-8-1",
-          "title": "Acoperirea cu servicii esențiale  de sănătate (definită ca acoperirea medie cu servicii esențiale în baza intervențiilor de urmărire, care includ sănătatea reproductivă, maternă, a nou-născuților și copiilor, bolile infecțioase, bolile netransmisibile, precum și capacitarea și accesul serviciului, în rândul populației generale și celor mai dezavantajate populații)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-1",
-          "status": "notstarted"
-        },{
-          "id": "3-1-1",
-          "title": "Rata mortalității materne",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-1-1",
-          "status": "complete"
-        },{
-          "id": "3-8-2-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-8-2-2",
-          "status": "complete"
-        },{
           "id": "3-c-1",
           "title": "Densitatea și distribuția lucrătorilor medicali",
           "description": "",
@@ -631,11 +617,25 @@
           "href": "/open-sdg-site-starter/ro/3-c-1",
           "status": "complete"
         },{
-          "id": "3-b-3",
-          "title": "Proporția instituțiilor medico-sanitare care dispun de setul de bază al medicamentelor esențiale disponibile și accesibile în mod permanent",
+          "id": "3-3-1-1",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/3-b-3",
+          "href": "/open-sdg-site-starter/ro/3-3-1-1",
+          "status": "complete"
+        },{
+          "id": "3-a-1",
+          "title": "Prevalența standardizată pe vârstă a consumului de tutun în rândul populației în vârstă de 15 ani și peste",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-a-1",
+          "status": "complete"
+        },{
+          "id": "3-7-1",
+          "title": "Ponderea femeilor de vârstă fertilă (15-49 ani) cu necesități de planificare a familiei satisfăcute prin metode moderne de contracepție",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/3-7-1",
           "status": "notstarted"
         }]
     }
@@ -644,18 +644,18 @@
       "id": "4",
       "title": "Garantarea unei educaţii de calitate şi promovarea oportunităţilor de învăţare de-a lungul vieţii pentru toţi",
       "indicators": [{
-          "id": "4-5-1-d",
-          "title": "",
+          "id": "4-7-1",
+          "title": "Măsura în care (i) educația privind cetățenia globală și (ii) educația pentru dezvoltare durabilă, inclusiv egalitatea de gen și drepturile omului) sunt integrate la toate nivelele (a) politicilor educaționale naționale, (b) curriculumului, (c) instruirii profesorilor și (d) evaluării studenților",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1-d",
+          "href": "/open-sdg-site-starter/ro/4-7-1",
           "status": "complete"
         },{
-          "id": "4-a-1-e",
-          "title": "",
+          "id": "4-4-1",
+          "title": "Ponderea tinerilor și adulților cu cunoștințe TIC, după tipul acestora",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-a-1-e",
+          "href": "/open-sdg-site-starter/ro/4-4-1",
           "status": "notstarted"
         },{
           "id": "4-a-1-b",
@@ -665,6 +665,13 @@
           "href": "/open-sdg-site-starter/ro/4-a-1-b",
           "status": "complete"
         },{
+          "id": "4-a-1-d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-a-1-d",
+          "status": "notstarted"
+        },{
           "id": "4-c-1-b",
           "title": "",
           "description": "",
@@ -672,11 +679,11 @@
           "href": "/open-sdg-site-starter/ro/4-c-1-b",
           "status": "complete"
         },{
-          "id": "4-1-1-c-ii",
+          "id": "4-1-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-1-1-c-ii",
+          "href": "/open-sdg-site-starter/ro/4-1-1-1",
           "status": "complete"
         },{
           "id": "4-1-1-c-i",
@@ -686,55 +693,6 @@
           "href": "/open-sdg-site-starter/ro/4-1-1-c-i",
           "status": "complete"
         },{
-          "id": "4-5-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1-a",
-          "status": "complete"
-        },{
-          "id": "4-2-2",
-          "title": "Rata de încadrare în educația organizată (cu un an înainte de vârsta oficială de intrare în școala primară), pe sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-2-2",
-          "status": "complete"
-        },{
-          "id": "4-1-1",
-          "title": "Proporția de copii și tineri (a) în clasele 2/3; (b) la sfârșitul învățământului primar și (c) la sfârșitul învățământului gimnazial cu cunoștințe minime în domeniul (i)) citirii și (ii) matematicii, pe sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-1-1",
-          "status": "notstarted"
-        },{
-          "id": "4-7-1",
-          "title": "Măsura în care (i) educația privind cetățenia globală și (ii) educația pentru dezvoltare durabilă, inclusiv egalitatea de gen și drepturile omului) sunt integrate la toate nivelele (a) politicilor educaționale naționale, (b) curriculumului, (c) instruirii profesorilor și (d) evaluării studenților",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-7-1",
-          "status": "complete"
-        },{
-          "id": "4-a-1-d",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-a-1-d",
-          "status": "notstarted"
-        },{
-          "id": "4-1-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-1-1-1",
-          "status": "complete"
-        },{
-          "id": "4-c-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-c-1-a",
-          "status": "complete"
-        },{
           "id": "4-3-1",
           "title": "Rata de participare a tinerilor și adulților în educația formală și nonformală pe parcursul vieții, pe sexe (în ultimele 12 luni)",
           "description": "",
@@ -742,88 +700,32 @@
           "href": "/open-sdg-site-starter/ro/4-3-1",
           "status": "complete"
         },{
-          "id": "4-5-1-b",
+          "id": "4-5-1-d",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1-b",
+          "href": "/open-sdg-site-starter/ro/4-5-1-d",
           "status": "complete"
         },{
-          "id": "4-a-1-a",
+          "id": "4-5-1-c",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-a-1-a",
-          "status": "notstarted"
-        },{
-          "id": "4-c-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-c-1-c",
+          "href": "/open-sdg-site-starter/ro/4-5-1-c",
           "status": "complete"
-        },{
-          "id": "4-b-1",
-          "title": "Volumul asistenței externe oficiale pentru dezvoltare pentru  burse de studii, în funcție de domeniul de educație și tipul studiilor",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-b-1",
-          "status": "complete"
-        },{
-          "id": "4-6-1",
-          "title": "Ponderea populației într-un anumit grup de vârstă, care atinge cel puțin un anumit nivel de competențe funcționale în (a) alfabetizare și (b) aritmetică), pe sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-6-1",
-          "status": "notstarted"
-        },{
-          "id": "4-a-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-a-1-c",
-          "status": "complete"
-        },{
-          "id": "4-5-1-e",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1-e",
-          "status": "complete"
-        },{
-          "id": "4-a-1-f",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-a-1-f",
-          "status": "notstarted"
-        },{
-          "id": "4-4-1",
-          "title": "Ponderea tinerilor și adulților cu cunoștințe TIC, după tipul acestora",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-4-1",
-          "status": "notstarted"
-        },{
-          "id": "4-1-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-1-1-2",
-          "status": "complete"
-        },{
-          "id": "4-5-1",
-          "title": "Indicele parității (femeie/bărbat, rural/urban, chintila inferioară/superioară și altele, cum ar fi statutul de dizabilitate, persoane indigene și cele afectate de conflicte, de îndată ce devin disponibile date) pentru toți indicatorii de învățământ din această listă, care pot fi dezagregați",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1",
-          "status": "notstarted"
         },{
           "id": "4-a-1",
           "title": "Ponderea instituțiilor de învățământ cu acces la (a) electricitate, (b) internet în scopuri pedagogice, (c) calculatoare în scopuri pedagogice, (d) materiale și infrastructură adaptate necesităților persoanelor cu dizabilități, (e) apă potabilă, (f) grup sanitar separat pentru fete și băieți, (g) cu facilități de bază pentru spălarea mâinilor (conform definițiilor indicatorilor WASH)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/4-a-1",
+          "status": "notstarted"
+        },{
+          "id": "4-1-1",
+          "title": "Proporția de copii și tineri (a) în clasele 2/3; (b) la sfârșitul învățământului primar și (c) la sfârșitul învățământului gimnazial cu cunoștințe minime în domeniul (i)) citirii și (ii) matematicii, pe sexe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-1-1",
           "status": "notstarted"
         },{
           "id": "4-c-1",
@@ -833,11 +735,81 @@
           "href": "/open-sdg-site-starter/ro/4-c-1",
           "status": "notstarted"
         },{
-          "id": "4-5-1-c",
+          "id": "4-a-1-c",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-5-1-c",
+          "href": "/open-sdg-site-starter/ro/4-a-1-c",
+          "status": "complete"
+        },{
+          "id": "4-5-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-5-1-b",
+          "status": "complete"
+        },{
+          "id": "4-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-5-1-a",
+          "status": "complete"
+        },{
+          "id": "4-a-1-f",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-a-1-f",
+          "status": "notstarted"
+        },{
+          "id": "4-5-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-5-1-e",
+          "status": "complete"
+        },{
+          "id": "4-c-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-c-1-a",
+          "status": "complete"
+        },{
+          "id": "4-2-2",
+          "title": "Rata de încadrare în educația organizată (cu un an înainte de vârsta oficială de intrare în școala primară), pe sexe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-2-2",
+          "status": "complete"
+        },{
+          "id": "4-a-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-a-1-a",
+          "status": "notstarted"
+        },{
+          "id": "4-1-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-1-1-2",
+          "status": "complete"
+        },{
+          "id": "4-2-1",
+          "title": "Ponderea copiilor până la 5 ani care se dezvoltă conform din punct de vedere medical, educațional și psiho-social, pe sexe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-2-1",
+          "status": "complete"
+        },{
+          "id": "4-b-1",
+          "title": "Volumul asistenței externe oficiale pentru dezvoltare pentru  burse de studii, în funcție de domeniul de educație și tipul studiilor",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-b-1",
           "status": "complete"
         },{
           "id": "4-a-1-g",
@@ -847,12 +819,40 @@
           "href": "/open-sdg-site-starter/ro/4-a-1-g",
           "status": "notstarted"
         },{
-          "id": "4-2-1",
-          "title": "Ponderea copiilor până la 5 ani care se dezvoltă conform din punct de vedere medical, educațional și psiho-social, pe sexe",
+          "id": "4-c-1-c",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/4-2-1",
+          "href": "/open-sdg-site-starter/ro/4-c-1-c",
           "status": "complete"
+        },{
+          "id": "4-a-1-e",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-a-1-e",
+          "status": "notstarted"
+        },{
+          "id": "4-6-1",
+          "title": "Ponderea populației într-un anumit grup de vârstă, care atinge cel puțin un anumit nivel de competențe funcționale în (a) alfabetizare și (b) aritmetică), pe sexe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-6-1",
+          "status": "notstarted"
+        },{
+          "id": "4-1-1-c-ii",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-1-1-c-ii",
+          "status": "complete"
+        },{
+          "id": "4-5-1",
+          "title": "Indicele parității (femeie/bărbat, rural/urban, chintila inferioară/superioară și altele, cum ar fi statutul de dizabilitate, persoane indigene și cele afectate de conflicte, de îndată ce devin disponibile date) pentru toți indicatorii de învățământ din această listă, care pot fi dezagregați",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/4-5-1",
+          "status": "notstarted"
         }]
     }
   },{
@@ -860,53 +860,18 @@
       "id": "5",
       "title": "Realizarea egalităţii de gen şi împuternicirea tuturor femeilor şi a fetelor",
       "indicators": [{
-          "id": "5-1-1",
-          "title": "Existența cadrului legal pentru  promovarea, punerea în aplicare și  monitorizarea egalității și nediscriminării pe baza de sex",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-1-1",
-          "status": "complete"
-        },{
-          "id": "5-6-2-2",
+          "id": "5-4-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-6-2-2",
+          "href": "/open-sdg-site-starter/ro/5-4-1-1",
           "status": "complete"
         },{
-          "id": "5-3-2",
-          "title": "Proporția fetelor și femeilor cu vârste de 15-49 ani care au suferit mutilare/tăiere genitală feminină, pe vârste",
+          "id": "5-6-2",
+          "title": "Numărul de țări cu cadrul legislativ-normativ care garantează femeilor și bărbaților în vârstă de 15 ani și peste accesul la sănătatea sexuală și reproductivă, informare și educare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-3-2",
-          "status": "notstarted"
-        },{
-          "id": "5-5-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-5-1-b",
-          "status": "complete"
-        },{
-          "id": "5-a-1",
-          "title": "(a) Ponderea populației agricole  cu drepturi  de proprietate sau alte drepturi patrimoniale asupra terenurilor agricole, pe sexe și (b) ponderea femeilor  cu drepturi  de proprietate sau alte drepturi patrimoniale asupra terenurilor agricole, după tipul de posesiune",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-a-1",
-          "status": "notstarted"
-        },{
-          "id": "5-4-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-4-1-2",
-          "status": "complete"
-        },{
-          "id": "5-6-1",
-          "title": "Ponderea femeilor în vârsta de 15-49 de ani care iau decizii independente cu privire la relații sexuale, utilizarea contracepției și sănătatea sexuală și reproductivă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-6-1",
+          "href": "/open-sdg-site-starter/ro/5-6-2",
           "status": "notstarted"
         },{
           "id": "5-5-2",
@@ -916,11 +881,11 @@
           "href": "/open-sdg-site-starter/ro/5-5-2",
           "status": "complete"
         },{
-          "id": "5-2-2",
-          "title": "Proporția femeilor și fetelor de 15 ani și peste care au fost supuse violenței sexuale din partea unei altei persoane decât partenerul intim, în ultimele 12 luni, pe vârste și locul survenirii violenței",
+          "id": "5-4-1-2",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-2-2",
+          "href": "/open-sdg-site-starter/ro/5-4-1-2",
           "status": "complete"
         },{
           "id": "5-4-1",
@@ -930,46 +895,32 @@
           "href": "/open-sdg-site-starter/ro/5-4-1",
           "status": "complete"
         },{
-          "id": "5-4-1-1",
+          "id": "5-a-1-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-4-1-1",
-          "status": "complete"
-        },{
-          "id": "5-c-1",
-          "title": "Proporția țărilor cu disponibilitatea sistemelor de monitorizare și alocare a resurselor publice pentru egalitatea de gen și abilitarea femeilor",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-c-1",
+          "href": "/open-sdg-site-starter/ro/5-a-1-a",
           "status": "notstarted"
         },{
-          "id": "5-c-1-1",
-          "title": "",
+          "id": "5-a-1",
+          "title": "(a) Ponderea populației agricole  cu drepturi  de proprietate sau alte drepturi patrimoniale asupra terenurilor agricole, pe sexe și (b) ponderea femeilor  cu drepturi  de proprietate sau alte drepturi patrimoniale asupra terenurilor agricole, după tipul de posesiune",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-c-1-1",
-          "status": "complete"
-        },{
-          "id": "5-6-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-6-2-1",
-          "status": "complete"
-        },{
-          "id": "5-a-2",
-          "title": "Proporția țărilor unde există cadrul legislativ (inclusiv dreptul cutumiar) care garantează femeilor drepturi egale la proprietate și/sau control asupra pământurilor",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-a-2",
+          "href": "/open-sdg-site-starter/ro/5-a-1",
           "status": "notstarted"
         },{
-          "id": "5-5-1-a",
+          "id": "5-5-1-b",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-5-1-a",
+          "href": "/open-sdg-site-starter/ro/5-5-1-b",
+          "status": "complete"
+        },{
+          "id": "5-1-1",
+          "title": "Existența cadrului legal pentru  promovarea, punerea în aplicare și  monitorizarea egalității și nediscriminării pe baza de sex",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-1-1",
           "status": "complete"
         },{
           "id": "5-b-1-1",
@@ -979,25 +930,25 @@
           "href": "/open-sdg-site-starter/ro/5-b-1-1",
           "status": "complete"
         },{
-          "id": "5-3-1",
-          "title": "Proporția femeilor în vârstă de 20-24 ani în căsătorii sau uniuni până la 15 și 18 ani",
+          "id": "5-6-1",
+          "title": "Ponderea femeilor în vârsta de 15-49 de ani care iau decizii independente cu privire la relații sexuale, utilizarea contracepției și sănătatea sexuală și reproductivă",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-3-1",
+          "href": "/open-sdg-site-starter/ro/5-6-1",
           "status": "notstarted"
         },{
-          "id": "5-a-1-a",
-          "title": "",
+          "id": "5-c-1",
+          "title": "Proporția țărilor cu disponibilitatea sistemelor de monitorizare și alocare a resurselor publice pentru egalitatea de gen și abilitarea femeilor",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-a-1-a",
+          "href": "/open-sdg-site-starter/ro/5-c-1",
           "status": "notstarted"
         },{
-          "id": "5-2-1",
-          "title": "Proporția femeilor și fetelor de 15 ani și peste care au fost supuse violenței fizice, sexuale sau psihologice din partea partenerului/soțului curent sau anterior, în ultimele 12 luni, pe vârste și forme ale violenței",
+          "id": "5-2-2",
+          "title": "Proporția femeilor și fetelor de 15 ani și peste care au fost supuse violenței sexuale din partea unei altei persoane decât partenerul intim, în ultimele 12 luni, pe vârste și locul survenirii violenței",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-2-1",
+          "href": "/open-sdg-site-starter/ro/5-2-2",
           "status": "complete"
         },{
           "id": "5-b-1",
@@ -1007,6 +958,48 @@
           "href": "/open-sdg-site-starter/ro/5-b-1",
           "status": "notstarted"
         },{
+          "id": "5-a-2",
+          "title": "Proporția țărilor unde există cadrul legislativ (inclusiv dreptul cutumiar) care garantează femeilor drepturi egale la proprietate și/sau control asupra pământurilor",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-a-2",
+          "status": "notstarted"
+        },{
+          "id": "5-3-1",
+          "title": "Proporția femeilor în vârstă de 20-24 ani în căsătorii sau uniuni până la 15 și 18 ani",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-3-1",
+          "status": "notstarted"
+        },{
+          "id": "5-6-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-6-2-2",
+          "status": "complete"
+        },{
+          "id": "5-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-5-1-a",
+          "status": "complete"
+        },{
+          "id": "5-c-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-c-1-1",
+          "status": "complete"
+        },{
+          "id": "5-3-2",
+          "title": "Proporția fetelor și femeilor cu vârste de 15-49 ani care au suferit mutilare/tăiere genitală feminină, pe vârste",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-3-2",
+          "status": "notstarted"
+        },{
           "id": "5-a-1-b",
           "title": "",
           "description": "",
@@ -1014,12 +1007,12 @@
           "href": "/open-sdg-site-starter/ro/5-a-1-b",
           "status": "notstarted"
         },{
-          "id": "5-6-2",
-          "title": "Numărul de țări cu cadrul legislativ-normativ care garantează femeilor și bărbaților în vârstă de 15 ani și peste accesul la sănătatea sexuală și reproductivă, informare și educare",
+          "id": "5-2-1",
+          "title": "Proporția femeilor și fetelor de 15 ani și peste care au fost supuse violenței fizice, sexuale sau psihologice din partea partenerului/soțului curent sau anterior, în ultimele 12 luni, pe vârste și forme ale violenței",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/5-6-2",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/5-2-1",
+          "status": "complete"
         },{
           "id": "5-5-1",
           "title": "Ponderea femeilor alese în (a) parlament și (b) administrația publică locală",
@@ -1027,6 +1020,13 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/5-5-1",
           "status": "notstarted"
+        },{
+          "id": "5-6-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/5-6-2-1",
+          "status": "complete"
         }]
     }
   },{
@@ -1034,60 +1034,11 @@
       "id": "6",
       "title": "Asigurarea disponibilităţii şi managementului durabil al apei şi sanitaţie pentru toţi",
       "indicators": [{
-          "id": "6-3-2-b",
+          "id": "6-4-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-3-2-b",
-          "status": "notstarted"
-        },{
-          "id": "6-4-2",
-          "title": "Nivelul stresului hidric: ponderea apei captate din totalul resurselor de apă disponibile",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-4-2",
-          "status": "complete"
-        },{
-          "id": "6-5-1",
-          "title": "Gradul de implementare a managementului integrat al resurselor de apă (de la 0 la 100)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-5-1",
-          "status": "complete"
-        },{
-          "id": "6-3-2",
-          "title": "Proporția corpurilor de apă cu calitate bună a apei ambientale",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-3-2",
-          "status": "notstarted"
-        },{
-          "id": "6-5-2",
-          "title": "Ponderea suprafeței bazinelor hidrografice transfrontaliere cu aranjamente operaționale pentru cooperare în domeniul apei",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-5-2",
-          "status": "complete"
-        },{
-          "id": "6-3-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-3-2-1",
-          "status": "complete"
-        },{
-          "id": "6-3-1",
-          "title": "Ponderea apelor uzate epurate în mod sigur",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-3-1",
-          "status": "complete"
-        },{
-          "id": "6-3-2-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-3-2-a",
+          "href": "/open-sdg-site-starter/ro/6-4-1-1",
           "status": "complete"
         },{
           "id": "6-6-1",
@@ -1097,11 +1048,25 @@
           "href": "/open-sdg-site-starter/ro/6-6-1",
           "status": "complete"
         },{
-          "id": "6-a-1",
-          "title": "Volumul asistenței externe oficiale pentru dezvoltare pentru sectorul de aprovizionare cu apă și sanitație, care face parte din planul de cheltuieli coordonate la nivel de guvern",
+          "id": "6-2-1-b",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-a-1",
+          "href": "/open-sdg-site-starter/ro/6-2-1-b",
+          "status": "notstarted"
+        },{
+          "id": "6-b-1",
+          "title": "Ponderea APL care dispun de programe/strategii, proceduri stabilite și operaționale de implicare a comunității în managementul apei și a sanitației",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-b-1",
+          "status": "notstarted"
+        },{
+          "id": "6-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-2-1-1",
           "status": "complete"
         },{
           "id": "6-2-1-a",
@@ -1118,18 +1083,11 @@
           "href": "/open-sdg-site-starter/ro/6-4-1",
           "status": "notstarted"
         },{
-          "id": "6-4-1-1",
-          "title": "",
+          "id": "6-3-2",
+          "title": "Proporția corpurilor de apă cu calitate bună a apei ambientale",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-4-1-1",
-          "status": "complete"
-        },{
-          "id": "6-b-1",
-          "title": "Ponderea APL care dispun de programe/strategii, proceduri stabilite și operaționale de implicare a comunității în managementul apei și a sanitației",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-b-1",
+          "href": "/open-sdg-site-starter/ro/6-3-2",
           "status": "notstarted"
         },{
           "id": "6-1-1-1",
@@ -1138,6 +1096,41 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/6-1-1-1",
           "status": "complete"
+        },{
+          "id": "6-5-1",
+          "title": "Gradul de implementare a managementului integrat al resurselor de apă (de la 0 la 100)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-5-1",
+          "status": "complete"
+        },{
+          "id": "6-3-1",
+          "title": "Ponderea apelor uzate epurate în mod sigur",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-3-1",
+          "status": "complete"
+        },{
+          "id": "6-3-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-3-2-1",
+          "status": "complete"
+        },{
+          "id": "6-3-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-3-2-a",
+          "status": "complete"
+        },{
+          "id": "6-3-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-3-2-b",
+          "status": "notstarted"
         },{
           "id": "6-2-1",
           "title": "Proporția populației care utilizează (a) servicii de apă potabilă gestionate în mod sigur și (b) o instalație de spălare a mâinilor cu săpun și apă",
@@ -1153,18 +1146,25 @@
           "href": "/open-sdg-site-starter/ro/6-1-1",
           "status": "complete"
         },{
-          "id": "6-2-1-1",
-          "title": "",
+          "id": "6-4-2",
+          "title": "Nivelul stresului hidric: ponderea apei captate din totalul resurselor de apă disponibile",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-2-1-1",
+          "href": "/open-sdg-site-starter/ro/6-4-2",
           "status": "complete"
         },{
-          "id": "6-2-1-b",
-          "title": "",
+          "id": "6-5-2",
+          "title": "Ponderea suprafeței bazinelor hidrografice transfrontaliere cu aranjamente operaționale pentru cooperare în domeniul apei",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/6-2-1-b",
+          "href": "/open-sdg-site-starter/ro/6-5-2",
+          "status": "complete"
+        },{
+          "id": "6-a-1",
+          "title": "Volumul asistenței externe oficiale pentru dezvoltare pentru sectorul de aprovizionare cu apă și sanitație, care face parte din planul de cheltuieli coordonate la nivel de guvern",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/6-a-1",
           "status": "complete"
         }]
     }
@@ -1173,11 +1173,11 @@
       "id": "7",
       "title": "Asigurarea accesului tuturor la energie la preţuri accesibile, într-un mod sigur, durabil şi modern",
       "indicators": [{
-          "id": "7-b-1-a",
-          "title": "",
+          "id": "7-1-1",
+          "title": "Ponderea populației cu acces la energie electrică",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-b-1-a",
+          "href": "/open-sdg-site-starter/ro/7-1-1",
           "status": "complete"
         },{
           "id": "7-a-1",
@@ -1187,18 +1187,32 @@
           "href": "/open-sdg-site-starter/ro/7-a-1",
           "status": "notstarted"
         },{
-          "id": "7-2-1",
-          "title": "Ponderea energiei din surse regenerabile în consumul final de energie",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-2-1",
-          "status": "complete"
-        },{
           "id": "7-1-2-1",
           "title": "",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/7-1-2-1",
+          "status": "complete"
+        },{
+          "id": "7-b-1",
+          "title": "Investițiile în eficiența energetică ca proporție din PIB și volumul investițiilor străine directe în transferurile financiare pentru infrastructura și tehnologia necesară pentru serviciile de dezvoltare durabilă",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/7-b-1",
+          "status": "notstarted"
+        },{
+          "id": "7-3-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/7-3-1-a",
+          "status": "complete"
+        },{
+          "id": "7-b-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/7-b-1-a",
           "status": "complete"
         },{
           "id": "7-3-1-b",
@@ -1208,25 +1222,11 @@
           "href": "/open-sdg-site-starter/ro/7-3-1-b",
           "status": "complete"
         },{
-          "id": "7-3-1-a",
-          "title": "",
+          "id": "7-3-1",
+          "title": "Intensitatea energetică măsurată în termeni de energie primară și PIB",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-3-1-a",
-          "status": "complete"
-        },{
-          "id": "7-1-1",
-          "title": "Ponderea populației cu acces la energie electrică",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-1-1",
-          "status": "complete"
-        },{
-          "id": "7-b-1",
-          "title": "Investițiile în eficiența energetică ca proporție din PIB și volumul investițiilor străine directe în transferurile financiare pentru infrastructura și tehnologia necesară pentru serviciile de dezvoltare durabilă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-b-1",
+          "href": "/open-sdg-site-starter/ro/7-3-1",
           "status": "notstarted"
         },{
           "id": "7-1-2",
@@ -1243,12 +1243,12 @@
           "href": "/open-sdg-site-starter/ro/7-b-1-b",
           "status": "complete"
         },{
-          "id": "7-3-1",
-          "title": "Intensitatea energetică măsurată în termeni de energie primară și PIB",
+          "id": "7-2-1",
+          "title": "Ponderea energiei din surse regenerabile în consumul final de energie",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/7-3-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/7-2-1",
+          "status": "complete"
         }]
     }
   },{
@@ -1256,46 +1256,11 @@
       "id": "8",
       "title": "Promovarea unei creşteri economice susţinute, deschise tuturor şi durabile, a ocupării depline şi productive a forţei de muncă şi a unei munci decente pentru toţi",
       "indicators": [{
-          "id": "8-4-2-a",
-          "title": "",
+          "id": "8-a-1",
+          "title": "Volumul asistenței pentru angajamentele și debursările ce țin de comerț",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-4-2-a",
-          "status": "complete"
-        },{
-          "id": "8-6-1",
-          "title": "Procentul tinerilor (15–24 ani) fără un loc de muncă, studii sau instruire",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-6-1",
-          "status": "complete"
-        },{
-          "id": "8-10-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-10-1-b",
-          "status": "complete"
-        },{
-          "id": "8-4-1",
-          "title": "Amprenta materiilor prime, amprenta materiilor prime pe o persoană și amprenta materiilor prime raportată la PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-4-1",
-          "status": "notstarted"
-        },{
-          "id": "8-5-2",
-          "title": "Rata șomajului, dezagregată pe sexe, vârstă și persoane cu dizabilități",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-5-2",
-          "status": "complete"
-        },{
-          "id": "8-10-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-10-1-a",
+          "href": "/open-sdg-site-starter/ro/8-a-1",
           "status": "complete"
         },{
           "id": "8-4-1-a",
@@ -1305,32 +1270,11 @@
           "href": "/open-sdg-site-starter/ro/8-4-1-a",
           "status": "notstarted"
         },{
-          "id": "8-9-2",
-          "title": "Ponderea locurilor de muncă în industriile durabile de turism din numărul total de locuri de muncă în turism",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-9-2",
-          "status": "notstarted"
-        },{
-          "id": "8-10-1",
-          "title": "a. Numărul de filiale și agenții ale băncilor comerciale la 100 mii adulți și b. numărul de bancomate la 100 mii adulți",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-10-1",
-          "status": "notstarted"
-        },{
-          "id": "8-3-1",
-          "title": "Ponderea ocupării informale în sectorul non-agricol, pe sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-3-1",
-          "status": "complete"
-        },{
-          "id": "8-10-2-1",
+          "id": "8-4-2-b",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-10-2-1",
+          "href": "/open-sdg-site-starter/ro/8-4-2-b",
           "status": "complete"
         },{
           "id": "8-9-2-1",
@@ -1340,88 +1284,11 @@
           "href": "/open-sdg-site-starter/ro/8-9-2-1",
           "status": "complete"
         },{
-          "id": "8-4-1-b",
-          "title": "",
+          "id": "8-3-1",
+          "title": "Ponderea ocupării informale în sectorul non-agricol, pe sexe",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-4-1-b",
-          "status": "notstarted"
-        },{
-          "id": "8-5-1",
-          "title": "Câștigurile medii pe oră pentru salariați și salariate pe ocupații, vârstă și persoane cu dizabilități",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-5-1",
-          "status": "complete"
-        },{
-          "id": "8-7-1",
-          "title": "Procentul și numărul copiilor cu vârsta între 5-17 ani, implicați în munca copiilor, pe vârstă și sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-7-1",
-          "status": "notstarted"
-        },{
-          "id": "8-1-1",
-          "title": "Rata anuală de creștere a PIB pe cap de locuitor",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-1-1",
-          "status": "complete"
-        },{
-          "id": "8-8-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-8-2-1",
-          "status": "complete"
-        },{
-          "id": "8-9-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-9-1-1",
-          "status": "complete"
-        },{
-          "id": "8-8-2",
-          "title": "Nivelul de respectare la nivel național a drepturilor de muncă (libertatea de asociere și negocierea colectivă) în conformitate cu sursele documentare ale ILO și legislația națională, pe sexe și statut migrațional",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-8-2",
-          "status": "notstarted"
-        },{
-          "id": "8-7-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-7-1-a",
-          "status": "notstarted"
-        },{
-          "id": "8-9-1",
-          "title": "PIB direct pentru turism drept cotă din PIB total și rata de creștere",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-9-1",
-          "status": "notstarted"
-        },{
-          "id": "8-8-1",
-          "title": "Rata frecvenței accidentelor de muncă fatale și non-fatale, pe sexe și statut migrațional",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-8-1",
-          "status": "complete"
-        },{
-          "id": "8-b-1",
-          "title": "Existența unei strategii naționale elaborate și operaționalizate privind ocuparea tinerilor, ca o strategie distinctă sau o parte din strategia națională privind ocuparea",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-b-1",
-          "status": "complete"
-        },{
-          "id": "8-4-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-4-2-b",
+          "href": "/open-sdg-site-starter/ro/8-3-1",
           "status": "complete"
         },{
           "id": "8-7-1-b",
@@ -1431,6 +1298,34 @@
           "href": "/open-sdg-site-starter/ro/8-7-1-b",
           "status": "notstarted"
         },{
+          "id": "8-b-1",
+          "title": "Existența unei strategii naționale elaborate și operaționalizate privind ocuparea tinerilor, ca o strategie distinctă sau o parte din strategia națională privind ocuparea",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-b-1",
+          "status": "complete"
+        },{
+          "id": "8-4-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-4-2-a",
+          "status": "complete"
+        },{
+          "id": "8-8-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-8-2-1",
+          "status": "complete"
+        },{
+          "id": "8-1-1",
+          "title": "Rata anuală de creștere a PIB pe cap de locuitor",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-1-1",
+          "status": "complete"
+        },{
           "id": "8-2-1",
           "title": "Rata anuală de creștere a PIB pe o persoană ocupată",
           "description": "",
@@ -1438,12 +1333,68 @@
           "href": "/open-sdg-site-starter/ro/8-2-1",
           "status": "complete"
         },{
-          "id": "8-a-1",
-          "title": "Volumul asistenței pentru angajamentele și debursările ce țin de comerț",
+          "id": "8-6-1",
+          "title": "Procentul tinerilor (15–24 ani) fără un loc de muncă, studii sau instruire",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/8-a-1",
+          "href": "/open-sdg-site-starter/ro/8-6-1",
           "status": "complete"
+        },{
+          "id": "8-7-1",
+          "title": "Procentul și numărul copiilor cu vârsta între 5-17 ani, implicați în munca copiilor, pe vârstă și sexe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-7-1",
+          "status": "notstarted"
+        },{
+          "id": "8-10-1",
+          "title": "a. Numărul de filiale și agenții ale băncilor comerciale la 100 mii adulți și b. numărul de bancomate la 100 mii adulți",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-10-1",
+          "status": "notstarted"
+        },{
+          "id": "8-10-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-10-1-b",
+          "status": "complete"
+        },{
+          "id": "8-7-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-7-1-a",
+          "status": "notstarted"
+        },{
+          "id": "8-4-1",
+          "title": "Amprenta materiilor prime, amprenta materiilor prime pe o persoană și amprenta materiilor prime raportată la PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-4-1",
+          "status": "notstarted"
+        },{
+          "id": "8-5-1",
+          "title": "Câștigurile medii pe oră pentru salariați și salariate pe ocupații, vârstă și persoane cu dizabilități",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-5-1",
+          "status": "complete"
+        },{
+          "id": "8-8-2",
+          "title": "Nivelul de respectare la nivel național a drepturilor de muncă (libertatea de asociere și negocierea colectivă) în conformitate cu sursele documentare ale ILO și legislația națională, pe sexe și statut migrațional",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-8-2",
+          "status": "notstarted"
+        },{
+          "id": "8-9-2",
+          "title": "Ponderea locurilor de muncă în industriile durabile de turism din numărul total de locuri de muncă în turism",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-9-2",
+          "status": "notstarted"
         },{
           "id": "8-10-2",
           "title": "Procentul de adulți (15+ ani) care dispun de un cont la o bancă sau altă instituție financiară sau cu un prestator de servicii de bani mobili",
@@ -1452,11 +1403,60 @@
           "href": "/open-sdg-site-starter/ro/8-10-2",
           "status": "complete"
         },{
+          "id": "8-5-2",
+          "title": "Rata șomajului, dezagregată pe sexe, vârstă și persoane cu dizabilități",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-5-2",
+          "status": "complete"
+        },{
+          "id": "8-9-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-9-1-1",
+          "status": "complete"
+        },{
+          "id": "8-4-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-4-1-b",
+          "status": "notstarted"
+        },{
+          "id": "8-10-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-10-1-a",
+          "status": "complete"
+        },{
           "id": "8-4-2",
           "title": "Consumul intern de resurse naturale, consumul intern de resurse naturale pe o persoană și consumul intern de resurse naturale raportat la PIB",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/8-4-2",
+          "status": "notstarted"
+        },{
+          "id": "8-8-1",
+          "title": "Rata frecvenței accidentelor de muncă fatale și non-fatale, pe sexe și statut migrațional",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-8-1",
+          "status": "complete"
+        },{
+          "id": "8-10-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-10-2-1",
+          "status": "complete"
+        },{
+          "id": "8-9-1",
+          "title": "PIB direct pentru turism drept cotă din PIB total și rata de creștere",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/8-9-1",
           "status": "notstarted"
         }]
     }
@@ -1465,88 +1465,11 @@
       "id": "9",
       "title": "Construirea unor infrastructuri rezistente, promovarea industrializării durabile şi încurajarea inovaţiei",
       "indicators": [{
-          "id": "9-5-1",
-          "title": "Cheltuielile pentru cercetare și dezvoltare ca procent din PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-5-1",
-          "status": "complete"
-        },{
-          "id": "9-c-1",
-          "title": "Ratele de acoperire a populației cu rețea mobilă, tehnologii",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-c-1",
-          "status": "complete"
-        },{
-          "id": "9-3-1",
-          "title": "Proporția industriilor de scară mică în valoarea adăugată totală a industriei",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-3-1",
-          "status": "complete"
-        },{
           "id": "9-1-2-b",
           "title": "",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/9-1-2-b",
-          "status": "complete"
-        },{
-          "id": "9-4-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-4-1-1",
-          "status": "complete"
-        },{
-          "id": "9-4-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-4-1-c",
-          "status": "complete"
-        },{
-          "id": "9-4-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-4-1-b",
-          "status": "complete"
-        },{
-          "id": "9-3-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-3-2-1",
-          "status": "complete"
-        },{
-          "id": "9-2-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-2-1-2",
-          "status": "complete"
-        },{
-          "id": "9-3-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-3-1-1",
-          "status": "complete"
-        },{
-          "id": "9-2-2",
-          "title": "Ponderea populației ocupate în industria prelucrătoare în total populație ocupată",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-2-2",
-          "status": "complete"
-        },{
-          "id": "9-3-2",
-          "title": "Proporția industriilor de scară mică care au accesat credite sau împrumuturi",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-3-2",
           "status": "complete"
         },{
           "id": "9-b-1",
@@ -1556,18 +1479,53 @@
           "href": "/open-sdg-site-starter/ro/9-b-1",
           "status": "complete"
         },{
-          "id": "9-4-1",
-          "title": "Emisiile de CO2 per unitate de valoarea adăugată",
+          "id": "9-5-2",
+          "title": "Cercetători (echivalent normă întreagă) la 1.000.000 locuitori",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-4-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/9-5-2",
+          "status": "complete"
         },{
-          "id": "9-1-2-a",
+          "id": "9-5-1",
+          "title": "Cheltuielile pentru cercetare și dezvoltare ca procent din PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-5-1",
+          "status": "complete"
+        },{
+          "id": "9-4-1-c",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-1-2-a",
+          "href": "/open-sdg-site-starter/ro/9-4-1-c",
+          "status": "complete"
+        },{
+          "id": "9-2-2",
+          "title": "Ponderea populației ocupate în industria prelucrătoare în total populație ocupată",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-2-2",
+          "status": "complete"
+        },{
+          "id": "9-c-1",
+          "title": "Ratele de acoperire a populației cu rețea mobilă, tehnologii",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-c-1",
+          "status": "complete"
+        },{
+          "id": "9-3-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-3-2-1",
+          "status": "complete"
+        },{
+          "id": "9-4-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-4-1-b",
           "status": "complete"
         },{
           "id": "9-a-1",
@@ -1577,11 +1535,39 @@
           "href": "/open-sdg-site-starter/ro/9-a-1",
           "status": "complete"
         },{
-          "id": "9-2-1-1",
+          "id": "9-1-2-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-2-1-1",
+          "href": "/open-sdg-site-starter/ro/9-1-2-a",
+          "status": "complete"
+        },{
+          "id": "9-3-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-3-1-1",
+          "status": "complete"
+        },{
+          "id": "9-4-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-4-1-a",
+          "status": "complete"
+        },{
+          "id": "9-2-1",
+          "title": "Valoarea adăugată brută în industria prelucrătoare ca proporție în PIB și pe persoană",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-2-1",
+          "status": "notstarted"
+        },{
+          "id": "9-3-2",
+          "title": "Proporția industriilor de scară mică care au accesat credite sau împrumuturi",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-3-2",
           "status": "complete"
         },{
           "id": "9-2-1-b",
@@ -1591,12 +1577,33 @@
           "href": "/open-sdg-site-starter/ro/9-2-1-b",
           "status": "complete"
         },{
-          "id": "9-2-1",
-          "title": "Valoarea adăugată brută în industria prelucrătoare ca proporție în PIB și pe persoană",
+          "id": "9-1-1",
+          "title": "Ponderea populației rurale care locuiește în raza de 2 km față de un drum funcțional pentru toate anotimpurile",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-2-1",
+          "href": "/open-sdg-site-starter/ro/9-1-1",
           "status": "notstarted"
+        },{
+          "id": "9-4-1",
+          "title": "Emisiile de CO2 per unitate de valoarea adăugată",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-4-1",
+          "status": "notstarted"
+        },{
+          "id": "9-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-2-1-1",
+          "status": "complete"
+        },{
+          "id": "9-4-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/9-4-1-1",
+          "status": "complete"
         },{
           "id": "9-1-2",
           "title": "Volumul transportului de pasageri și de mărfuri, după modul de transport",
@@ -1612,25 +1619,18 @@
           "href": "/open-sdg-site-starter/ro/9-2-1-a",
           "status": "complete"
         },{
-          "id": "9-1-1",
-          "title": "Ponderea populației rurale care locuiește în raza de 2 km față de un drum funcțional pentru toate anotimpurile",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-1-1",
-          "status": "notstarted"
-        },{
-          "id": "9-4-1-a",
+          "id": "9-2-1-2",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-4-1-a",
+          "href": "/open-sdg-site-starter/ro/9-2-1-2",
           "status": "complete"
         },{
-          "id": "9-5-2",
-          "title": "Cercetători (echivalent normă întreagă) la 1.000.000 locuitori",
+          "id": "9-3-1",
+          "title": "Proporția industriilor de scară mică în valoarea adăugată totală a industriei",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/9-5-2",
+          "href": "/open-sdg-site-starter/ro/9-3-1",
           "status": "complete"
         }]
     }
@@ -1639,19 +1639,33 @@
       "id": "10",
       "title": "Reducerea inegalităţilor în interiorul ţărilor şi de la o ţară la alta",
       "indicators": [{
-          "id": "10-4-1",
-          "title": "Ponderea costului forței de muncă în PIB, cuprinzând salariile și transferurile de protecție socială",
+          "id": "10-6-1-b",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-4-1",
+          "href": "/open-sdg-site-starter/ro/10-6-1-b",
           "status": "complete"
         },{
-          "id": "10-7-2",
-          "title": "Numărul țărilor cu politici naționale eficiente  privind migrația, care facilitează migrația și mobilitatea reglementată, în siguranță, ordonată și responsabilă a populației",
+          "id": "10-6-1",
+          "title": "Proporția  membrilor și drepturile de vot ale țărilor în curs de dezvoltare în cadrul organizațiilor internaționale",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-7-2",
+          "href": "/open-sdg-site-starter/ro/10-6-1",
           "status": "notstarted"
+        },{
+          "id": "10-1-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-1-1-b",
+          "status": "complete"
+        },{
+          "id": "10-2-1",
+          "title": "Proporția de persoane care trăiesc sub 50% din venitul mediu, pe sexe, vârstă, persoane cu dizabilități",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-2-1",
+          "status": "complete"
         },{
           "id": "10-b-1",
           "title": "Fluxurile totale de resurse pentru dezvoltare, pe țări beneficiare și țări donatoare și tip de fluxuri (de ex. asistența oficială pentru dezvoltare, investiții străine directe și alte fluxuri)",
@@ -1667,48 +1681,6 @@
           "href": "/open-sdg-site-starter/ro/10-5-1",
           "status": "complete"
         },{
-          "id": "10-1-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-1-1-a",
-          "status": "complete"
-        },{
-          "id": "10-1-1",
-          "title": "Ritmul de creștere a cheltuielilor de consum sau veniturilor gospodăriilor pe o persoană ale 40% din populația cel mai puțin asigurată și populației și per total țară",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-1-1",
-          "status": "notstarted"
-        },{
-          "id": "10-7-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-7-2-1",
-          "status": "notstarted"
-        },{
-          "id": "10-3-1",
-          "title": "Ponderea populației care a comunicat că în ultimele 12 luni s-a simțit vreodată discriminată sau hărțuită în baza unui motiv interzis de dreptul internațional al drepturilor omului",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-3-1",
-          "status": "complete"
-        },{
-          "id": "10-1-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-1-1-b",
-          "status": "complete"
-        },{
-          "id": "10-7-1",
-          "title": "Ponderea costurilor de angajare la muncă peste hotare în veniturile lunare în țara de destinație",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-7-1",
-          "status": "notstarted"
-        },{
           "id": "10-6-1-a",
           "title": "",
           "description": "",
@@ -1723,26 +1695,12 @@
           "href": "/open-sdg-site-starter/ro/10-3-1-1",
           "status": "complete"
         },{
-          "id": "10-c-1",
-          "title": "Costurile de remitere ca proporție din suma încasată",
+          "id": "10-7-1",
+          "title": "Ponderea costurilor de angajare la muncă peste hotare în veniturile lunare în țara de destinație",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-c-1",
-          "status": "complete"
-        },{
-          "id": "10-7-2-3",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-7-2-3",
-          "status": "complete"
-        },{
-          "id": "10-7-2-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-7-2-2",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/ro/10-7-1",
+          "status": "notstarted"
         },{
           "id": "10-a-1",
           "title": "Proporția liniilor tarifare aplicate la „cota zero” la importurile de mărfuri din țările subdezvoltate și celor în curs de dezvoltare",
@@ -1751,25 +1709,67 @@
           "href": "/open-sdg-site-starter/ro/10-a-1",
           "status": "complete"
         },{
-          "id": "10-2-1",
-          "title": "Proporția de persoane care trăiesc sub 50% din venitul mediu, pe sexe, vârstă, persoane cu dizabilități",
+          "id": "10-3-1",
+          "title": "Ponderea populației care a comunicat că în ultimele 12 luni s-a simțit vreodată discriminată sau hărțuită în baza unui motiv interzis de dreptul internațional al drepturilor omului",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-2-1",
+          "href": "/open-sdg-site-starter/ro/10-3-1",
           "status": "complete"
         },{
-          "id": "10-6-1",
-          "title": "Proporția  membrilor și drepturile de vot ale țărilor în curs de dezvoltare în cadrul organizațiilor internaționale",
+          "id": "10-4-1",
+          "title": "Ponderea costului forței de muncă în PIB, cuprinzând salariile și transferurile de protecție socială",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-6-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/10-4-1",
+          "status": "complete"
         },{
-          "id": "10-6-1-b",
+          "id": "10-1-1-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/10-6-1-b",
+          "href": "/open-sdg-site-starter/ro/10-1-1-a",
+          "status": "complete"
+        },{
+          "id": "10-c-1",
+          "title": "Costurile de remitere ca proporție din suma încasată",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-c-1",
+          "status": "complete"
+        },{
+          "id": "10-1-1",
+          "title": "Ritmul de creștere a cheltuielilor de consum sau veniturilor gospodăriilor pe o persoană ale 40% din populația cel mai puțin asigurată și populației și per total țară",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-1-1",
+          "status": "notstarted"
+        },{
+          "id": "10-7-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-7-2-3",
+          "status": "complete"
+        },{
+          "id": "10-7-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-7-2-1",
+          "status": "notstarted"
+        },{
+          "id": "10-7-2",
+          "title": "Numărul țărilor cu politici naționale eficiente  privind migrația, care facilitează migrația și mobilitatea reglementată, în siguranță, ordonată și responsabilă a populației",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-7-2",
+          "status": "notstarted"
+        },{
+          "id": "10-7-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/10-7-2-2",
           "status": "complete"
         }]
     }
@@ -1785,53 +1785,11 @@
           "href": "/open-sdg-site-starter/ro/11-b-1-2",
           "status": "notstarted"
         },{
-          "id": "11-c-1",
-          "title": "Proporția sprijinului financiar extern acordat țărilor cel mai puțin dezvoltate, pentru construcția și modernizarea clădirilor durabile, rezistente și eficiente din punct de vedere al resurselor cu utilizarea materialelor locale",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-c-1",
-          "status": "notstarted"
-        },{
-          "id": "11-6-2-1",
+          "id": "11-5-2-b",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-6-2-1",
-          "status": "notstarted"
-        },{
-          "id": "11-5-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-5-1-a",
-          "status": "complete"
-        },{
-          "id": "11-5-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-5-1-b",
-          "status": "notstarted"
-        },{
-          "id": "11-5-1",
-          "title": "Numărul de persoane decedate, dispărute și direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-5-1",
-          "status": "notstarted"
-        },{
-          "id": "11-4-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-4-1-1",
-          "status": "complete"
-        },{
-          "id": "11-5-2-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-5-2-a",
+          "href": "/open-sdg-site-starter/ro/11-5-2-b",
           "status": "notstarted"
         },{
           "id": "11-5-2",
@@ -1841,116 +1799,18 @@
           "href": "/open-sdg-site-starter/ro/11-5-2",
           "status": "notstarted"
         },{
-          "id": "11-b-1",
-          "title": "Numărul de țări care adoptă și implementează Cadrul strategic național privind reducerea riscurilor de dezastre, aliniate la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015–2030",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-b-1",
-          "status": "notstarted"
-        },{
-          "id": "11-2-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-2-1-1",
-          "status": "complete"
-        },{
-          "id": "11-4-1",
-          "title": "Cheltuielile totale (publice și private) per capita pentru conservarea și protejarea întregului patrimoniu cultural și natural pe tip de patrimoniu (cultural, natural, mixt și desemnare a Centrului de Patrimoniu Mondial), nivel de guvern (național, regional și local/municipal), tip de cheltuieli (operaționale/investiționale) și tip de finanțare privată (donații în natură, sectorul privat non-profit și sponsorizare)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-4-1",
-          "status": "notstarted"
-        },{
-          "id": "11-2-1",
-          "title": "Proporția populației care are acces convenabil la transportul public, pe sexe, vârstă și persoane cu dizabilități",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-2-1",
-          "status": "notstarted"
-        },{
-          "id": "11-6-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-6-1-1",
-          "status": "complete"
-        },{
-          "id": "11-3-1",
-          "title": "Rata consumului de teren raportată la rata de creștere a populației",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-3-1",
-          "status": "notstarted"
-        },{
-          "id": "11-5-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-5-2-b",
-          "status": "notstarted"
-        },{
-          "id": "11-7-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-7-1-1",
-          "status": "complete"
-        },{
-          "id": "11-a-1",
-          "title": "Ponderea populației ce locuiește în urbe, care dispun de planuri/ strategii de dezvoltare cu integrarea prognozei populației și a resurselor necesare, după mărimea orașului",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-a-1",
-          "status": "notstarted"
-        },{
-          "id": "11-1-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-1-1-a",
-          "status": "complete"
-        },{
-          "id": "11-1-1",
-          "title": "Ponderea populației urbane care locuiește în mahalale, așezări informale sau locuințe inadecvate",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-1-1",
-          "status": "notstarted"
-        },{
-          "id": "11-3-2",
-          "title": "Proporția orașelor în care structurile funcționează în mod regulat și pe o bază democratică, asigurând participarea directă a societății civile la planificarea urbană și managementul urban",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-3-2",
-          "status": "notstarted"
-        },{
-          "id": "11-7-1",
-          "title": "Ponderea medie a suprafeței construite a orașelor care este deschisă utilizării publice pentru toți, pe sexe, vârstă și persoane cu dizabilități",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-7-1",
-          "status": "notstarted"
-        },{
-          "id": "11-b-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-b-1-1",
-          "status": "notstarted"
-        },{
-          "id": "11-6-2",
-          "title": "Concentrația medie anuală a suspensiilor solide (PM2.5 și PM10) în urbe (populație ponderată)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-6-2",
-          "status": "notstarted"
-        },{
           "id": "11-7-2",
           "title": "Ponderea victimelor abuzului fizic sau hărțuirii sexuale, în ultimele 12 luni, pe sexe, vârstă, statut de dizabilitate și locul de survenire",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/11-7-2",
+          "status": "notstarted"
+        },{
+          "id": "11-c-1",
+          "title": "Proporția sprijinului financiar extern acordat țărilor cel mai puțin dezvoltate, pentru construcția și modernizarea clădirilor durabile, rezistente și eficiente din punct de vedere al resurselor cu utilizarea materialelor locale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-c-1",
           "status": "notstarted"
         },{
           "id": "11-6-1",
@@ -1960,11 +1820,32 @@
           "href": "/open-sdg-site-starter/ro/11-6-1",
           "status": "notstarted"
         },{
-          "id": "11-1-1-b",
+          "id": "11-5-2-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/11-1-1-b",
+          "href": "/open-sdg-site-starter/ro/11-5-2-a",
+          "status": "notstarted"
+        },{
+          "id": "11-3-1",
+          "title": "Rata consumului de teren raportată la rata de creștere a populației",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-3-1",
+          "status": "notstarted"
+        },{
+          "id": "11-6-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-6-2-1",
+          "status": "notstarted"
+        },{
+          "id": "11-6-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-6-1-1",
           "status": "complete"
         },{
           "id": "11-5-1-c",
@@ -1973,6 +1854,97 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/11-5-1-c",
           "status": "complete"
+        },{
+          "id": "11-1-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-1-1-b",
+          "status": "complete"
+        },{
+          "id": "11-4-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-4-1-1",
+          "status": "complete"
+        },{
+          "id": "11-6-2",
+          "title": "Concentrația medie anuală a suspensiilor solide (PM2.5 și PM10) în urbe (populație ponderată)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-6-2",
+          "status": "notstarted"
+        },{
+          "id": "11-5-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-5-1-b",
+          "status": "notstarted"
+        },{
+          "id": "11-7-1",
+          "title": "Ponderea medie a suprafeței construite a orașelor care este deschisă utilizării publice pentru toți, pe sexe, vârstă și persoane cu dizabilități",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-7-1",
+          "status": "notstarted"
+        },{
+          "id": "11-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-2-1-1",
+          "status": "complete"
+        },{
+          "id": "11-1-1",
+          "title": "Ponderea populației urbane care locuiește în mahalale, așezări informale sau locuințe inadecvate",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-1-1",
+          "status": "notstarted"
+        },{
+          "id": "11-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-5-1-a",
+          "status": "complete"
+        },{
+          "id": "11-4-1",
+          "title": "Cheltuielile totale (publice și private) per capita pentru conservarea și protejarea întregului patrimoniu cultural și natural pe tip de patrimoniu (cultural, natural, mixt și desemnare a Centrului de Patrimoniu Mondial), nivel de guvern (național, regional și local/municipal), tip de cheltuieli (operaționale/investiționale) și tip de finanțare privată (donații în natură, sectorul privat non-profit și sponsorizare)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-4-1",
+          "status": "notstarted"
+        },{
+          "id": "11-3-2",
+          "title": "Proporția orașelor în care structurile funcționează în mod regulat și pe o bază democratică, asigurând participarea directă a societății civile la planificarea urbană și managementul urban",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-3-2",
+          "status": "notstarted"
+        },{
+          "id": "11-a-1",
+          "title": "Ponderea populației ce locuiește în urbe, care dispun de planuri/ strategii de dezvoltare cu integrarea prognozei populației și a resurselor necesare, după mărimea orașului",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-a-1",
+          "status": "notstarted"
+        },{
+          "id": "11-b-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-b-1-1",
+          "status": "notstarted"
+        },{
+          "id": "11-b-1",
+          "title": "Numărul de țări care adoptă și implementează Cadrul strategic național privind reducerea riscurilor de dezastre, aliniate la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015–2030",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-b-1",
+          "status": "notstarted"
         },{
           "id": "11-b-2",
           "title": "Proporția autorităților publice locale care adoptă și implementează strategii locale de reducere a riscurilor de dezastre în conformitate cu strategiile naționale de reducere a riscurilor de dezastre",
@@ -1987,6 +1959,34 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/11-3-1-1",
           "status": "complete"
+        },{
+          "id": "11-1-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-1-1-a",
+          "status": "complete"
+        },{
+          "id": "11-7-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-7-1-1",
+          "status": "complete"
+        },{
+          "id": "11-5-1",
+          "title": "Numărul de persoane decedate, dispărute și direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-5-1",
+          "status": "notstarted"
+        },{
+          "id": "11-2-1",
+          "title": "Proporția populației care are acces convenabil la transportul public, pe sexe, vârstă și persoane cu dizabilități",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/11-2-1",
+          "status": "notstarted"
         }]
     }
   },{
@@ -1994,39 +1994,11 @@
       "id": "12",
       "title": "Asigurarea unor tipare de consum şi producţie durabile",
       "indicators": [{
-          "id": "12-8-1",
-          "title": "Măsura în care (i) educația pentru cetățenie globală și (ii) educația pentru dezvoltare urabilă (inclusiv educația privind schimbările climatice) sunt integrate în (a) politicile naționale educaționale; (b) curriculum; (c) instruirea profesorilor și (d) evaluarea studenților",
+          "id": "12-1-1",
+          "title": "Numărul țărilor cu planuri naționale de acțiuni privind consumul și producerea durabilă (CPD) sau CPD integrat ca prioritate sau țintă în politicile naționale",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-8-1",
-          "status": "complete"
-        },{
-          "id": "12-4-2",
-          "title": "Volumul deșeurilor periculoase generate pe o persoană și proporția deșeurilor periculoase tratate, pe tip de tratare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-4-2",
-          "status": "notstarted"
-        },{
-          "id": "12-7-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-7-1-1",
-          "status": "notstarted"
-        },{
-          "id": "12-4-1",
-          "title": "Numărul de părți la acorduri internaționale și multilaterale de mediu cu privire la deșeurile periculoase și alte substanțe chimice, care-și întrunesc angajamentele și obligațiilor lor privind transmiterea informației după cum se solicitări de fiecare acord relevant",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-4-1",
-          "status": "complete"
-        },{
-          "id": "12-3-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-3-1-a",
+          "href": "/open-sdg-site-starter/ro/12-1-1",
           "status": "notstarted"
         },{
           "id": "12-7-1",
@@ -2036,74 +2008,18 @@
           "href": "/open-sdg-site-starter/ro/12-7-1",
           "status": "notstarted"
         },{
-          "id": "12-1-1-1",
-          "title": "",
+          "id": "12-b-1",
+          "title": "Numărul de strategii sau politici și planuri de acțiuni implementate privind turismul durabil, care includ instrumente de monitorizare  și evaluare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-1-1-1",
+          "href": "/open-sdg-site-starter/ro/12-b-1",
           "status": "complete"
-        },{
-          "id": "12-2-2",
-          "title": "Consumul intern de resurse naturale, consumul de resurse naturale pe o persoană, consumul de resurse naturale raportate la PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-2-2",
-          "status": "notstarted"
         },{
           "id": "12-4-2-a",
           "title": "",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/12-4-2-a",
-          "status": "complete"
-        },{
-          "id": "12-2-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-2-1-a",
-          "status": "notstarted"
-        },{
-          "id": "12-2-2-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-2-2-a",
-          "status": "complete"
-        },{
-          "id": "12-4-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-4-2-b",
-          "status": "complete"
-        },{
-          "id": "12-6-1",
-          "title": "Numărul companiilor care publică rapoarte privind consumul durabil de resurse",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-6-1",
-          "status": "notstarted"
-        },{
-          "id": "12-2-2-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-2-2-b",
-          "status": "complete"
-        },{
-          "id": "12-a-1",
-          "title": "Volumul suportului acordat țărilor în curs de dezvoltare pentru cercetare și dezvoltare pentru consum și producție durabilă și tehnologii ecologice",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-a-1",
-          "status": "notstarted"
-        },{
-          "id": "12-5-1",
-          "title": "Rata națională de reciclare, tone de material reciclat",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-5-1",
           "status": "complete"
         },{
           "id": "12-2-1-b",
@@ -2113,13 +2029,6 @@
           "href": "/open-sdg-site-starter/ro/12-2-1-b",
           "status": "notstarted"
         },{
-          "id": "12-3-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-3-1-b",
-          "status": "notstarted"
-        },{
           "id": "12-c-1",
           "title": "Volumul de subvenții pentru combustibili fosili pe unitate din PIB (producție și consum) și ca proporție a cheltuielilor naționale totale pentru combustibili fosili",
           "description": "",
@@ -2127,32 +2036,25 @@
           "href": "/open-sdg-site-starter/ro/12-c-1",
           "status": "notstarted"
         },{
-          "id": "12-5-1-1",
+          "id": "12-a-1",
+          "title": "Volumul suportului acordat țărilor în curs de dezvoltare pentru cercetare și dezvoltare pentru consum și producție durabilă și tehnologii ecologice",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-a-1",
+          "status": "notstarted"
+        },{
+          "id": "12-7-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-5-1-1",
-          "status": "complete"
-        },{
-          "id": "12-2-1",
-          "title": "Amprenta resurselor naturale, amprenta resurselor naturale pe o persoană, amprenta resurselor naturale raportate la PIB",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-2-1",
+          "href": "/open-sdg-site-starter/ro/12-7-1-1",
           "status": "notstarted"
         },{
-          "id": "12-b-1",
-          "title": "Numărul de strategii sau politici și planuri de acțiuni implementate privind turismul durabil, care includ instrumente de monitorizare  și evaluare",
+          "id": "12-3-1-a",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-b-1",
-          "status": "complete"
-        },{
-          "id": "12-1-1",
-          "title": "Numărul țărilor cu planuri naționale de acțiuni privind consumul și producerea durabilă (CPD) sau CPD integrat ca prioritate sau țintă în politicile naționale",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/12-1-1",
+          "href": "/open-sdg-site-starter/ro/12-3-1-a",
           "status": "notstarted"
         },{
           "id": "12-3-1",
@@ -2161,6 +2063,104 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/12-3-1",
           "status": "notstarted"
+        },{
+          "id": "12-5-1",
+          "title": "Rata națională de reciclare, tone de material reciclat",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-5-1",
+          "status": "complete"
+        },{
+          "id": "12-4-2",
+          "title": "Volumul deșeurilor periculoase generate pe o persoană și proporția deșeurilor periculoase tratate, pe tip de tratare",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-4-2",
+          "status": "notstarted"
+        },{
+          "id": "12-2-1",
+          "title": "Amprenta resurselor naturale, amprenta resurselor naturale pe o persoană, amprenta resurselor naturale raportate la PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-2-1",
+          "status": "notstarted"
+        },{
+          "id": "12-2-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-2-2-a",
+          "status": "complete"
+        },{
+          "id": "12-3-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-3-1-b",
+          "status": "notstarted"
+        },{
+          "id": "12-1-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-1-1-1",
+          "status": "complete"
+        },{
+          "id": "12-6-1",
+          "title": "Numărul companiilor care publică rapoarte privind consumul durabil de resurse",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-6-1",
+          "status": "notstarted"
+        },{
+          "id": "12-4-1",
+          "title": "Numărul de părți la acorduri internaționale și multilaterale de mediu cu privire la deșeurile periculoase și alte substanțe chimice, care-și întrunesc angajamentele și obligațiilor lor privind transmiterea informației după cum se solicitări de fiecare acord relevant",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-4-1",
+          "status": "complete"
+        },{
+          "id": "12-2-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-2-1-a",
+          "status": "notstarted"
+        },{
+          "id": "12-2-2",
+          "title": "Consumul intern de resurse naturale, consumul de resurse naturale pe o persoană, consumul de resurse naturale raportate la PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-2-2",
+          "status": "notstarted"
+        },{
+          "id": "12-4-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-4-2-b",
+          "status": "complete"
+        },{
+          "id": "12-5-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-5-1-1",
+          "status": "complete"
+        },{
+          "id": "12-8-1",
+          "title": "Măsura în care (i) educația pentru cetățenie globală și (ii) educația pentru dezvoltare urabilă (inclusiv educația privind schimbările climatice) sunt integrate în (a) politicile naționale educaționale; (b) curriculum; (c) instruirea profesorilor și (d) evaluarea studenților",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-8-1",
+          "status": "complete"
+        },{
+          "id": "12-2-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/12-2-2-b",
+          "status": "complete"
         }]
     }
   },{
@@ -2168,11 +2168,11 @@
       "id": "13",
       "title": "Luarea unor măsuri urgente de combatere a schimbărilor climatice şi a impactului lor",
       "indicators": [{
-          "id": "13-1-1",
-          "title": "Numărul de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "id": "13-3-2",
+          "title": "Numărul de țări care au comunicat  consolidarea capacității instituționale, sistemice și individuale de implementare a acțiunilor de adaptare, reducere, transfer de tehnologii și de dezvoltare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-1-1",
+          "href": "/open-sdg-site-starter/ro/13-3-2",
           "status": "notstarted"
         },{
           "id": "13-1-1-c",
@@ -2182,25 +2182,11 @@
           "href": "/open-sdg-site-starter/ro/13-1-1-c",
           "status": "complete"
         },{
-          "id": "13-2-1-1",
-          "title": "",
+          "id": "13-a-1",
+          "title": "Sumele mobilizate de dolari SUA per an între 2020 și 2025 pentru angajamentul de 100 miliarde de dolari SUA",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-2-1-1",
-          "status": "notstarted"
-        },{
-          "id": "13-3-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-3-2-1",
-          "status": "notstarted"
-        },{
-          "id": "13-1-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-1-2-1",
+          "href": "/open-sdg-site-starter/ro/13-a-1",
           "status": "notstarted"
         },{
           "id": "13-1-1-a",
@@ -2210,11 +2196,11 @@
           "href": "/open-sdg-site-starter/ro/13-1-1-a",
           "status": "complete"
         },{
-          "id": "13-a-1",
-          "title": "Sumele mobilizate de dolari SUA per an între 2020 și 2025 pentru angajamentul de 100 miliarde de dolari SUA",
+          "id": "13-1-3",
+          "title": "Proporția autorităților publice locale care adoptă și implementează strategii locale de reducere a riscurilor de dezastre în conformitate cu strategiile naționale de reducere a riscurilor de dezastre",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-a-1",
+          "href": "/open-sdg-site-starter/ro/13-1-3",
           "status": "notstarted"
         },{
           "id": "13-2-1",
@@ -2224,11 +2210,11 @@
           "href": "/open-sdg-site-starter/ro/13-2-1",
           "status": "notstarted"
         },{
-          "id": "13-3-1",
-          "title": "Număr de țări care au integrat migrația, adaptarea, reducerea impactului și avertizarea timpurie în curricula învățământului primar, secundar și terțiar",
+          "id": "13-1-2",
+          "title": "Numărul de țări care adoptă și implementează strategii naționale privind reducerea riscurilor de dezastre, aliniate la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015–2030",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-3-1",
+          "href": "/open-sdg-site-starter/ro/13-1-2",
           "status": "notstarted"
         },{
           "id": "13-1-2-2",
@@ -2238,11 +2224,32 @@
           "href": "/open-sdg-site-starter/ro/13-1-2-2",
           "status": "notstarted"
         },{
-          "id": "13-1-3",
-          "title": "Proporția autorităților publice locale care adoptă și implementează strategii locale de reducere a riscurilor de dezastre în conformitate cu strategiile naționale de reducere a riscurilor de dezastre",
+          "id": "13-3-1",
+          "title": "Număr de țări care au integrat migrația, adaptarea, reducerea impactului și avertizarea timpurie în curricula învățământului primar, secundar și terțiar",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-1-3",
+          "href": "/open-sdg-site-starter/ro/13-3-1",
+          "status": "notstarted"
+        },{
+          "id": "13-1-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/13-1-1-b",
+          "status": "notstarted"
+        },{
+          "id": "13-1-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/13-1-2-1",
+          "status": "notstarted"
+        },{
+          "id": "13-1-1",
+          "title": "Numărul de persoane decedate, dispărute și persoane direct afectate în urma situațiilor excepționale, la 100.000 de locuitori",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/13-1-1",
           "status": "notstarted"
         },{
           "id": "13-b-1",
@@ -2252,32 +2259,25 @@
           "href": "/open-sdg-site-starter/ro/13-b-1",
           "status": "notstarted"
         },{
+          "id": "13-3-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/13-3-2-1",
+          "status": "notstarted"
+        },{
+          "id": "13-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/13-2-1-1",
+          "status": "notstarted"
+        },{
           "id": "13-3-1-1",
           "title": "",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/13-3-1-1",
-          "status": "notstarted"
-        },{
-          "id": "13-1-2",
-          "title": "Numărul de țări care adoptă și implementează strategii naționale privind reducerea riscurilor de dezastre, aliniate la Cadrul de la Sendai privind reducerea riscurilor de dezastre pentru 2015–2030",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-1-2",
-          "status": "notstarted"
-        },{
-          "id": "13-3-2",
-          "title": "Numărul de țări care au comunicat  consolidarea capacității instituționale, sistemice și individuale de implementare a acțiunilor de adaptare, reducere, transfer de tehnologii și de dezvoltare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-3-2",
-          "status": "notstarted"
-        },{
-          "id": "13-1-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/13-1-1-b",
           "status": "notstarted"
         }]
     }
@@ -2286,11 +2286,18 @@
       "id": "14",
       "title": "Conservarea şi utilizarea durabilă a oceanelor, mărilor şi a resurselor marine pentru o dezvoltare durabilă",
       "indicators": [{
-          "id": "14-c-1",
-          "title": "Numărul de țări care înregistrează progres în ratificarea, acceptarea și implementarea prin cadre legale, de politici și instituționale, instrumentele ce țin de domeniul oceanelor, care implementează dreptul internațional, conform celor reflectate în Convenția ONU asupra dreptului mării, pentru conservarea și utilizarea durabilă a oceanelor și resurselor lor",
+          "id": "14-b-1",
+          "title": "Gradul de implementare a cadrului legal/normativ/de politici/instituțional care recunoaște și protejează drepturile de acces pentru pescarii de scară mică",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-c-1",
+          "href": "/open-sdg-site-starter/ro/14-b-1",
+          "status": "notstarted"
+        },{
+          "id": "14-2-1",
+          "title": "Proporția zonelor economice exclusive naționale gestionate folosind abordări ecosistemice",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/14-2-1",
           "status": "notstarted"
         },{
           "id": "14-4-1",
@@ -2300,11 +2307,25 @@
           "href": "/open-sdg-site-starter/ro/14-4-1",
           "status": "notstarted"
         },{
-          "id": "14-7-1",
-          "title": "Ponderea pescuitului durabil în PIB în statele mici insulare în curs de dezvoltare, în țările cel mai puțin dezvoltate și în toate țările",
+          "id": "14-5-1",
+          "title": "Acoperirea ariilor protejate în raport cu zonele marine",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-7-1",
+          "href": "/open-sdg-site-starter/ro/14-5-1",
+          "status": "notstarted"
+        },{
+          "id": "14-4-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/14-4-1-1",
+          "status": "complete"
+        },{
+          "id": "14-c-1",
+          "title": "Numărul de țări care înregistrează progres în ratificarea, acceptarea și implementarea prin cadre legale, de politici și instituționale, instrumentele ce țin de domeniul oceanelor, care implementează dreptul internațional, conform celor reflectate în Convenția ONU asupra dreptului mării, pentru conservarea și utilizarea durabilă a oceanelor și resurselor lor",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/14-c-1",
           "status": "notstarted"
         },{
           "id": "14-1-1-1",
@@ -2314,34 +2335,6 @@
           "href": "/open-sdg-site-starter/ro/14-1-1-1",
           "status": "complete"
         },{
-          "id": "14-7-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-7-1-1",
-          "status": "complete"
-        },{
-          "id": "14-4-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-4-1-1",
-          "status": "complete"
-        },{
-          "id": "14-b-1",
-          "title": "Gradul de implementare a cadrului legal/normativ/de politici/instituțional care recunoaște și protejează drepturile de acces pentru pescarii de scară mică",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-b-1",
-          "status": "notstarted"
-        },{
-          "id": "14-6-1",
-          "title": "Gradul de implementare a instrumentelor internaționale care vizează combaterea pescuitului ilegal, nedeclarat și nereglementat",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-6-1",
-          "status": "notstarted"
-        },{
           "id": "14-3-1",
           "title": "Aciditatea marină medie (pH) măsurată la un șir convenit de stații reprezentative de prelevare a probelor",
           "description": "",
@@ -2349,18 +2342,18 @@
           "href": "/open-sdg-site-starter/ro/14-3-1",
           "status": "notstarted"
         },{
-          "id": "14-5-1",
-          "title": "Acoperirea ariilor protejate în raport cu zonele marine",
+          "id": "14-7-1-1",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-5-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/14-7-1-1",
+          "status": "complete"
         },{
-          "id": "14-2-1",
-          "title": "Proporția zonelor economice exclusive naționale gestionate folosind abordări ecosistemice",
+          "id": "14-7-1",
+          "title": "Ponderea pescuitului durabil în PIB în statele mici insulare în curs de dezvoltare, în țările cel mai puțin dezvoltate și în toate țările",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/14-2-1",
+          "href": "/open-sdg-site-starter/ro/14-7-1",
           "status": "notstarted"
         },{
           "id": "14-1-1",
@@ -2376,6 +2369,13 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/14-a-1",
           "status": "notstarted"
+        },{
+          "id": "14-6-1",
+          "title": "Gradul de implementare a instrumentelor internaționale care vizează combaterea pescuitului ilegal, nedeclarat și nereglementat",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/14-6-1",
+          "status": "notstarted"
         }]
     }
   },{
@@ -2383,68 +2383,12 @@
       "id": "15",
       "title": "Protejarea, restaurarea şi promovarea utilizării durabile a ecosistemelor terestre, gestionarea durabilă a pădurilor, combaterea deșertificării, stoparea şi repararea degradării solului și stoparea pierderilor de biodiversitate",
       "indicators": [{
-          "id": "15-4-2",
-          "title": "Indicele acoperii verzi montane",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-4-2",
-          "status": "notstarted"
-        },{
-          "id": "15-2-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-2-1-2",
-          "status": "complete"
-        },{
-          "id": "15-4-1",
-          "title": "Acoperirea cu arii protejate a zonelor importante pentru biodiversitate montană",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-4-1",
-          "status": "notstarted"
-        },{
-          "id": "15-1-2",
-          "title": "Proporția ariilor importante ale biodiversitatii zonelor terestre și de apă dulce protejate, divizate pe tipuri de ecosisteme",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-1-2",
-          "status": "complete"
-        },{
           "id": "15-7-1",
           "title": "Proporția comerțului ilicit cu animale sălbatice, care au fost braconate sau traficate prin contrabandă",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/15-7-1",
           "status": "notstarted"
-        },{
-          "id": "15-9-1",
-          "title": "Gradul de implementare a țintelor naționale stabilite în conformitate cu Ținta Aichi 2 pentru Biodiversitate din Planul Strategiei privind diversitatea biologică pentru anii 2011–2020",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-9-1",
-          "status": "notstarted"
-        },{
-          "id": "15-9-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-9-1-1",
-          "status": "complete"
-        },{
-          "id": "15-2-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-2-1-1",
-          "status": "complete"
-        },{
-          "id": "15-8-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-8-1-1",
-          "status": "complete"
         },{
           "id": "15-8-1",
           "title": "Ponderea țărilor care adoptă legislație națională relevantă și alocare adecvată de resurse pentru prevenirea sau controlul speciilor alogene invazive",
@@ -2460,46 +2404,11 @@
           "href": "/open-sdg-site-starter/ro/15-5-1-1",
           "status": "complete"
         },{
-          "id": "15-5-1",
-          "title": "Indicele Listei Roșii",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-5-1",
-          "status": "complete"
-        },{
-          "id": "15-1-1",
-          "title": "Suprafața forestieră ca procent din suprafața totală a terenurilor terestre",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-1-1",
-          "status": "complete"
-        },{
-          "id": "15-c-1",
-          "title": "Proporția comerțului ilicit cu animale sălbatice care au fost braconate sau traficate prin contrabandă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-c-1",
-          "status": "notstarted"
-        },{
-          "id": "15-3-1",
-          "title": "Cota parte a terenurilor degradate din suprafața totală de terenuri",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-3-1",
-          "status": "notstarted"
-        },{
           "id": "15-6-1",
           "title": "Numărul de țări care au adoptat cadru legislativ, administrativ și de politici întru asigurarea distribuirii corecte și echitabile a beneficiilor",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/15-6-1",
-          "status": "notstarted"
-        },{
-          "id": "15-a-1",
-          "title": "Volumul asistenței externe oficiale și cheltuielile publice pentru dezvoltare acordate pentru conservarea și utilizarea durabilă a biodiversității  și a ecosistemelor",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/15-a-1",
           "status": "notstarted"
         },{
           "id": "15-2-1-3",
@@ -2516,6 +2425,34 @@
           "href": "/open-sdg-site-starter/ro/15-6-1-1",
           "status": "complete"
         },{
+          "id": "15-4-2",
+          "title": "Indicele acoperii verzi montane",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-4-2",
+          "status": "notstarted"
+        },{
+          "id": "15-9-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-9-1-1",
+          "status": "complete"
+        },{
+          "id": "15-9-1",
+          "title": "Gradul de implementare a țintelor naționale stabilite în conformitate cu Ținta Aichi 2 pentru Biodiversitate din Planul Strategiei privind diversitatea biologică pentru anii 2011–2020",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-9-1",
+          "status": "notstarted"
+        },{
+          "id": "15-a-1",
+          "title": "Volumul asistenței externe oficiale și cheltuielile publice pentru dezvoltare acordate pentru conservarea și utilizarea durabilă a biodiversității  și a ecosistemelor",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-a-1",
+          "status": "notstarted"
+        },{
           "id": "15-b-1",
           "title": "Volumul asistenței externe oficiale și cheltuielile publice pentru dezvoltare acordate pentru conservarea și utilizarea durabilă a biodiversității  și a ecosistemelor",
           "description": "",
@@ -2523,11 +2460,74 @@
           "href": "/open-sdg-site-starter/ro/15-b-1",
           "status": "notstarted"
         },{
+          "id": "15-2-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-2-1-2",
+          "status": "complete"
+        },{
           "id": "15-2-1",
           "title": "Progresul privind managementul durabil al pădurilor",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/15-2-1",
+          "status": "complete"
+        },{
+          "id": "15-4-1",
+          "title": "Acoperirea cu arii protejate a zonelor importante pentru biodiversitate montană",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-4-1",
+          "status": "notstarted"
+        },{
+          "id": "15-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-2-1-1",
+          "status": "complete"
+        },{
+          "id": "15-1-1",
+          "title": "Suprafața forestieră ca procent din suprafața totală a terenurilor terestre",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-1-1",
+          "status": "complete"
+        },{
+          "id": "15-8-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-8-1-1",
+          "status": "complete"
+        },{
+          "id": "15-3-1",
+          "title": "Cota parte a terenurilor degradate din suprafața totală de terenuri",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-3-1",
+          "status": "notstarted"
+        },{
+          "id": "15-c-1",
+          "title": "Proporția comerțului ilicit cu animale sălbatice care au fost braconate sau traficate prin contrabandă",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-c-1",
+          "status": "notstarted"
+        },{
+          "id": "15-5-1",
+          "title": "Indicele Listei Roșii",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-5-1",
+          "status": "complete"
+        },{
+          "id": "15-1-2",
+          "title": "Proporția ariilor importante ale biodiversitatii zonelor terestre și de apă dulce protejate, divizate pe tipuri de ecosisteme",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/15-1-2",
           "status": "complete"
         }]
     }
@@ -2536,6 +2536,13 @@
       "id": "16",
       "title": "Promovarea unor societăți pașnice și incluzive pentru o dezvoltare durabilă, a accesului la justiție pentru toţi şi crearea unor instituţii eficiente, responsabile şi incluzive la toate nivelurile",
       "indicators": [{
+          "id": "16-10-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-10-2-2",
+          "status": "complete"
+        },{
           "id": "16-3-2-1",
           "title": "",
           "description": "",
@@ -2543,74 +2550,18 @@
           "href": "/open-sdg-site-starter/ro/16-3-2-1",
           "status": "complete"
         },{
-          "id": "16-1-1",
-          "title": "Numărul victimelor omorului intenționat la 100 mii populație, pe sexe și vârstă",
+          "id": "16-7-2",
+          "title": "Ponderea populației care consideră că procesul de luare a deciziilor este incluziv și participativ, pe sexe, vârstă, dizabilitate și grup de populație",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-1-1",
-          "status": "complete"
-        },{
-          "id": "16-6-2",
-          "title": "Ponderea populației satisfăcute de ultima experiență de contactare a serviciilor publice",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-6-2",
+          "href": "/open-sdg-site-starter/ro/16-7-2",
           "status": "notstarted"
         },{
-          "id": "16-2-1-1",
-          "title": "",
+          "id": "16-b-1",
+          "title": "Ponderea populației care a comunicat că în ultimele 12 luni s-a simțit vreodată discriminată sau hărțuită în baza unui motiv interzis de dreptul internațional al drepturilor omului",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-2-1-1",
-          "status": "complete"
-        },{
-          "id": "16-1-2",
-          "title": "Numărul deceselor cauzate de conflicte la 100 mii populație, pe sexe, vârste și cauză",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-1-2",
-          "status": "complete"
-        },{
-          "id": "16-8-1-a",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-8-1-a",
-          "status": "complete"
-        },{
-          "id": "16-6-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-6-2-1",
-          "status": "complete"
-        },{
-          "id": "16-6-1",
-          "title": "Cheltuielile publice primare drept cotă din bugetul aprobat inițial, pe sectoare (sau pe coduri bugetare sau ceva similar)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-6-1",
-          "status": "complete"
-        },{
-          "id": "16-10-1",
-          "title": "Numărul cazurilor verificate de omor, răpire, dispariție forțară, reținere silită, tortură a reprezentanților mass-media, sindicatelor și a altor persoane care promovează drepturile omului, în ultimele 12 luni",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-10-1",
-          "status": "notstarted"
-        },{
-          "id": "16-3-2-3",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-3-2-3",
-          "status": "complete"
-        },{
-          "id": "16-7-1-3",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-3",
+          "href": "/open-sdg-site-starter/ro/16-b-1",
           "status": "complete"
         },{
           "id": "16-4-2-1",
@@ -2620,32 +2571,11 @@
           "href": "/open-sdg-site-starter/ro/16-4-2-1",
           "status": "complete"
         },{
-          "id": "16-10-1-1",
-          "title": "",
+          "id": "16-2-2",
+          "title": "Numărul victimelor traficului de ființe umane la 100 mii populație, pe sexe, vârstă și forme de exploatare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-10-1-1",
-          "status": "complete"
-        },{
-          "id": "16-10-2-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-10-2-2",
-          "status": "complete"
-        },{
-          "id": "16-7-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-b",
-          "status": "complete"
-        },{
-          "id": "16-8-1-b",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-8-1-b",
+          "href": "/open-sdg-site-starter/ro/16-2-2",
           "status": "complete"
         },{
           "id": "16-2-3",
@@ -2655,46 +2585,67 @@
           "href": "/open-sdg-site-starter/ro/16-2-3",
           "status": "notstarted"
         },{
-          "id": "16-3-2-2",
+          "id": "16-6-2",
+          "title": "Ponderea populației satisfăcute de ultima experiență de contactare a serviciilor publice",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-6-2",
+          "status": "notstarted"
+        },{
+          "id": "16-2-1",
+          "title": "Ponderea copiilor (1-17 ani) care au fost supuși pedepsei fizice și/sau agresiunii psihologice din partea îngrijitorilor, în ultima lună",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-2-1",
+          "status": "complete"
+        },{
+          "id": "16-8-1-a",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-3-2-2",
+          "href": "/open-sdg-site-starter/ro/16-8-1-a",
           "status": "complete"
         },{
-          "id": "16-7-1-a",
+          "id": "16-7-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-a",
+          "href": "/open-sdg-site-starter/ro/16-7-1-1",
           "status": "complete"
         },{
-          "id": "16-5-2",
-          "title": "Ponderea antreprenorilor care au avut cel puțin un contact cu un funcționar public și care au plătit mită unui funcționar public sau au fost rugați să plătească mită de către acești funcționari publici în ultimele 12 luni",
+          "id": "16-6-2-1",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-5-2",
+          "href": "/open-sdg-site-starter/ro/16-6-2-1",
           "status": "complete"
         },{
-          "id": "16-4-2",
-          "title": "Ponderea armelor confiscate, depistate sau predate, originea sau contextul ilegal al căror a fost urmărită sau stabilită de către o autoritate competentă în conformitate cu instrumentele internaționale",
+          "id": "16-10-2",
+          "title": "Numărul de țări care adoptă și implementează garanții constituționale, statutare și / sau politice pentru accesul public la informații",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-4-2",
+          "href": "/open-sdg-site-starter/ro/16-10-2",
           "status": "notstarted"
         },{
-          "id": "16-8-1",
-          "title": "Proporția membrilor și a drepturilor de vot ale țărilor în curs de dezvoltare în cadrul organizațiile internaționale",
+          "id": "16-7-1-3",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-8-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/16-7-1-3",
+          "status": "complete"
         },{
-          "id": "16-5-1",
-          "title": "Ponderea persoanelor care au avut cel puțin un contact cu un funcționar public și care au plătit mită unui funcționar public sau au fost rugate să plătească mită de către acești funcționari publici în ultimele 12 luni",
+          "id": "16-1-1",
+          "title": "Numărul victimelor omorului intenționat la 100 mii populație, pe sexe și vârstă",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-5-1",
+          "href": "/open-sdg-site-starter/ro/16-1-1",
+          "status": "complete"
+        },{
+          "id": "16-7-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-7-1-2",
           "status": "complete"
         },{
           "id": "16-7-1",
@@ -2711,102 +2662,18 @@
           "href": "/open-sdg-site-starter/ro/16-10-2-1",
           "status": "notstarted"
         },{
-          "id": "16-9-1",
-          "title": "Ponderea copiilor în vârstă de până la 5 ani, nașterea cărora a fost înregistrată de o autoritate civilă, pe vârste",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-9-1",
-          "status": "complete"
-        },{
-          "id": "16-1-3-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-1-3-1",
-          "status": "complete"
-        },{
-          "id": "16-2-2",
-          "title": "Numărul victimelor traficului de ființe umane la 100 mii populație, pe sexe, vârstă și forme de exploatare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-2-2",
-          "status": "complete"
-        },{
-          "id": "16-3-2",
-          "title": "Ponderea persoanelor aflate în arest preventiv în total persoane deținute în instituții penitenciare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-3-2",
-          "status": "complete"
-        },{
-          "id": "16-10-2",
-          "title": "Numărul de țări care adoptă și implementează garanții constituționale, statutare și / sau politice pentru accesul public la informații",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-10-2",
-          "status": "notstarted"
-        },{
-          "id": "16-7-1-c",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-c",
-          "status": "complete"
-        },{
-          "id": "16-5-2-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-5-2-2",
-          "status": "complete"
-        },{
-          "id": "16-3-2-4",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-3-2-4",
-          "status": "complete"
-        },{
-          "id": "16-4-2-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-4-2-2",
-          "status": "complete"
-        },{
-          "id": "16-1-4",
-          "title": "Ponderea persoanelor care se simt în siguranță când se plimbă singure în regiunea lor de reședință",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-1-4",
-          "status": "notstarted"
-        },{
-          "id": "16-7-1-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-2",
-          "status": "complete"
-        },{
-          "id": "16-4-1",
-          "title": "Valoarea fluxurilor financiare intrate și ieșite din țară ilegal ($ SUA)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-4-1",
-          "status": "notstarted"
-        },{
-          "id": "16-a-1",
-          "title": "Existența instituțiilor naționale independente pentru drepturile omului în conformitate cu Principiile de la Paris",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-a-1",
-          "status": "complete"
-        },{
           "id": "16-3-1",
           "title": "Ponderea victimelor violenței care în ultimele 12 luni au raport despre victimizarea lor autorităților competente sau altor mecanisme oficial recunoscute de soluționare a conflictelor",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/16-3-1",
+          "status": "notstarted"
+        },{
+          "id": "16-10-1",
+          "title": "Numărul cazurilor verificate de omor, răpire, dispariție forțară, reținere silită, tortură a reprezentanților mass-media, sindicatelor și a altor persoane care promovează drepturile omului, în ultimele 12 luni",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-10-1",
           "status": "notstarted"
         },{
           "id": "16-1-3",
@@ -2816,27 +2683,6 @@
           "href": "/open-sdg-site-starter/ro/16-1-3",
           "status": "complete"
         },{
-          "id": "16-2-1",
-          "title": "Ponderea copiilor (1-17 ani) care au fost supuși pedepsei fizice și/sau agresiunii psihologice din partea îngrijitorilor, în ultima lună",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-2-1",
-          "status": "complete"
-        },{
-          "id": "16-7-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-1-1",
-          "status": "complete"
-        },{
-          "id": "16-b-1",
-          "title": "Ponderea populației care a comunicat că în ultimele 12 luni s-a simțit vreodată discriminată sau hărțuită în baza unui motiv interzis de dreptul internațional al drepturilor omului",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-b-1",
-          "status": "complete"
-        },{
           "id": "16-5-2-1",
           "title": "",
           "description": "",
@@ -2844,11 +2690,165 @@
           "href": "/open-sdg-site-starter/ro/16-5-2-1",
           "status": "complete"
         },{
-          "id": "16-7-2",
-          "title": "Ponderea populației care consideră că procesul de luare a deciziilor este incluziv și participativ, pe sexe, vârstă, dizabilitate și grup de populație",
+          "id": "16-5-2-2",
+          "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/16-7-2",
+          "href": "/open-sdg-site-starter/ro/16-5-2-2",
+          "status": "complete"
+        },{
+          "id": "16-a-1",
+          "title": "Existența instituțiilor naționale independente pentru drepturile omului în conformitate cu Principiile de la Paris",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-a-1",
+          "status": "complete"
+        },{
+          "id": "16-8-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-8-1-b",
+          "status": "complete"
+        },{
+          "id": "16-9-1",
+          "title": "Ponderea copiilor în vârstă de până la 5 ani, nașterea cărora a fost înregistrată de o autoritate civilă, pe vârste",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-9-1",
+          "status": "complete"
+        },{
+          "id": "16-3-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-3-2-2",
+          "status": "complete"
+        },{
+          "id": "16-7-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-7-1-a",
+          "status": "complete"
+        },{
+          "id": "16-7-1-c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-7-1-c",
+          "status": "complete"
+        },{
+          "id": "16-5-2",
+          "title": "Ponderea antreprenorilor care au avut cel puțin un contact cu un funcționar public și care au plătit mită unui funcționar public sau au fost rugați să plătească mită de către acești funcționari publici în ultimele 12 luni",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-5-2",
+          "status": "complete"
+        },{
+          "id": "16-3-2",
+          "title": "Ponderea persoanelor aflate în arest preventiv în total persoane deținute în instituții penitenciare",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-3-2",
+          "status": "complete"
+        },{
+          "id": "16-3-2-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-3-2-4",
+          "status": "complete"
+        },{
+          "id": "16-4-1",
+          "title": "Valoarea fluxurilor financiare intrate și ieșite din țară ilegal ($ SUA)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-4-1",
+          "status": "notstarted"
+        },{
+          "id": "16-5-1",
+          "title": "Ponderea persoanelor care au avut cel puțin un contact cu un funcționar public și care au plătit mită unui funcționar public sau au fost rugate să plătească mită de către acești funcționari publici în ultimele 12 luni",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-5-1",
+          "status": "complete"
+        },{
+          "id": "16-3-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-3-2-3",
+          "status": "complete"
+        },{
+          "id": "16-4-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-4-2-2",
+          "status": "complete"
+        },{
+          "id": "16-7-1-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-7-1-b",
+          "status": "complete"
+        },{
+          "id": "16-4-2",
+          "title": "Ponderea armelor confiscate, depistate sau predate, originea sau contextul ilegal al căror a fost urmărită sau stabilită de către o autoritate competentă în conformitate cu instrumentele internaționale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-4-2",
+          "status": "notstarted"
+        },{
+          "id": "16-10-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-10-1-1",
+          "status": "complete"
+        },{
+          "id": "16-1-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-1-3-1",
+          "status": "complete"
+        },{
+          "id": "16-1-4",
+          "title": "Ponderea persoanelor care se simt în siguranță când se plimbă singure în regiunea lor de reședință",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-1-4",
+          "status": "notstarted"
+        },{
+          "id": "16-2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-2-1-1",
+          "status": "complete"
+        },{
+          "id": "16-6-1",
+          "title": "Cheltuielile publice primare drept cotă din bugetul aprobat inițial, pe sectoare (sau pe coduri bugetare sau ceva similar)",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-6-1",
+          "status": "complete"
+        },{
+          "id": "16-1-2",
+          "title": "Numărul deceselor cauzate de conflicte la 100 mii populație, pe sexe, vârste și cauză",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-1-2",
+          "status": "complete"
+        },{
+          "id": "16-8-1",
+          "title": "Proporția membrilor și a drepturilor de vot ale țărilor în curs de dezvoltare în cadrul organizațiile internaționale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/16-8-1",
           "status": "notstarted"
         }]
     }
@@ -2857,109 +2857,11 @@
       "id": "17",
       "title": "Consolidarea mijloacelor de implementare și revitalizarea parteneriatului global pentru dezvoltare durabilă",
       "indicators": [{
-          "id": "17-18-2",
-          "title": "Număr de țări care dispun de legislație națională în domeniul statisticii conform Principiilor Fundamentale ale Statisticii Oficiale",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-18-2",
-          "status": "notstarted"
-        },{
-          "id": "17-13-1",
-          "title": "Tabloul macroeconomic",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-13-1",
-          "status": "notstarted"
-        },{
-          "id": "17-10-1",
-          "title": "Nivelul mediu ponderat al tarifelor vamale la nivel mondial",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-10-1",
-          "status": "complete"
-        },{
-          "id": "17-16-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-16-1-1",
-          "status": "complete"
-        },{
-          "id": "17-4-1",
-          "title": "Serviciul datoriei externe ca proporție din total export de bunuri și servicii",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-4-1",
-          "status": "complete"
-        },{
-          "id": "17-16-1",
-          "title": "Număr de țări care raportează progrese asupra aplicării cadrului de monitorizare a eficienței dezvoltării cu participarea mai multor parteneri, care acordă suport în atingerea Obiectivelor de Dezvoltare Durabilă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-16-1",
-          "status": "notstarted"
-        },{
           "id": "17-6-2",
           "title": "Numărul abonaților cu acces la Internet în banda larga, la 100 de locuitori, după viteza de acces",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/17-6-2",
-          "status": "complete"
-        },{
-          "id": "17-18-2-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-18-2-1",
-          "status": "complete"
-        },{
-          "id": "17-14-1",
-          "title": "Număr de țări cu mecanisme în vigoare pentru consolidarea coerenței politicilor de dezvoltare durabilă",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-14-1",
-          "status": "notstarted"
-        },{
-          "id": "17-2-1",
-          "title": "Asistența netă oficială pentru dezvoltare, totală și pentru țările cel mai puțin dezvoltate, ca proporție a venitului național brut (VNB) al Comitetului donatorilor de asistență pentru dezvoltare al Organizației pentru Cooperare și Dezvoltare Economică (OCDE)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-2-1",
-          "status": "notstarted"
-        },{
-          "id": "17-5-1",
-          "title": "Numărul de țări care adoptă și implementează regimuri de promovare a investițiilor pentru țările cel mai puțin dezvoltate",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-5-1",
-          "status": "notstarted"
-        },{
-          "id": "17-17-1",
-          "title": "Suma (în dolari SUA) dedicată pentru (a) parteneriate public-private și (b) parteneriate ale societății civile",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-17-1",
-          "status": "notstarted"
-        },{
-          "id": "17-6-1",
-          "title": "Număr de acorduri și programe de cooperare științifică și / sau tehnologică încheiate cu alte țări, după tipul de cooperare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-6-1",
-          "status": "notstarted"
-        },{
-          "id": "17-3-1",
-          "title": "Investițiile străine directe, asistența externă oficială pentru dezvoltare și cooperarea Sud-Sud ca proporție în bugetului public consolidat",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-3-1",
-          "status": "notstarted"
-        },{
-          "id": "17-1-2",
-          "title": "Proporția bugetului public național finanțat din impozite și taxe",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-1-2",
           "status": "complete"
         },{
           "id": "17-18-3-1",
@@ -2969,25 +2871,25 @@
           "href": "/open-sdg-site-starter/ro/17-18-3-1",
           "status": "complete"
         },{
-          "id": "17-7-1",
-          "title": "Volumul total de finanțare aprobată pentru țările în curs de dezvoltare pentru a promova dezvoltarea, transferul, diseminarea și răspândirea tehnologiilor temeinice din punct de vedere ecologic",
+          "id": "17-16-1",
+          "title": "Număr de țări care raportează progrese asupra aplicării cadrului de monitorizare a eficienței dezvoltării cu participarea mai multor parteneri, care acordă suport în atingerea Obiectivelor de Dezvoltare Durabilă",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-7-1",
+          "href": "/open-sdg-site-starter/ro/17-16-1",
           "status": "notstarted"
-        },{
-          "id": "17-18-3-2",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-18-3-2",
-          "status": "complete"
         },{
           "id": "17-18-1",
           "title": "Proporția indicatorilor de dezvoltare durabilă disponibili la nivel național, conform dezagregărilor relevante pentru țintă și a Principiilor Fundamentale ale Statisticii Oficiale",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/17-18-1",
+          "status": "complete"
+        },{
+          "id": "17-3-2",
+          "title": "Volumul remiterilor personale (în dolari americani) ca procent din PIB",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-3-2",
           "status": "complete"
         },{
           "id": "17-11-1-1",
@@ -2997,12 +2899,26 @@
           "href": "/open-sdg-site-starter/ro/17-11-1-1",
           "status": "complete"
         },{
-          "id": "17-8-1",
-          "title": "Proporția persoanelor care utilizează Internetul",
+          "id": "17-14-1",
+          "title": "Număr de țări cu mecanisme în vigoare pentru consolidarea coerenței politicilor de dezvoltare durabilă",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-8-1",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/ro/17-14-1",
+          "status": "notstarted"
+        },{
+          "id": "17-19-2",
+          "title": "Ponderea țărilor care (a) au efectuat cel puțin un recensământ al populației și al locuințelor în ultimii 10 ani; și (b) au atins rata înregistrării a nașterilor de 100% și deceselor de 80%",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-19-2",
+          "status": "notstarted"
+        },{
+          "id": "17-7-1",
+          "title": "Volumul total de finanțare aprobată pentru țările în curs de dezvoltare pentru a promova dezvoltarea, transferul, diseminarea și răspândirea tehnologiilor temeinice din punct de vedere ecologic",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-7-1",
+          "status": "notstarted"
         },{
           "id": "17-15-1",
           "title": "Nivelul de utilizare al cadrelor de rezultate și instrumentelor de planificare ale țării de către furnizorii de cooperare pentru dezvoltare",
@@ -3011,19 +2927,26 @@
           "href": "/open-sdg-site-starter/ro/17-15-1",
           "status": "complete"
         },{
-          "id": "17-17-1-1",
+          "id": "17-16-1-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-17-1-1",
-          "status": "notstarted"
+          "href": "/open-sdg-site-starter/ro/17-16-1-1",
+          "status": "complete"
         },{
-          "id": "17-3-2",
-          "title": "Volumul remiterilor personale (în dolari americani) ca procent din PIB",
+          "id": "17-6-1",
+          "title": "Număr de acorduri și programe de cooperare științifică și / sau tehnologică încheiate cu alte țări, după tipul de cooperare",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-3-2",
-          "status": "complete"
+          "href": "/open-sdg-site-starter/ro/17-6-1",
+          "status": "notstarted"
+        },{
+          "id": "17-18-2",
+          "title": "Număr de țări care dispun de legislație națională în domeniul statisticii conform Principiilor Fundamentale ale Statisticii Oficiale",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-18-2",
+          "status": "notstarted"
         },{
           "id": "17-12-1",
           "title": "Nivelul mediu al tarifelor vamale aplicat țărilor în curs de dezvoltare, țărilor cel mai puțin dezvoltate și statelor insulare în curs de dezvoltare",
@@ -3039,46 +2962,32 @@
           "href": "/open-sdg-site-starter/ro/17-11-1",
           "status": "notstarted"
         },{
-          "id": "17-19-2-a",
+          "id": "17-18-2-1",
           "title": "",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-19-2-a",
+          "href": "/open-sdg-site-starter/ro/17-18-2-1",
           "status": "complete"
         },{
-          "id": "17-1-1",
-          "title": "Venituri publice totale raportate la PIB, pe surse",
+          "id": "17-4-1",
+          "title": "Serviciul datoriei externe ca proporție din total export de bunuri și servicii",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-1-1",
+          "href": "/open-sdg-site-starter/ro/17-4-1",
           "status": "complete"
         },{
-          "id": "17-19-2",
-          "title": "Ponderea țărilor care (a) au efectuat cel puțin un recensământ al populației și al locuințelor în ultimii 10 ani; și (b) au atins rata înregistrării a nașterilor de 100% și deceselor de 80%",
+          "id": "17-2-1",
+          "title": "Asistența netă oficială pentru dezvoltare, totală și pentru țările cel mai puțin dezvoltate, ca proporție a venitului național brut (VNB) al Comitetului donatorilor de asistență pentru dezvoltare al Organizației pentru Cooperare și Dezvoltare Economică (OCDE)",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-19-2",
+          "href": "/open-sdg-site-starter/ro/17-2-1",
           "status": "notstarted"
         },{
-          "id": "17-19-2-b",
-          "title": "",
+          "id": "17-10-1",
+          "title": "Nivelul mediu ponderat al tarifelor vamale la nivel mondial",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-19-2-b",
-          "status": "complete"
-        },{
-          "id": "17-18-3",
-          "title": "Număr de țări cu un Plan statistic național care este deplin finanțat și în proces de implementare, pe sursa de finanțare",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-18-3",
-          "status": "notstarted"
-        },{
-          "id": "17-14-1-1",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/ro/17-14-1-1",
+          "href": "/open-sdg-site-starter/ro/17-10-1",
           "status": "complete"
         },{
           "id": "17-9-1",
@@ -3088,12 +2997,103 @@
           "href": "/open-sdg-site-starter/ro/17-9-1",
           "status": "complete"
         },{
+          "id": "17-13-1",
+          "title": "Tabloul macroeconomic",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-13-1",
+          "status": "notstarted"
+        },{
+          "id": "17-1-2",
+          "title": "Proporția bugetului public național finanțat din impozite și taxe",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-1-2",
+          "status": "complete"
+        },{
+          "id": "17-8-1",
+          "title": "Proporția persoanelor care utilizează Internetul",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-8-1",
+          "status": "complete"
+        },{
+          "id": "17-1-1",
+          "title": "Venituri publice totale raportate la PIB, pe surse",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-1-1",
+          "status": "complete"
+        },{
+          "id": "17-3-1",
+          "title": "Investițiile străine directe, asistența externă oficială pentru dezvoltare și cooperarea Sud-Sud ca proporție în bugetului public consolidat",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-3-1",
+          "status": "notstarted"
+        },{
+          "id": "17-18-3",
+          "title": "Număr de țări cu un Plan statistic național care este deplin finanțat și în proces de implementare, pe sursa de finanțare",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-18-3",
+          "status": "notstarted"
+        },{
+          "id": "17-5-1",
+          "title": "Numărul de țări care adoptă și implementează regimuri de promovare a investițiilor pentru țările cel mai puțin dezvoltate",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-5-1",
+          "status": "notstarted"
+        },{
+          "id": "17-18-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-18-3-2",
+          "status": "complete"
+        },{
           "id": "17-19-1",
           "title": "Volumul asistenței externe acordate pentru consolidarea sistemului statistic în țările în curs de dezvoltare, echivalent în dolari SUA",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ro/17-19-1",
           "status": "complete"
+        },{
+          "id": "17-19-2-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-19-2-a",
+          "status": "complete"
+        },{
+          "id": "17-14-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-14-1-1",
+          "status": "complete"
+        },{
+          "id": "17-17-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-17-1-1",
+          "status": "notstarted"
+        },{
+          "id": "17-19-2-b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-19-2-b",
+          "status": "complete"
+        },{
+          "id": "17-17-1",
+          "title": "Suma (în dolari SUA) dedicată pentru (a) parteneriate public-private și (b) parteneriate ale societății civile",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ro/17-17-1",
+          "status": "notstarted"
         }]
     }
   }]
