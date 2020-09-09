@@ -340,7 +340,7 @@ Countries of exploitation: Țările de exploatare
 Court: Judecătoria
 Court of Appeal: Curtea de Apel 
 Courts: Instanțele de judecată
-Criteria of discrimination (include available disaggregations): Criterii de discriminare (includeți dezagregările disponibile)
+Criteria of discrimination: Criterii de discriminare
 Customs: Vama
 Cyprus: Cipru
 Czech: Cehia
@@ -402,6 +402,7 @@ Food preparation - urban: Pregătirea alimentelor - urban
 For the cold period: Pentru perioada rece
 Foreign citizenship: Cetățeni străini
 Forest area included in the forest management certification system, independently verified, thousands ha:  Suprafața forestieră inclusă în cadrul sistemului de certificare a modului de gestionare a pădurilor, verificat independent, mii ha
+Form of discrimination: Forma de discriminare
 Form of violence: Formă de violență
 Forms of exploitation: Forme de exploatare 
 Forms of ownership: Forme de proprietate
@@ -484,8 +485,6 @@ Lease: Locaţiune
 Legacy: Moştenire
 Legal entities: Persoane juridice
 Legislators, executive members and other officials: Legislatori, membri ai executivului și alți demnitari
-Level I equity ratio in relation to risk-weighted assets: Rata fondurilor proprii de nivel I în raport cu activele ponderate la risc
-Level I own funds ratio in relation to  assets: Rata fondurilor proprii de nivel I în raport cu  active
 Level of education: Nivelul de studii
 Level of eutrophication in rivers: Nivelul de eutrofizare în râuri
 Level of public institutions: Nivel instituții publice 
@@ -526,7 +525,7 @@ Natural gas / liquefied gas: Gaz natural/gaz lichefiat
 Natural gas, electricity: Gaz natural, electricitate
 Net: Net
 Nitrate concentration - mgn / l: Concentraţia de nitraţi – mgn/l
-Non-performing loans rate (without reserves) in relation to the  regulated capital: Rata creditelor neperformante (fără rezerve) in raport cu capitalul  reglementat
+Non-performing loans rate (without reserves) in relation to the total regulated capital: Rata creditelor neperformante (fără rezerve) in raport cu capitalul total reglementat
 Nonstate: Nestatale
 North: Nord
 Northern region: Regiunea Nord
@@ -631,7 +630,9 @@ Rare species: Specii rare
 Rase: Rasă
 Rate: Rata
 Rate of liquid assets relative to short-term liabilities: Rata activelor lichide în raport cu pasivele pe termen scurt
-Rate of net open foreign exchange position at  regulated capital: Rata poziției valutare deschise nete la capitalul  reglementat
+Rate of net open foreign exchange position at total regulated capital: Rata poziției valutare deschise nete la capitalul total reglementat
+Ratio of own funds of level I in relation to total assets: Rata fondurilor proprii de nivel I în raport cu total active
+Ratio of own funds of level I in relation to risk-weighted assets: Rata fondurilor proprii de nivel I în raport cu activele ponderate la risc
 Rayon/ ATU: Raion/ UAT
 Rayons: Raioane
 Rayons/Municipalities that have treatment plants: Raioanele/Municipiile care dețin stații de epurare
@@ -692,7 +693,7 @@ Sex (15-34 years): Sex (15-34 ani)
 Sexual: Sexuală
 Sexual assault: Agresiune sexuală
 Sexual orientation: Orientarea sexuală
-Share of non-performing loans in  loans granted: Ponderea creditelor neperformante în ul creditelor acordate
+Share of non-performing loans in total loans granted: Ponderea creditelor neperformante în totalul creditelor acordate
 Shop: Magazin
 Size of enterprise: Mărimea întreprinderii
 Social aid: Ajutor social
