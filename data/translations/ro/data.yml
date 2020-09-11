@@ -53,6 +53,12 @@ aged 56 - 62 years: aged 56 - 62 years
 15-24 age: 15-24 age
 25-29 age: 25-29 age
 15-75 age: 15-75 age
+15+ / Men: 15+ / Bărbați
+15+ / Women: 15+ / Femei
+15-24 / Men: 15-24 / Bărbați
+15-24 / Women: 15-24 / Femei
+25+ / Men: 25+ / Bărbați
+25+ / Women: 25+ / Femei
 aged 5-14 years: aged 5-14 years
 aged 15-24 years: aged 15-24 years
 aged 25 and older: aged 25 and older
@@ -261,6 +267,8 @@ Advantaged: Avantajați
 Age: Vârstă
 Age: Vârsta (etate)
 Age group: Grupa de vârstă  
+Age group/Sex 1: Grupa de vârstă/Sex 1
+Age group/Sex 2: Grupa de vârstă/Sex 2
 Age group (neglected): Grupa de vârstă (neglijați)
 Age group (subjected to violence): Grupa de vârstă  (supuși violenței)
 Age group of the victim: Grupa de vârstă  a victimei
