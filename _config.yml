@@ -52,9 +52,9 @@ create_indicators:
   
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: sdg2030@statistica.gov.md
+  suggestions: sdg2030@statistica.gov.md
+  functional: sdg2030@statistica.gov.md
 
 # Github Repo for Data
 # Replace this value as needed.
