@@ -12,10 +12,10 @@ Dacă aveți sugestii cu privire la sursele de date pe care le-am folosit sau av
 Am folosit 3 tipuri diferite de statut de raportare pentru un indicator, care sunt, de asemenea, codificate prin culori:
 
 * Raportat online (verde) - cel puțin datele naționale principale pentru acest indicator sunt disponibile pe acest site web, dar este posibil ca datele să nu fie încă complet dezagregate. Continuăm să obținem dezagregări suplimentare.
-* Statistici în curs (galben) - am găsit o sursă adecvată de date pentru acest indicator sau proxy relevant la nivel național. În prezent, asigurăm calitatea datelor și le pregătim pentru publicare.
-* Explorarea surselor de date (roșu) - căutăm în continuare o sursă de date adecvată pentru acest indicator.
+* Statistici în curs de dezvoltare (galben) - am găsit o sursă potrivită de date pentru acest indicator sau relevantă la nivel național. În prezent, asigurăm calitatea datelor și le pregătim pentru publicare.
+* Explorarea surselor de date (roșu) - căutăm în continuare o sursă de date potrivită pentru acest indicator.
 
-În cazul în care există informații suplimentare despre starea colectării și raportării datelor indicatorului, acestea vor fi afișate în partea de sus a paginii indicatorului.
+În cazul în care există informații suplimentare despre statutul colectării și raportării datelor indicatorului, acestea vor fi afișate în partea de sus a paginii indicatorului.
 
 ## Cât de des vor fi adăugate date noi pe acest site?
 Vom adăuga date imediat ce vor fi obținute și verificate. Aceasta include date noi, precum și actualizări la datele pe care le-am publicat deja. Vom continua să colectăm date din surse existente, acolo unde este posibil, în cooperare cu experți în domeniu.
@@ -26,7 +26,7 @@ Pentru unii indicatori, deși este posibil să avem date la nivel național, sur
 Aceasta înseamnă că trebuie să căutăm noi surse de date, să le conectăm pe cele existente sau să modelăm datele.
 
 ## Cât de accesibil este acest site web?
-Scopul nostru este de a face acest site web cât mai accesibil și utilizabil pentru fiecare utilizator. Lucrăm pentru a atinge nivelul AA al [Ghidului privind accesibilitatea conținutului web (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
+Scopul nostru este de a face acest site web cât mai accesibil și utilizabil pentru fiecare utilizator. Se lucrează pentru a atinge nivelul AA al [Ghidului privind accesibilitatea conținutului web (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
 
 ## Ce browsere pot folosi pentru a vizualiza acest site web?
 Acest site funcționează cu majoritatea celor mai recente versiuni ale browserelor utilizate în mod obișnuit. Există câteva probleme legate de utilizarea site-ului pe versiuni mai vechi de browsere, de ex. IE8 (se lucrează asupra remedierii acestora).
