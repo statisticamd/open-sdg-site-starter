@@ -1,35 +1,35 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: Întrebări frecvente (FAQ)
 permalink: /ro/faq/
 language: ro
 layout: page
 ---
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## Cum sugerez surse de date noi?
+Dacă aveți sugestii cu privire la sursele de date pe care le-am folosit sau aveți sugestii pentru noi surse de date, vă rugăm să ne trimiteți un e-mail la <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+## Ce înseamnă statutul raportării?
+Am folosit 3 tipuri diferite de statut de raportare pentru un indicator, care sunt, de asemenea, codificate prin culori:
 
-* Reported online (green) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (amber) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (red) – we are still looking for a suitable data source for this indicator.
+* Raportat online (verde) - cel puțin datele naționale principale pentru acest indicator sunt disponibile pe acest site web, dar este posibil ca datele să nu fie încă complet dezagregate. Continuăm să obținem dezagregări suplimentare.
+* Statistici în curs (galben) - am găsit o sursă adecvată de date pentru acest indicator sau proxy relevant la nivel național. În prezent, asigurăm calitatea datelor și le pregătim pentru publicare.
+* Explorarea surselor de date (roșu) - căutăm în continuare o sursă de date adecvată pentru acest indicator.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+În cazul în care există informații suplimentare despre starea colectării și raportării datelor indicatorului, acestea vor fi afișate în partea de sus a paginii indicatorului.
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
+## Cât de des vor fi adăugate date noi pe acest site?
+Vom adăuga date imediat ce vor fi obținute și verificate. Aceasta include date noi, precum și actualizări la datele pe care le-am publicat deja. Vom continua să colectăm date din surse existente, acolo unde este posibil, în cooperare cu experți în domeniu.
 
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
+## Ce faceți pentru a asigura disponibilitatea datelor?
+Pentru unii indicatori, deși este posibil să avem date la nivel național, sursele noastre de date existente nu ne permit întotdeauna să dezagregăm pe toate grupurile principale.
 
-This means we need to look for new data sources, link existing ones, or model data.
+Aceasta înseamnă că trebuie să căutăm noi surse de date, să le conectăm pe cele existente sau să modelăm datele.
 
-## How accessible is this website?
-Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
+## Cât de accesibil este acest site web?
+Scopul nostru este de a face acest site web cât mai accesibil și utilizabil pentru fiecare utilizator. Lucrăm pentru a atinge nivelul AA al [Ghidului privind accesibilitatea conținutului web (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
 
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
+## Ce browsere pot folosi pentru a vizualiza acest site web?
+Acest site funcționează cu majoritatea celor mai recente versiuni ale browserelor utilizate în mod obișnuit. Există câteva probleme legate de utilizarea site-ului pe versiuni mai vechi de browsere, de ex. IE8 (se lucrează asupra remedierii acestora).
 
-## Can other countries copy this website?
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). Countries and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+## Alte țări pot copia acest site web?
+Da. Acest site este construit și găzduit folosind software și servicii 100% gratuite, astfel încât alte țări și localități să poată refolosi în mod liber și ușor codul. Sunt disponibile îndrumări tehnice privind implementarea acestei platforme, [vezi aici](https://open-sdg.readthedocs.io). Țările și localitățile care explorează modul de raportare a propriilor date ODD pot obține, de asemenea, sprijin din partea [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) prin intermediul [SDG National Reporting Initiative](https://www.sdgreporting.org/).
