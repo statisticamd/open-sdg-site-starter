@@ -142,7 +142,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201205000322">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/default.css?v=20201206000322">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -150,7 +150,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201205000322"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20201206000322"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ro layout-indicator">
@@ -364,16 +364,184 @@ var translations = {
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_11-7-2' data-id="11-7-2" data-country="Republica Moldova"
   data-charttitle="11.7.2 Ponderea victimelor hărțuirii fizice sau sexuale, în ultimele 12 luni, pe sexe, vârstă, dizabilitate, loc de apariție" data-measurementunit="Procent, %" data-datasource="Biroul Național de Statistică" data-copyright=""
-  data-geographicalarea="Republica Moldova" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-geographicalarea="Republica Moldova" data-footnote="" data-showdata="true" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-main" class="col-md-12">
+    <div id="indicator-sidebar" class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>Sub-categorii</h4>
+          <p>Alegeți categoriile din listele de mai jos pentru a vedea diferite dezagregări ale datelor. Unele nu vor fi disponibile dacă un nivel superior nu va fi ales.</p>
+        </span>
+        <p>Faceți click pe elementele legendei pentru a șterge liniile corespunzătoare din grafic.</p>
+        <div id="fields">
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+    <div id="indicator-main" class="col-md-9">
     
+
+      
+      
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://statisticamd.github.io/open-sdg-data-starter/headline/11-7-2.csv" class="btn btn-primary btn-download" download="indicator_11-7-2.csv" tabindex="0" role="button">Descărcați Headline ca CSV</a>
+
+    <a href="https://statisticamd.github.io/open-sdg-data-starter/data/11-7-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-7-2.csv' tabindex='0' role='button'>Descărcați sursa, .CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption></caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">2</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
 
       
 
       <section>
 
+        
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        <div class="async-loaded" style="display:none">
+          <ul class="nav nav-tabs data-view" role="tablist">
+            <li role="presentation" class="nav-item active">
+              <!---#12 addIconsForTabs---start------------------------------------------->
+              <!--<a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>Grafic</a>-->
+              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+> <i class="fa fa-line-chart" aria-hidden="true"></i> <span class="hidden-sm hidden-xs">Grafic</span> </a>
+              <!---#12 addIconsForTabs---stop-------------------------------------------->
+            </li>
+            <li role="presentation" class="nav-item">
+              <!---#12 addIconsForTabs---start------------------------------------------->
+              <!--<a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Tabel</a>-->
+              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+> <i class="fa fa-table" aria-hidden="true"></i> <span class="hidden-sm hidden-xs">Tabel</span> </a>
+              <!---#12 addIconsForTabs---stop-------------------------------------------->
+            </li>
+            <li role="presentation" class="nav-item map" style="display:none">
+              <!---#12 addIconsForTabs---start------------------------------------------->
+              <!--<a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Hartă</a>-->
+              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+><i class="fa fa-map" aria-hidden="true"></i> <span class="hidden-sm hidden-xs">Hartă</span></a>
+              <!---#12 addIconsForTabs---stop-------------------------------------------->
+            </li></ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content data-view">
+            <div role="tabpanel" class="tab-pane active" id="chartview">
+              
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> Există prea multe seturi de date pentru afișare în grafic. Nu toate vor fi afișate până când nu ștergeți unele selecții.
+    </div>
+
+    
+    <div class="plot-container">
+        
+<canvas></canvas>
+
+    </div>
+    <div id="plotLegend"></div>
+
+    <div id="chartSelectionDownload"></div>
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tableview">
+              <div id="selectionsTable"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+              <div id="map">
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Se încarcă harta" />
+              </div>
+              <!---#16 showMapDataSources---start--------------------->
+              <div id="mapfooter" class="table-footer-text">
+                
+                  
+                  
+                    <p>Sursa: Biroul Național de Statistică</p>
+                  
+                
+              </div>
+              <!---#16 showMapDataSources---stop---------------------->
+            </div>
+            
+          </div>
+        </div>
         
 
         <!-- Nav tabs -->
@@ -535,7 +703,7 @@ data-event-label="Change to Sources tab"
 
             <td colspan="4">
               
-                <p>Este un indicator bazat pe cercetare, care măsoară experiența diferitor forme comportamentale ce țin de hărțuirea fizică și cea sexuală. Întrebările legate de hărțuirea fizică și sexuală trebuie evaluate separat. Rezultatele însă pot fi combinate. Calcularea acestui indicator necesită includerea unui modul scurt din opt întrebări în cadrul unei cercetări reprezentative a populației, care sunt:<br />  1) Experiența hărțuirii sexuale în ultimii 3 ani, pe tipuri de hărțuire - În cazul lipsei unor astfel de experiențe, treceți la 5, în caz contrar treceți la 2; <br />  2) Cel mai recent tip de hărțuire experimentat - Continuare cu 3;<br />  3) Perioada de timp al ultimei hărțuiri - Continuare cu 4;<br />  4) Locul ultimei hărțuiri, după tipul locației - Continuare cu 5;<br />  5) Experiența hărțuirii fizice în ultimii 3 ani, pe tipuri de hărțuire - În cazul lipsei unor astfel de experiențe treceți la sfârșit, în caz contrar treceți la 6; <br />  6) Cel mai recent tip de hărțuire experimentat - Continuare cu 7;<br />  7) Perioada de timp al ultimei hărțuiri - Continuare cu 8;<br />  8) Locul ultimei hărțuiri, după tipul locației - De trecut la sfârșit.<br />  În baza răspunsurilor la întrebării următorii indicatori vor fi calculați:<br />  Rata prevalenței a hărțuirii sexuale: Numărul persoanelor care s-au confruntat cu cel puțin o formă de hărțuire sexuală raportat la numărul total populație inclusă în cercetare *100<br />  Rata prevalenței hărțuirii fizice: Numărul persoanelor care s-au confruntat cu cel puțin o formă de hărțuire fizică raportat la numărul total populație inclusă în cercetare *100<br />  Rata prevalenței hărțuirii sexuale sau fizice: Numărul persoanelor care s-au confruntat fie cu o formă de hărțuire sexuală sau cu fie cu o formă de hărțuire fizică raportat la numărul total populație inclusă în cercetare *100. Hărțuirea sexuală - adică manifestarea unui comportament fizic, verbal sau nonverbal, care lezează demnitatea persoanei ori creează o atmosferă neplăcută, ostilă, degradantă, umilitoare, discriminatorie sau insultătoare cu scopul de a determina o persoană la raporturi sexuale ori la alte acțiuni<br />  cu caracter sexual nedorite. (art. 173 din Codul Penal)</p>
+                <p>Este un indicator bazat pe cercetare, care măsoară experiența diferitor forme comportamentale ce țin de hărțuirea fizică și cea sexuală. Întrebările legate de hărțuirea fizică și sexuală trebuie evaluate separat. Rezultatele însă pot fi combinate. Calcularea acestui indicator necesită includerea unui modul scurt din opt întrebări în cadrul unei cercetări reprezentative a populației, care sunt:<br />  1) Experiența hărțuirii sexuale în ultimii 3 ani, pe tipuri de hărțuire - În cazul lipsei unor astfel de experiențe, treceți la 5, în caz contrar treceți la 2; <br />  2) Cel mai recent tip de hărțuire experimentat - Continuare cu 3;<br />  3) Perioada de timp al ultimei hărțuiri - Continuare cu 4;<br />  4) Locul ultimei hărțuiri, după tipul locației - Continuare cu 5;<br />  5) Experiența hărțuirii fizice în ultimii 3 ani, pe tipuri de hărțuire - În cazul lipsei unor astfel de experiențe treceți la sfârșit, în caz contrar treceți la 6; <br />  6) Cel mai recent tip de hărțuire experimentat - Continuare cu 7;<br />  7) Perioada de timp al ultimei hărțuiri - Continuare cu 8;<br />  8) Locul ultimei hărțuiri, după tipul locației - De trecut la sfârșit.<br />  În baza răspunsurilor la întrebării următorii indicatori vor fi calculați:<br />  Rata prevalenței a hărțuirii sexuale: Numărul persoanelor care s-au confruntat cu cel puțin o formă de hărțuire sexuală raportat la numărul total populație inclusă în cercetare *100<br />  Rata prevalenței hărțuirii fizice: Numărul persoanelor care s-au confruntat cu cel puțin o formă de hărțuire fizică raportat la numărul total populație inclusă în cercetare *100<br />  Rata prevalenței hărțuirii sexuale sau fizice: Numărul persoanelor care s-au confruntat fie cu o formă de hărțuire sexuală sau cu fie cu o formă de hărțuire fizică raportat la numărul total populație inclusă în cercetare *100.<br />  Hărțuirea sexuală - adică manifestarea unui comportament fizic, verbal sau nonverbal, care lezează demnitatea persoanei ori creează o atmosferă neplăcută, ostilă, degradantă, umilitoare, discriminatorie sau insultătoare cu scopul de a determina o persoană la raporturi sexuale ori la alte acțiuni cu caracter sexual nedorite (art. 173 din Codul Penal).</p>
 
               
             </td>
@@ -913,7 +1081,7 @@ data-event-label="Change to Sources tab"
 
             <td colspan="4">
               
-                <p>Proportion of persons victim of physical or sexual harassment,</p>
+                <p>Proportion of persons victim of physical or sexual harassment.</p>
 
               
             </td>
@@ -1559,7 +1727,7 @@ data-event-label="Change to Sources tab"
 <script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201205000322'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201206000322'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
