@@ -380,8 +380,6 @@ Duration of arrest: Durata aflării în arest
 E Water supply, sewerage, waste management and remediation activities: E Distribuția apei; salubritate, gestionarea deșeurilor, activități de decontaminare
 Early neonatal mortality (per 1000 live births): Mortalitatea neonatală precoce (la 1000 născuți-vii)
 Economic activities: Activități economice
-Economic activities, fatal accidents: Activități economice, accidente mortale
-Economic activities, non-fatal accidents: Activități economice, accidente nemortale
 Edineț: Edineț
 Educational institutions: Instituțiile de învățământ
 Electricity: Energie electrică
@@ -403,6 +401,8 @@ Existence of a criminal record: Existența antecedentelor penale
 Existence of disability: Existența dizabilității
 F construction: F Construcții
 Farmers: Fermieri
+Fatal accidents - by sex: Accidente mortale - după sex
+Fatal accidents - by economic activities: Accidente mortale - după activități economice
 Favorable environment: Mediu favorabil
 Fire inspections: Inspecțiile antiincendiare
 Firearms and explosive substances: Arme de foc şi substanţe explozive
@@ -544,6 +544,8 @@ Natural gas, electricity: Gaz natural, electricitate
 Net: Net
 Nitrate concentration - mgn / l: Concentraţia de nitraţi – mgn/l
 Nitrogen dioxide:	Dioxid de azot
+Non-fatal accidents - by sex: Accidente nemortale - după sex
+Non-fatal accidents - by economic activities: Accidente nemortale - după activități economice
 Non-performing loans rate (without reserves) in relation to the total regulated capital: Rata creditelor neperformante (fără rezerve) in raport cu capitalul total reglementat
 Nonstate: Nestatale
 North: Nord
@@ -701,8 +703,6 @@ Sex (neglected): Sex (neglijați)
 Sex (subjected to violence): Sex (supuși violenței)
 Sex of the head of the household: Sexul capului gospodăriei
 Sex of the petitioner: Sexul petiționarului
-Sex (fatal accidents): Sexe, accidente mortale
-Sex (non-fatal accidents): Sexe, accidente nemortale
 Sex/gender: Sex/gen
 Sex (15-24 years): Sex (15-24 ani)
 Sex (15-29 years): Sex (15-29 ani)
