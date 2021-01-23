@@ -3,7 +3,6 @@ Age: Vârsta
 Year: Anul
 Area of residence: Mediul de reședință
 Location: Locația
-Employment status: Statutul ocupării forței de muncă
 Disaster type: tip de dezastru
 Education type: education type
 Transportation type: transportation type
@@ -70,7 +69,6 @@ total to the total number of children with disabilities (aged 0-17 years): total
 economically active population: economically active population
 employed: employed
 wage employed: wage employed
-self-employed: self-employed
 other employed: other employed
 unemployment: unemployment
 economically inactive  population: economically inactive population
@@ -392,6 +390,7 @@ Emergency criminal cases: Urgență cauze penale
 Emission sectors: Sectoare de emisie
 Employed in the agricultural sector: Angajați în sectorul agrar
 Employed in the non-agricultural sector: Angajați în sectorul non-agrar
+Employment status: Statutul ocupațional
 Energy sector: Sectorul Energie 
 Engaging in criminal activities: Antrenarea în activități criminale
 Entities in which they were discriminated against: Entități în care au fost discriminați 
@@ -695,6 +694,7 @@ Secondary incomplete: Medii incomplete
 Secondary specialized: Mediu de specialitate
 Secondary vocational: Secundar profesional
 Sectors: Sectoare
+Self-employed: Angajați pe cont propriu
 Sensory: Senzorială
 Services: Servicii
 Sex (neglected): Sex (neglijați)
