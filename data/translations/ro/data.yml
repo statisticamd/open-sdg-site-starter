@@ -3,7 +3,6 @@ Age: Vârsta
 Year: Anul
 Area of residence: Mediul de reședință
 Location: Locația
-Employment status: Statutul ocupării forței de muncă
 Disaster type: tip de dezastru
 Education type: education type
 Transportation type: transportation type
@@ -70,7 +69,6 @@ total to the total number of children with disabilities (aged 0-17 years): total
 economically active population: economically active population
 employed: employed
 wage employed: wage employed
-self-employed: self-employed
 other employed: other employed
 unemployment: unemployment
 economically inactive  population: economically inactive population
@@ -229,7 +227,6 @@ General and  specific objectives: Obiective generale și  specifice
 Injured human dignity: Lezarea demnității umane 
 Integrated government policies  / based on data: Politici integrate guvernamentale / bazate pe date
 legal basis: Baza legală
-level of training of the head of the household: Nivelul de instruire a capului gospodăriei
 regions, thousands tons: Regiuni de dezvoltare, mii tone
 Safe, regular and regulated migration: Migrație sigură, ordonată și regulată
 Secondary school: Mediu general
@@ -383,8 +380,6 @@ Duration of arrest: Durata aflării în arest
 E Water supply, sewerage, waste management and remediation activities: E Distribuția apei; salubritate, gestionarea deșeurilor, activități de decontaminare
 Early neonatal mortality (per 1000 live births): Mortalitatea neonatală precoce (la 1000 născuți-vii)
 Economic activities: Activități economice
-Economic activities, fatal accidents: Activități economice, accidente mortale
-Economic activities, non-fatal accidents: Activități economice, accidente nemortale
 Edineț: Edineț
 Educational institutions: Instituțiile de învățământ
 Electricity: Energie electrică
@@ -393,6 +388,7 @@ Emergency criminal cases: Urgență cauze penale
 Emission sectors: Sectoare de emisie
 Employed in the agricultural sector: Angajați în sectorul agrar
 Employed in the non-agricultural sector: Angajați în sectorul non-agrar
+Employment status: Statutul ocupațional
 Energy sector: Sectorul Energie 
 Engaging in criminal activities: Antrenarea în activități criminale
 Entities in which they were discriminated against: Entități în care au fost discriminați 
@@ -405,9 +401,11 @@ Existence of a criminal record: Existența antecedentelor penale
 Existence of disability: Existența dizabilității
 F construction: F Construcții
 Farmers: Fermieri
+Fatal accidents - by sex: Accidente mortale - după sex
+Fatal accidents - by economic activities: Accidente mortale - după activități economice
 Favorable environment: Mediu favorabil
 Fire inspections: Inspecțiile antiincendiare
-Firearms and explosive substances: Armă de foc şi substanţe exlpozive
+Firearms and explosive substances: Arme de foc şi substanţe explozive
 Fires: Incendii
 Food preparation: Pregătirea alimentelor
 Food preparation - total: Pregătirea alimentelor - 
@@ -443,6 +441,7 @@ Grants: Granturi
 Greece: Grecia
 Gross: Brut
 Gross/Net: Brut/Net
+Group: Grupa
 Groups of persons: Grupe de persoane 
 Gymnasium: Gimnazial
 H Transportation and storage: H Transport și depozitare
@@ -488,7 +487,7 @@ Irrigation: Irigare
 Issuing construction permits: Eliberarea autorizațiilor de construcție
 Italy: Italia
 J Informații și comunicații: J Informații și comunicații
-Jealousy (code = 15): Gelozie (cod=15)
+Jealousy: Gelozie
 Jews: Evrei
 Judges: Judecători
 K Financial and insurance activities: K activități financiare și de asigurări
@@ -503,6 +502,7 @@ Legal entities: Persoane juridice
 Legal basis: Baza legală
 Legislators, executive members and other officials: Legislatori, membri ai executivului și alți demnitari
 Level of education: Nivelul de studii
+Level of education of the head of the household: Nivelul de instruire a capului gospodăriei
 Level of eutrophication in rivers: Nivelul de eutrofizare în râuri
 Level of public institutions: Nivel instituții publice 
 Levels of education: Nivele de educaţie
@@ -544,6 +544,8 @@ Natural gas, electricity: Gaz natural, electricitate
 Net: Net
 Nitrate concentration - mgn / l: Concentraţia de nitraţi – mgn/l
 Nitrogen dioxide:	Dioxid de azot
+Non-fatal accidents - by sex: Accidente nemortale - după sex
+Non-fatal accidents - by economic activities: Accidente nemortale - după activități economice
 Non-performing loans rate (without reserves) in relation to the total regulated capital: Rata creditelor neperformante (fără rezerve) in raport cu capitalul total reglementat
 Nonstate: Nestatale
 North: Nord
@@ -563,6 +565,7 @@ Of which industrial sector: Din care sectorul industrie
 Opinion: Opinie
 Optional health education curriculum, including sexual: Curiculum opțională de educație pentru sănătate, inclusiv sexuală
 Oral polio vaccine (OPV): Vaccinul oral contra poliomielitei (VPO)
+Ordered: La comandă
 Other areas: Alte domenii
 Other criteria: Alte criterii
 Other: Alte
@@ -594,6 +597,7 @@ Persons with disabilities: Persoane cu dizabilități
 Petrol products: Produse petroliere
 Phosphate concentration - mgn / l: Concentraţia de fosfaţi – mgn/l 
 Physical disability: Dizabilitatea fizică
+Physical: Fizică
 Physics: Fizică
 Up to 15 years: Pînă la 15 ani
 Up to 18 years: Pînă la 18 ani
@@ -634,7 +638,7 @@ Qualified contravention cases: Calificată cauze contravenționale
 Qualified criminal cases: Calificată cauze penale
 Qualified workers in agriculture, forestry, aquaculture, pisciculture and fishing: Lucrători calificați în agricultura, silvicultura, acvacultura, piscicultura și pescuit
 Quality of water-related ecosystems: Calitatea ecosistemelor legate de apă
-Quarrel (code = 16): Ceartă (cod=16)
+Quarrel: Ceartă
 Quintiles on consumption expenditures: Chintile pe cheltuielile de consum
 R Arts, entertainment and recreation: R Arta, activități de recreere și de agrement
 Racial segregation: Segregare rasială
@@ -649,7 +653,7 @@ Ratio of own funds of level I in relation to risk-weighted assets: Rata fonduril
 Rayon/ ATU: Raion/ UAT
 Rayons: Raioane
 Rayons/Municipalities that have treatment plants: Raioanele/Municipiile care dețin stații de epurare
-Reason related to family relationships (code = 17): Motiv legat de relaţii familiare (cod=17)
+Reason related to family relationships: Motiv legat de relaţii familiare
 Refugees: Refugiați
 Refuse of reasonable accommodation: Refuz în acomodare rezonabilă
 Regardless of income level (art. 20 law 198): Indiferent de nivelul de venit (art. 20 legea 198)
@@ -667,7 +671,7 @@ Residential sector (population): Sector rezidențial
 Responsible for monitoring: Responsabil pentru monitorizare
 Retirees: Pensionari
 Return on assets: Rentabilitatea activelor 
-Revenge (code = 14): Răzbunare (cod=14)
+Revenge: Răzbunare
 River: Fluvial
 Road: Rutier
 Robbery: Jaf
@@ -692,14 +696,13 @@ Secondary incomplete: Medii incomplete
 Secondary specialized: Mediu de specialitate
 Secondary vocational: Secundar profesional
 Sectors: Sectoare
+Self-employed: Angajați pe cont propriu
 Sensory: Senzorială
 Services: Servicii
 Sex (neglected): Sex (neglijați)
 Sex (subjected to violence): Sex (supuși violenței)
 Sex of the head of the household: Sexul capului gospodăriei
 Sex of the petitioner: Sexul petiționarului
-Sex (fatal accidents): Sexe, accidente mortale
-Sex (non-fatal accidents): Sexe, accidente nemortale
 Sex/gender: Sex/gen
 Sex (15-24 years): Sex (15-24 ani)
 Sex (15-29 years): Sex (15-29 ani)
@@ -752,8 +755,7 @@ The basis for the registration of the property right: Baza înregistrării drept
 The existence of disability: Existența dizabilității
 Thermal energy: Energie termică
 To borrow: De împrumut
-To order (code = 30): La comandă (cod=30)
-Tools (row, axe, hammer etc.): Instrumente (Rangă, Topor, Ciocan etc.)
+Tools (row, axe, hammer etc.): Instrumente (rangă, topor, ciocan etc.)
 Top level lead: Conducere nivel superior
 Town hall: Primăria
 Toxicity class: Clasa de toxicitate 
@@ -795,7 +797,9 @@ Under 2 Mbps: Sub 2 mbps
 Underground centralized sources: Surse centralizate subterane
 Uninsured: Neasigurați
 Up to 3 months: Până la 3 luni
-Up to 45 years (16-44): Pînă la 45 ani (16-44)
+Up to 45 years (18-44): Pînă la 45 ani (18-44)
+Up to 15 years old: Până la 15 ani
+Up to 18 years old: Până la 18 ani
 Up to and including 15 years: Până la 15 ani inclusiv
 Victimization: Victimizare
 Volume of personal remittances (in usd): Volumul remiterilor personale (în dolari americani)
@@ -807,7 +811,7 @@ Water quality in water bodies, according to hydrochemical indicators,: Calitatea
 Wealthy, 60%: Înstăriți, 60%
 Wellbeing quintile : Quintile de bunăstare
 Wetlands of international importance: Zone umede de importanţă internaţională
-White weapons (knife, sharp objects): Armă albă (Cuţit, Obiect înţepător)
+White weapons (knife, sharp objects): Arme albe (cuţit, obiect înţepător)
 Whole: Integral
 Wholesale and retail trade; accomodation and food service activities: Comerț cu ridicata și amănuntul; activități de cazare și alimentație publică
 With children up to 18 years: Cu copii până la 18 ani
