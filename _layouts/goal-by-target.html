@@ -60,11 +60,6 @@
       {% if indicator.reporting_status == 'notapplicable' %}
         {% assign status_desc = t.status.not_applicable %}
       {% endif %}
-	    
-      {% if indicator.reporting_status == 'tesst' %}
-        {% assign status_desc = t.status.not_applicable %}
-      {% endif %}
-	    
       {% if indicator.reporting_status == 'notstarted' %}
         {% assign status_desc = t.status.exploring_data_sources %}
       {% endif %}
