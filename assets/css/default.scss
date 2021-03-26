@@ -1347,7 +1347,8 @@ h5 + .btn-download {
     height: 10px;
     & span {
       display: inline-block;
-      height: 10px;
+      height: 20px;
+      text-align: center;
       font-weight: bold;
     }
   }
@@ -1369,7 +1370,7 @@ h5 + .btn-download {
     min-height: 1px;
   }
   .details {
-    width: calc(100% - 125px);
+    width: calc((100%)/1.5 - 125px);
     float: left;
     h3 {
       margin-top: 10px;
@@ -1399,7 +1400,7 @@ h5 + .btn-download {
     margin-bottom: 20px;
 
     .details {
-      width: 100%;
+      width: 65%;
     }
   }
 
