@@ -1091,7 +1091,8 @@ h5 + .btn-download {
     height: 10px; }
     #main-content .goal-stats span {
       display: inline-block;
-      height: 10px;
+      height: 20px;
+      text-align: center;
       font-weight: bold; }
   #main-content .divider {
     height: 15px; }
@@ -1107,7 +1108,7 @@ h5 + .btn-download {
     float: left;
     min-height: 1px; }
   #main-content .details {
-    width: calc(100% - 125px);
+    width: calc((100%)/1.5 - 125px);
     float: left; }
     #main-content .details h3 {
       margin-top: 10px;
@@ -1132,7 +1133,7 @@ h5 + .btn-download {
   #main-content .goal-overall {
     margin-bottom: 20px; }
     #main-content .goal-overall .details {
-      width: 100%; }
+      width: 65%; }
   #main-content #back-to-top {
     cursor: pointer;
     position: fixed;
