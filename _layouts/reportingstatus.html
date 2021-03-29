@@ -29,7 +29,7 @@
             <br style="clear:both;">
           </div>
         </div>
-        <div class="goal-stats">{%- for status in overall.statuses -%}{% assign status_count_precise = status.count | times: 1.0 %}{% assign overall_total_precise = overall.totals.total | times: 1.0 %}{% assign percentage_precise = status_count_precise | divided_by: overall_total_precise | times: 100 %}{% if status.percentage > 0 %}<span class="{{ status.status | slugify }}" style="width: {{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%">{{ status.percentage | round }} %</span>{% else %}<span class="{{ status.status | slugify }}" style="width: {{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%"></span>{% endif %}{%- endfor -%}</div>
+        <div class="goal-stats">{%- for status in overall.statuses -%}{% assign status_count_precise = status.count | times: 1.0 %}{% assign overall_total_precise = overall.totals.total | times: 1.0 %}{% assign percentage_precise = status_count_precise | divided_by: overall_total_precise | times: 100 %}{% if status.percentage > 0 %}<span class="{{ status.status | slugify }}" style="width: {{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%">{{ status.percentage | round }}%</span>{% else %}<span class="{{ status.status | slugify }}" style="width: {{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%"></span>{% endif %}{%- endfor -%}</div>
         <br><div class="divider">
         </div>
       </div>
@@ -81,7 +81,7 @@
               <br style="clear:both;">
             </div>
           </div>-->
-          <div class="goal-stats">{%- for status in goalreport.statuses -%}{% assign status_count_precise = status.count | times: 1.0 %}{% assign goalreport_total_precise = goalreport.totals.total  | times: 1.0 %}{% assign percentage_precise = status_count_precise | divided_by: goalreport_total_precise | times: 100 %}{% if status.percentage > 0 %}<span class="{{ status.status | slugify }}" style="width:{{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%">{{status.percentage | round}} %</span>{% else %}<span class="{{ status.status | slugify }}" style="width:{{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%"></span>{% endif %}{%- endfor -%}</div>
+          <div class="goal-stats">{%- for status in goalreport.statuses -%}{% assign status_count_precise = status.count | times: 1.0 %}{% assign goalreport_total_precise = goalreport.totals.total  | times: 1.0 %}{% assign percentage_precise = status_count_precise | divided_by: goalreport_total_precise | times: 100 %}{% if status.percentage > 0 %}<span class="{{ status.status | slugify }}" style="width:{{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%">{{status.percentage | round}}%</span>{% else %}<span class="{{ status.status | slugify }}" style="width:{{ status.percentage | round }}%" title="{{ status.translation_key | t }}: {{ status.percentage | round }}%"></span>{% endif %}{%- endfor -%}</div>
           <br style="clear:both;"><div class="divider">
           </div>
         </div>
