@@ -77,7 +77,29 @@
         {% endfor %}
       {% endif %}
       {% assign tag_classes = tag_classes | join: " " %}
-
+      {% assign indicator_split = indicator.indicator | split: "." %}
+      {% if indicator_split.size > 3 %}
+      <div class="col-md-10 {{ tag_classes }}" style="float: right;">
+        <a href="{{ site.baseurl }}{{ baseurl_folder }}/{{ indicator.indicator | slugify }}">
+          <span>
+            {{ indicator.indicator }}&nbsp;&nbsp;
+            <span class="status {{ status_css }}">
+              {{ status_desc }}
+            </span>
+          </span>
+          {{ indicator.indicator | get_indicator_name }}
+          {% if indicator.tags %}
+            <ul class="tags">
+            {% for tag in indicator.tags %}
+              {% assign tag_class = tag | slugify %}
+              <li class="tag-{{ tag_class }} warning">{{ tag | t }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </a>
+	  <br>&nbsp;
+      </div>
+      {% else %}
       <div class="col-md-12 {{ tag_classes }}">
         <a href="{{ site.baseurl }}{{ baseurl_folder }}/{{ indicator.indicator | slugify }}">
           <span>
@@ -98,6 +120,7 @@
         </a>
 	  <br>&nbsp;
       </div>
+      {% endif %}
     {% endfor %}
     </div>
   {% endfor %}
