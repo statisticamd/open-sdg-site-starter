@@ -29,32 +29,9 @@ aged 12-15 years: în vârstă de 12-15 ani
 aged 16-17 years: în vârstă de 16-17 ani
 aged 18-39 years: în vârstă de 18-39 ani
 aged 40-62 years: în vârstă de 40-62 ani
-aged 63 and older: aged 63 and older
-aged 65 and older: aged 65 and older
-aged 0-16 years: aged 0-16 years
-aged 17-65 years: aged 17-65 years
-aged 18-66 years: aged 18-66 years
-aged 0-4 years: aged 0-4 years
-aged 5-9 years: aged 5-9 years
-aged 10-14 years: aged 10-14 years
-aged 15-19 years: aged 15-19 years
-aged 20-24 years: aged 20-24 years
-aged 0-5 years: aged 0-5 years
-aged 6-17 years: aged 6-17 years
-aged 18-64 years: aged 18-64 years
-aged 15 years: aged 15 years
-aged 16-17 years: aged 16-17 years
-aged 51 - 55 years: aged 51 - 55 years
-aged 56 - 62 years: aged 56 - 62 years
 0-17 years: 0-17 ani
 0-17 years, children: 0-17 ani, copii
 18 years and over, adults: 18 ani și peste, adulți
-15-29 age: 15-29 age
-15-19 age: 15-19 age
-20-24 age: 20-24 age
-15-24 age: 15-24 age
-25-29 age: 25-29 age
-15-75 age: 15-75 age
 15+ / Men: 15+ / Bărbați
 15+ / Women: 15+ / Femei
 15-24 / Both sexes: 15-24 / Ambele sexe
@@ -71,9 +48,7 @@ aged 56 - 62 years: aged 56 - 62 years
 25-64 / Women: 25-64 / Femei
 25+ / Men: 25+ / Bărbați
 25+ / Women: 25+ / Femei
-aged 5-14 years: aged 5-14 years
-aged 15-24 years: aged 15-24 years
-aged 25 and older: aged 25 and older
+25 and older: 25 și peste
 with disabilities: with disabilities
 total to the total number of children with disabilities (aged 0-17 years): total to the total number of children with disabilities (aged 0-17 years)
 economically active population: economically active population
@@ -274,8 +249,6 @@ Administrative officers: Funcționari administrativi
 Adults: Adulți
 Adults (18 - 100+ years): Adulți (18-100+ ani)
 Advantaged: Avantajați
-Age: Vârstă
-Age: Vârsta (etate)
 Age group: Grupa de vârstă
 Age group / Sex: Grupa de vârstă / Sexul
 Age group 1 and Sex: Grupa de vârstă 1 și Sex
@@ -512,6 +485,7 @@ Legacy: Moştenire
 Legal entities: Persoane juridice
 Legal basis: Baza legală
 Legislators, executive members and other officials: Legislatori, membri ai executivului și alți demnitari
+Legislators, executive members and other officials and heads/leaders: Legislatori, membri ai executivului și alți demnitari și conducători
 Level of education: Nivelul de studii
 Level of education of the head of the household: Nivelul de instruire a capului gospodăriei
 Level of eutrophication in rivers: Nivelul de eutrofizare în râuri
